@@ -1,0 +1,27 @@
+==================================================
+STORY UPLOAD FILE — Paste your stories below
+==================================================
+Use the format below for EACH story.
+The separator line (---) between stories is REQUIRED.
+All fields are REQUIRED for each story.
+
+TITLE: [Story title in German]
+LEVEL: [A1 / A2 / B1 / B2]
+LANGUAGE: [German / Spanish]
+CONTENT:
+[Paste the full story text here, as many lines as you need]
+
+---
+
+TITLE: [Next story title]
+LEVEL: [A1 / A2 / B1 / B2]
+LANGUAGE: [German / Spanish]
+CONTENT:
+[Paste the full story text here]
+
+---
+
+==================================================
+DELETE THE EXAMPLE ENTRIES ABOVE AND START HERE:
+==================================================
+
