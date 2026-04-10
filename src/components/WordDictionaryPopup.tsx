@@ -4,6 +4,7 @@ import { Bookmark, BookmarkCheck, Globe, Loader2, X } from 'lucide-react';
 import { useUserStore } from '@/store/useUserStore';
 import { useVocabStore } from '@/store/useVocabStore';
 import { useAuth } from '@/components/AuthProvider';
+import { t } from '@/lib/i18n';
 
 interface Props {
   word: string;
@@ -17,7 +18,7 @@ export default function WordDictionaryPopup({ word, context, onClose, style }: P
   const [loading, setLoading] = useState(true);
   const [saved, setSaved] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
-  const { targetLanguage } = useUserStore();
+  const { targetLanguage, uiLanguage } = useUserStore();
   const { user } = useAuth();
   const saveWord = useVocabStore(state => state.saveWord);
 
@@ -32,10 +33,11 @@ export default function WordDictionaryPopup({ word, context, onClose, style }: P
           'Italian': 'it',
           'Japanese': 'ja'
         };
-        const langCode = langMap[targetLanguage] || 'es'; // default to Spanish if undefined
+        const langCode = langMap[targetLanguage] || 'es';
+        const destCode = uiLanguage === 'Turkish' ? 'tr' : 'en';
         
         // Free Translation API (MyMemory)
-        const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${langCode}|en`);
+        const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${langCode}|${destCode}`);
         const data = await res.json();
         
         if (data && data.responseData && data.responseData.translatedText) {
@@ -95,7 +97,7 @@ export default function WordDictionaryPopup({ word, context, onClose, style }: P
             {loading ? (
               <div className="flex items-center space-x-2 text-slate-400 text-sm">
                 <Loader2 className="w-4 h-4 animate-spin" />
-                <span>Translating to English...</span>
+                <span>{t('translating_to', uiLanguage)}</span>
               </div>
             ) : (
               <div className="text-slate-200 text-lg font-medium leading-relaxed">
@@ -118,12 +120,12 @@ export default function WordDictionaryPopup({ word, context, onClose, style }: P
             ) : saved ? (
               <>
                 <BookmarkCheck className="w-5 h-5" />
-                <span>Saved!</span>
+                <span>{t('saved', uiLanguage)}</span>
               </>
             ) : (
               <>
                 <Bookmark className="w-5 h-5" />
-                <span>Save Word</span>
+                <span>{t('save_word', uiLanguage)}</span>
               </>
             )}
           </button>

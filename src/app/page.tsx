@@ -8,6 +8,7 @@ import { useUserStore } from '@/store/useUserStore';
 import { useVocabStore } from '@/store/useVocabStore';
 import { useAuth } from '@/components/AuthProvider';
 import { supabase } from '@/lib/supabase';
+import { t } from '@/lib/i18n';
 
 const LANGUAGES = ['Spanish', 'German', 'French', 'Italian', 'Japanese'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
@@ -71,7 +72,7 @@ function Dropdown({
 export default function Dashboard() {
   const router = useRouter();
   const { user, loading: authLoading, signOut } = useAuth();
-  const { hasOnboarded, targetLanguage, level, setLanguage, setLevel, setOnboardingData } = useUserStore();
+  const { hasOnboarded, targetLanguage, level, setLanguage, setLevel, setOnboardingData, uiLanguage, setUiLanguage } = useUserStore();
   const { syncFromSupabase } = useVocabStore();
   
   const [mounted, setMounted] = useState(false);
@@ -162,20 +163,26 @@ export default function Dashboard() {
         <header className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-700 ease-out">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-6">
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">
-              LinguaForge.
+              {t('linguaforge_title', uiLanguage)}
             </h1>
 
             {/* Profile & Switchers */}
             <div className="flex items-center gap-3 flex-wrap">
               <div className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full mr-2">
                 <UserIcon className="w-4 h-4 text-slate-400" />
-                <span className="text-sm font-medium text-slate-300 truncate max-w-[120px]">{user.email}</span>
-                <button onClick={handleSignOut} title="Sign Out" className="ml-2 hover:text-rose-400 transition-colors">
+                <span className="text-sm font-medium text-slate-300 truncate max-w-[120px]">{user?.email}</span>
+                <button onClick={signOut} title="Sign Out" className="ml-2 hover:text-rose-400 transition-colors">
                   <LogOut className="w-4 h-4" />
                 </button>
               </div>
 
               <div className="flex items-center gap-2">
+                <Dropdown
+                  value={uiLanguage}
+                  options={['English', 'Turkish']}
+                  onChange={(val) => setUiLanguage(val as 'English' | 'Turkish')}
+                  icon={<Sparkles className="w-4 h-4 text-purple-400" />}
+                />
                 <Dropdown
                   value={targetLanguage}
                   options={LANGUAGES}
@@ -208,33 +215,33 @@ export default function Dashboard() {
           <div className="p-6 rounded-3xl bg-slate-800/40 border border-white/5 shadow-sm flex flex-col justify-between hover:bg-slate-800/60 transition-all duration-300">
             <div className="flex items-center space-x-3 text-emerald-400 mb-4">
               <Bookmark className="w-5 h-5" />
-              <h3 className="font-semibold tracking-wide text-slate-300">Saved Words</h3>
+              <h3 className="font-semibold tracking-wide text-slate-300">{t('saved_words', uiLanguage)}</h3>
             </div>
             <div className="flex items-baseline space-x-2">
               <span className="text-5xl font-extrabold text-slate-100">{loadingStats ? '...' : stats.savedWords.toLocaleString()}</span>
-              <span className="text-slate-400 text-sm font-medium">words</span>
+              <span className="text-slate-400 text-sm font-medium">{t('words_unit', uiLanguage)}</span>
             </div>
           </div>
 
           <div className="p-6 rounded-3xl bg-slate-800/40 border border-white/5 shadow-sm flex flex-col justify-between hover:bg-slate-800/60 transition-all duration-300">
             <div className="flex items-center space-x-3 text-amber-400 mb-4">
               <BookOpen className="w-5 h-5" />
-              <h3 className="font-semibold tracking-wide text-slate-300">Stories Read</h3>
+              <h3 className="font-semibold tracking-wide text-slate-300">{t('stories_read', uiLanguage)}</h3>
             </div>
             <div className="flex items-baseline space-x-2">
               <span className="text-5xl font-extrabold text-slate-100">{loadingStats ? '...' : stats.storiesRead.toLocaleString()}</span>
-              <span className="text-slate-400 text-sm font-medium">stories</span>
+              <span className="text-slate-400 text-sm font-medium">{t('stories_unit', uiLanguage)}</span>
             </div>
           </div>
 
           <div className="p-6 rounded-3xl bg-slate-800/40 border border-white/5 shadow-sm flex flex-col justify-between hover:bg-slate-800/60 transition-all duration-300">
             <div className="flex items-center space-x-3 text-pink-400 mb-4">
               <Video className="w-5 h-5" />
-              <h3 className="font-semibold tracking-wide text-slate-300">Videos Watched</h3>
+              <h3 className="font-semibold tracking-wide text-slate-300">{t('videos_watched', uiLanguage)}</h3>
             </div>
             <div className="flex items-baseline space-x-2">
               <span className="text-5xl font-extrabold text-slate-100">{loadingStats ? '...' : stats.videosWatched.toLocaleString()}</span>
-              <span className="text-slate-400 text-sm font-medium">videos</span>
+              <span className="text-slate-400 text-sm font-medium">{t('videos_unit', uiLanguage)}</span>
             </div>
           </div>
         </section>
@@ -243,21 +250,40 @@ export default function Dashboard() {
         <section className="space-y-6 animate-in fade-in slide-in-from-bottom-12 duration-700 delay-300 ease-out fill-mode-both">
           <h2 className="text-2xl font-bold tracking-tight flex items-center space-x-2 text-slate-200">
             <TrendingUp className="w-6 h-6 text-indigo-400" />
-            <span>Extensive Input Modules</span>
+            <span>{t('learning_modules', uiLanguage)}</span>
           </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+            {/* AI Immersion Lab Card - THE NEW PREMIUM CARD */}
+            <Link href="/immersion" className="group relative block p-1 rounded-3xl bg-gradient-to-b from-purple-500/20 to-transparent hover:from-purple-500/40 transition-all duration-500 cursor-pointer overflow-hidden shadow-sm border border-white/5 lg:col-span-1">
+              <div className="absolute inset-0 bg-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl"></div>
+              <div className="h-full bg-[#0F1423] p-8 rounded-[1.35rem] space-y-6 relative z-10 border border-white/5">
+                <div className="w-14 h-14 bg-purple-500/20 rounded-2xl flex items-center justify-center text-purple-400">
+                  <Sparkles className="w-7 h-7" />
+                </div>
+                <div>
+                   <div className="flex items-center space-x-2 mb-2">
+                      <h3 className="text-xl font-bold text-slate-100">{t('immersion_lab_title', uiLanguage)}</h3>
+                      <span className="text-[10px] bg-indigo-500/20 text-indigo-300 px-2 py-0.5 rounded-full border border-indigo-500/30 font-bold uppercase tracking-wider">New</span>
+                   </div>
+                  <p className="text-slate-400 text-sm leading-relaxed">
+                    {t('immersion_lab_desc', uiLanguage)}
+                  </p>
+                </div>
+              </div>
+            </Link>
 
             {/* Library Card */}
             <Link href="/reading-room" className="group relative block p-1 rounded-3xl bg-gradient-to-b from-blue-500/20 to-transparent hover:from-blue-500/40 transition-all duration-500 cursor-pointer overflow-hidden shadow-sm border border-white/5">
               <div className="absolute inset-0 bg-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl"></div>
-              <div className="h-full bg-[#0F1423] p-8 rounded-[1.35rem] space-y-6 relative z-10">
+              <div className="h-full bg-[#0F1423] p-8 rounded-[1.35rem] space-y-6 relative z-10 border border-white/5">
                 <div className="w-14 h-14 bg-blue-500/20 rounded-2xl flex items-center justify-center text-blue-400">
                   <BookOpen className="w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-slate-100">The Library</h3>
+                  <h3 className="text-xl font-bold mb-2 text-slate-100">{t('library_title', uiLanguage)}</h3>
                   <p className="text-slate-400 text-sm leading-relaxed">
-                    Explore a feed of beautifully crafted stories tailored instantly for you. Contains tap-to-translate functionality.
+                    {t('library_desc', uiLanguage)}
                   </p>
                 </div>
               </div>
@@ -271,9 +297,9 @@ export default function Dashboard() {
                   <Video className="w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-slate-100">Video Room</h3>
+                  <h3 className="text-xl font-bold mb-2 text-slate-100">{t('video_room_title', uiLanguage)}</h3>
                   <p className="text-slate-400 text-sm leading-relaxed">
-                    Watch YouTube videos with interactive, synchronized transcripts. Save vocabulary effortlessly.
+                    {t('video_room_desc', uiLanguage)}
                   </p>
                 </div>
               </div>
@@ -287,9 +313,9 @@ export default function Dashboard() {
                   <BrainCircuit className="w-7 h-7" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-slate-100">Vocab Practice</h3>
+                  <h3 className="text-xl font-bold mb-2 text-slate-100">{t('practice_title', uiLanguage)}</h3>
                   <p className="text-slate-400 text-sm leading-relaxed">
-                    Test yourself with dynamically generated quizzes using only the words you've saved.
+                    {t('practice_desc', uiLanguage)}
                   </p>
                 </div>
               </div>

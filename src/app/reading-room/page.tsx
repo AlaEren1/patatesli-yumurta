@@ -5,6 +5,7 @@ import { BookOpen, Sparkles, ArrowLeft, Search, ExternalLink, Maximize2, Minimiz
 import Link from 'next/link';
 import TapToTranslateText from '@/components/TapToTranslateText';
 import { useUserStore } from '@/store/useUserStore';
+import { t } from '@/lib/i18n';
 import { useAuth } from '@/components/AuthProvider';
 import { useRouter } from 'next/navigation';
 import { supabase } from '@/lib/supabase';
@@ -15,7 +16,7 @@ import { CAFE_IN_BERLIN_CHAPTERS, Chapter } from '@/data/german-storybook-chapte
 const MOCK_LIBRARY = storiesData as Array<{id: number, title: string, level: string, language: string, content: string}>;
 
 // --- German Storybook PDF Section ---
-function GermanStorybookSection() {
+function GermanStorybookSection({ uiLanguage }: { uiLanguage: 'English' | 'Turkish' }) {
   const [selectedChapter, setSelectedChapter] = useState<Chapter | null>(null);
   const [fullscreen, setFullscreen] = useState(false);
 
@@ -29,7 +30,7 @@ function GermanStorybookSection() {
             className="inline-flex items-center space-x-2 text-amber-500 hover:text-amber-400 transition-colors font-medium"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span>Back to Book Menu</span>
+            <span>{t('back_to_book_menu', uiLanguage)}</span>
           </button>
           <div className="flex items-center space-x-2">
              <span className="px-3 py-1 bg-amber-500/10 text-amber-500 text-xs font-bold rounded-full border border-amber-500/20">
@@ -51,15 +52,15 @@ function GermanStorybookSection() {
                onClick={() => setSelectedChapter(CAFE_IN_BERLIN_CHAPTERS[selectedChapter.id - 2])}
                className="px-6 py-2 rounded-xl bg-white/5 hover:bg-white/10 disabled:opacity-30 text-slate-300 transition-all"
              >
-               Previous Chapter
+               {t('previous_chapter', uiLanguage)}
              </button>
-             <span className="text-slate-500 text-sm font-medium">Chapter {selectedChapter.id} of {CAFE_IN_BERLIN_CHAPTERS.length}</span>
+             <span className="text-slate-500 text-sm font-medium">{t('chapter', uiLanguage)} {selectedChapter.id} / {CAFE_IN_BERLIN_CHAPTERS.length}</span>
              <button 
                disabled={selectedChapter.id === CAFE_IN_BERLIN_CHAPTERS.length}
                onClick={() => setSelectedChapter(CAFE_IN_BERLIN_CHAPTERS[selectedChapter.id])}
                className="px-6 py-2 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 disabled:opacity-30 text-amber-500 transition-all font-bold"
              >
-               Next Chapter
+               {t('next_chapter', uiLanguage)}
              </button>
           </div>
         </div>
@@ -74,7 +75,7 @@ function GermanStorybookSection() {
         <div className="h-px flex-1 bg-gradient-to-r from-transparent via-amber-500/30 to-transparent" />
         <div className="flex items-center space-x-2 px-4 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/20">
           <BookMarked className="w-4 h-4 text-amber-400" />
-          <span className="text-sm font-semibold text-amber-400 tracking-wide">German Storybook Collection</span>
+          <span className="text-amber-400 font-bold text-sm tracking-wide">{t('german_storybook_collection', uiLanguage)}</span>
         </div>
         <div className="h-px flex-1 bg-gradient-to-r from-transparent via-amber-500/30 to-transparent" />
       </div>
@@ -92,14 +93,14 @@ function GermanStorybookSection() {
             <div className="space-y-1.5">
               <div className="flex items-center space-x-2">
                 <span className="px-2.5 py-0.5 bg-amber-500/20 text-amber-400 text-xs font-bold rounded-full border border-amber-500/30">A1 – A2</span>
-                <span className="px-2.5 py-0.5 bg-emerald-500/20 text-emerald-400 text-xs font-bold rounded-full border border-emerald-500/30">Beginner Friendly</span>
+                <span className="px-2.5 py-0.5 bg-emerald-500/20 text-emerald-400 text-xs font-bold rounded-full border border-emerald-500/30">{t('beginner_friendly', uiLanguage)}</span>
               </div>
               <h2 className="text-xl md:text-2xl font-extrabold text-slate-100 leading-tight">
-                Learn German with Stories: Café in Berlin
+                {t('cafe_in_berlin_title', uiLanguage)}
               </h2>
-              <p className="text-slate-400 text-sm">by André Klein · 10 interactive chapters</p>
+              <p className="text-slate-400 text-sm">{t('by_andre_klein', uiLanguage)} · 10 {t('interactive_chapters', uiLanguage)}</p>
               <p className="text-slate-500 text-xs leading-relaxed max-w-xl">
-                Follow Dino through Berlin in 10 interactive stories. Tap any word to translate and save to your vocabulary!
+                {t('cafe_in_berlin_desc', uiLanguage)}
               </p>
             </div>
           </div>
@@ -112,7 +113,7 @@ function GermanStorybookSection() {
               className="flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 hover:text-white text-sm font-semibold transition-all duration-200"
             >
               <ExternalLink className="w-4 h-4" />
-              <span>Reference PDF</span>
+              <span>{t('reference_pdf', uiLanguage)}</span>
             </a>
           </div>
         </div>
@@ -137,7 +138,7 @@ function GermanStorybookSection() {
 
         {/* Footer hint */}
         <div className="px-8 py-3 bg-black/20 border-t border-white/5 text-center">
-          <p className="text-xs text-slate-600 italic">Select a chapter to start your interactive reading session</p>
+          <p className="text-xs text-slate-600 italic">{t('select_chapter_hint', uiLanguage)}</p>
         </div>
       </div>
     </div>
@@ -147,7 +148,7 @@ function GermanStorybookSection() {
 export default function ReadingLibrary() {
   const router = useRouter();
   const { user } = useAuth();
-  const { targetLanguage, level: userLevel, hasOnboarded } = useUserStore();
+  const { targetLanguage, uiLanguage, level: userLevel, hasOnboarded } = useUserStore();
   const [mounted, setMounted] = useState(false);
   
   const [activeStory, setActiveStory] = useState<any>(null);
@@ -182,7 +183,7 @@ export default function ReadingLibrary() {
           <div className="max-w-4xl mx-auto space-y-8">
             <button onClick={() => setActiveStory(null)} className="inline-flex items-center space-x-2 text-indigo-400 hover:text-indigo-300 transition-colors font-medium">
               <ArrowLeft className="w-5 h-5" />
-              <span>Back to Library</span>
+              <span>{t('back_to_library', uiLanguage)}</span>
             </button>
             <div className="p-6 md:p-10 rounded-3xl bg-[#141A29] border border-white/5 shadow-2xl">
               <div className="flex items-center justify-between mb-8 pb-6 border-b border-white/10">
@@ -201,7 +202,7 @@ export default function ReadingLibrary() {
       <div className="max-w-5xl mx-auto space-y-8">
         <Link href="/" className="inline-flex items-center space-x-2 text-indigo-400 hover:text-indigo-300 transition-colors font-medium">
           <ArrowLeft className="w-5 h-5" />
-          <span>Back to Dashboard</span>
+          <span>{t('back_to_dashboard', uiLanguage)}</span>
         </Link>
         
         <header className="space-y-4">
@@ -209,17 +210,17 @@ export default function ReadingLibrary() {
              <div>
                 <div className="flex items-center space-x-4 mb-3">
                   <div className="w-12 h-12 bg-blue-500/20 rounded-2xl flex items-center justify-center text-blue-400 shadow-sm border border-blue-500/20">
-                    <BookOpen className="w-6 h-6" />
+                    <BookOpen className="w-8 h-8" />
                   </div>
-                  <h1 className="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-100">The Library</h1>
+                  <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight text-white">{t('library_welcome', uiLanguage)}</h1>
                 </div>
-                <p className="text-slate-400 text-lg">Pick a story to immerse yourself. Your recommended level is <span className="font-bold text-indigo-400 px-2 py-1 bg-indigo-500/20 rounded-lg">{userLevel}</span>.</p>
+                <p className="text-slate-400 text-lg max-w-2xl">{t('library_subtitle', uiLanguage)}</p>
              </div>
              
              <div className="flex space-x-2">
                 <div className="flex items-center space-x-2 bg-[#141A29] px-4 py-3 rounded-xl border border-white/5 shadow-sm">
                   <Search className="w-5 h-5 text-slate-500" />
-                  <input type="text" placeholder="Search stories..." className="bg-transparent outline-none text-sm w-36 font-medium text-slate-300 placeholder:text-slate-600" />
+                  <input type="text" placeholder={t('search_stories', uiLanguage)} className="bg-transparent outline-none text-sm w-36 font-medium text-slate-300 placeholder:text-slate-600" />
                 </div>
              </div>
           </div>
@@ -255,7 +256,7 @@ export default function ReadingLibrary() {
                   <p className="text-slate-400 text-sm line-clamp-3 leading-relaxed">{story.content}</p>
                 </div>
                 <div className="relative z-10 pt-4 flex items-center justify-between text-indigo-400 text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-2 group-hover:translate-y-0 border-t border-white/10 mt-4">
-                  <span>Read Story</span>
+                  <span>{t('read_story', uiLanguage)}</span>
                   <span>&rarr;</span>
                 </div>
               </div>
@@ -264,7 +265,7 @@ export default function ReadingLibrary() {
         </div>
 
         {/* German Storybook — only shown for German learners */}
-        {targetLanguage === 'German' && <GermanStorybookSection />}
+        {targetLanguage === 'German' && <GermanStorybookSection uiLanguage={uiLanguage} />}
 
       </div>
     </div>
