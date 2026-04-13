@@ -4,6 +4,7 @@ import { persist } from 'zustand/middleware';
 interface UserState {
   hasOnboarded: boolean;
   targetLanguage: string;
+  level: string;
   uiLanguage: 'English' | 'Turkish';
   setOnboardingData: (language: string, level: string) => void;
   setLanguage: (language: string) => void;
