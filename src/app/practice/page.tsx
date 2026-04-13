@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, BrainCircuit, CreditCard, LayoutGrid, Trash2, RotateCcw, Zap, Trophy, Timer, PenTool, FileText, CheckCircle2, XCircle } from 'lucide-react';
+import { ArrowLeft, BrainCircuit, CreditCard, LayoutGrid, Trash2, RotateCcw, Zap, Trophy, Timer, Edit, File, Check, X, BookOpen } from 'lucide-react';
 import { useUserStore } from '@/store/useUserStore';
 import { useVocabStore } from '@/store/useVocabStore';
 import { useAuth } from '@/components/AuthProvider';
@@ -87,21 +87,21 @@ export default function PracticeRoom() {
                 onClick={() => setMode('quiz')}
                 className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'quiz' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
-                <CheckCircle2 className="w-4 h-4" />
+                <Check className="w-4 h-4" />
                 <span className="text-sm">{t('practice_quiz', uiLanguage)}</span>
               </button>
               <button 
                 onClick={() => setMode('writing')}
                 className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'writing' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
-                <PenTool className="w-4 h-4" />
+                <Edit className="w-4 h-4" />
                 <span className="text-sm">{t('practice_writing', uiLanguage)}</span>
               </button>
               <button 
                 onClick={() => setMode('context')}
                 className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'context' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
-                <FileText className="w-4 h-4" />
+                <File className="w-4 h-4" />
                 <span className="text-sm">{t('practice_context', uiLanguage)}</span>
               </button>
            </div>
@@ -532,8 +532,8 @@ function QuizMode({ words }: { words: any[] }) {
                 }`}
               >
                 <span>{opt}</span>
-                {selected && isThisCorrect && <CheckCircle2 className="w-6 h-6 text-emerald-500" />}
-                {selected && isThisSelected && !isThisCorrect && <XCircle className="w-6 h-6 text-rose-500" />}
+                {selected && isThisCorrect && <Check className="w-6 h-6 text-emerald-500" />}
+                {selected && isThisSelected && !isThisCorrect && <X className="w-6 h-6 text-rose-500" />}
               </button>
             );
           })}
@@ -608,7 +608,7 @@ function WritingMode({ words }: { words: any[] }) {
                 'border-white/5 focus:border-indigo-500/50 focus:bg-white/10'
               }`}
             />
-            {status === 'correct' && <CheckCircle2 className="absolute right-6 top-1/2 -translate-y-1/2 w-8 h-8 text-emerald-500" />}
+            {status === 'correct' && <Check className="absolute right-6 top-1/2 -translate-y-1/2 w-8 h-8 text-emerald-500" />}
           </div>
 
           <div className="flex gap-4">
@@ -677,7 +677,7 @@ function ContextMode({ words }: { words: any[] }) {
       <div className="w-full max-w-2xl bg-[#141A29] rounded-3xl border border-white/5 p-8 md:p-12 shadow-2xl relative">
         <div className="text-center mb-12">
           <div className="w-16 h-16 bg-emerald-500/20 rounded-2xl flex items-center justify-center text-emerald-400 mx-auto mb-6 border border-emerald-500/30">
-            <FileText className="w-8 h-8" />
+            <File className="w-8 h-8" />
           </div>
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-500 mb-4 block">Complete the context</span>
           <h2 className="text-2xl md:text-3xl font-medium text-slate-200 leading-relaxed">
