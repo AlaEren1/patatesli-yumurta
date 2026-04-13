@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, BrainCircuit, CreditCard, LayoutGrid, Trash2, RotateCcw, Zap, Trophy, Timer } from 'lucide-react';
+import { ArrowLeft, BrainCircuit, CreditCard, LayoutGrid, Trash2, RotateCcw, Zap, Trophy, Timer, PenTool, FileText, CheckCircle2, XCircle } from 'lucide-react';
 import { useUserStore } from '@/store/useUserStore';
 import { useVocabStore } from '@/store/useVocabStore';
 import { useAuth } from '@/components/AuthProvider';
@@ -15,7 +15,7 @@ export default function PracticeRoom() {
   const { hasOnboarded, targetLanguage, uiLanguage } = useUserStore();
   const { words, removeWord, syncFromSupabase } = useVocabStore();
   const [mounted, setMounted] = useState(false);
-  const [mode, setMode] = useState<'list' | 'flashcard' | 'matching'>('list');
+  const [mode, setMode] = useState<'list' | 'flashcard' | 'matching' | 'quiz' | 'writing' | 'context'>('list');
 
   useEffect(() => {
     setMounted(true);
@@ -83,6 +83,27 @@ export default function PracticeRoom() {
                 <Zap className="w-4 h-4" />
                 <span>{t('practice_matching', uiLanguage)}</span>
               </button>
+              <button 
+                onClick={() => setMode('quiz')}
+                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'quiz' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+              >
+                <BrainCircuit className="w-4 h-4" />
+                <span>{t('practice_quiz', uiLanguage)}</span>
+              </button>
+              <button 
+                onClick={() => setMode('writing')}
+                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'writing' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+              >
+                <Zap className="w-4 h-4" />
+                <span>{t('practice_writing', uiLanguage)}</span>
+              </button>
+              <button 
+                onClick={() => setMode('context')}
+                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'context' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+              >
+                <BrainCircuit className="w-4 h-4" />
+                <span>{t('practice_context', uiLanguage)}</span>
+              </button>
            </div>
         </header>
 
@@ -110,8 +131,14 @@ export default function PracticeRoom() {
           </div>
         ) : mode === 'flashcard' ? (
           <FlashcardMode words={myWords} />
-        ) : (
+        ) : mode === 'matching' ? (
           <MatchingGame words={myWords} />
+        ) : mode === 'quiz' ? (
+          <QuizMode words={myWords} />
+        ) : mode === 'writing' ? (
+          <WritingMode words={myWords} />
+        ) : (
+          <ContextMode words={myWords} />
         )}
       </div>
     </div>
@@ -435,6 +462,280 @@ function MatchingGame({ words }: { words: any[] }) {
           animation: shake 0.2s ease-in-out infinite;
         }
       `}</style>
+    </div>
+  );
+}
+
+// --- NEW MODES ---
+
+function QuizMode({ words }: { words: any[] }) {
+  const [index, setIndex] = useState(0);
+  const [options, setOptions] = useState<string[]>([]);
+  const [selected, setSelected] = useState<string | null>(null);
+  const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+
+  const currentWord = words[index % words.length];
+
+  useEffect(() => {
+    // Generate options
+    const correct = currentWord.translation;
+    const others = words
+      .filter(w => w.id !== currentWord.id)
+      .map(w => w.translation)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3);
+    
+    setOptions([correct, ...others].sort(() => Math.random() - 0.5));
+    setSelected(null);
+    setIsCorrect(null);
+  }, [index, currentWord, words]);
+
+  const handleSelect = (opt: string) => {
+    if (selected) return;
+    setSelected(opt);
+    const correct = opt === currentWord.translation;
+    setIsCorrect(correct);
+    
+    setTimeout(() => {
+       if (correct) {
+         setIndex(prev => (prev + 1) % words.length);
+       }
+    }, 1500);
+  };
+
+  return (
+    <div className="flex flex-col items-center py-12 animate-in fade-in zoom-in-95 duration-500">
+      <div className="w-full max-w-xl bg-[#141A29] rounded-3xl border border-white/5 p-8 md:p-12 shadow-2xl relative">
+        <div className="text-center mb-10">
+          <span className="text-xs font-bold uppercase tracking-widest text-indigo-500 mb-2 block">Translate this word</span>
+          <h2 className="text-5xl font-black text-white">{currentWord.word}</h2>
+        </div>
+
+        <div className="grid grid-cols-1 gap-4">
+          {options.map((opt, i) => {
+            const isThisSelected = selected === opt;
+            const isThisCorrect = opt === currentWord.translation;
+            
+            return (
+              <button
+                key={i}
+                onClick={() => handleSelect(opt)}
+                disabled={!!selected}
+                className={`w-full py-5 px-6 rounded-2xl text-left font-bold text-lg transition-all border-2 flex justify-between items-center ${
+                  selected 
+                    ? isThisCorrect
+                      ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400'
+                      : isThisSelected
+                        ? 'bg-rose-500/10 border-rose-500/50 text-rose-400'
+                        : 'bg-white/5 border-transparent text-slate-600 opacity-50'
+                    : 'bg-white/5 border-white/5 text-slate-300 hover:border-white/20 hover:bg-white/10 active:scale-[0.98]'
+                }`}
+              >
+                <span>{opt}</span>
+                {selected && isThisCorrect && <CheckCircle2 className="w-6 h-6 text-emerald-500" />}
+                {selected && isThisSelected && !isThisCorrect && <XCircle className="w-6 h-6 text-rose-500" />}
+              </button>
+            );
+          })}
+        </div>
+
+        {selected && (
+          <div className="mt-8 text-center animate-in slide-in-from-top-2 duration-300">
+             <p className={`text-lg font-bold ${isCorrect ? 'text-emerald-400' : 'text-rose-400'}`}>
+                {isCorrect ? 'Correct! Well done.' : `Not quite. It means "${currentWord.translation}"`}
+             </p>
+             {!isCorrect && (
+               <button onClick={() => setIndex(prev => (prev + 1) % words.length)} className="mt-4 px-6 py-2 bg-white/5 hover:bg-white/10 rounded-xl text-slate-400 text-sm font-bold transition-all">
+                  Try Next Word
+               </button>
+             )}
+          </div>
+        )}
+      </div>
+      <p className="text-slate-500 mt-8 font-medium">Word {index + 1} of {words.length}</p>
+    </div>
+  );
+}
+
+function WritingMode({ words }: { words: any[] }) {
+  const [index, setIndex] = useState(0);
+  const [input, setInput] = useState('');
+  const [status, setStatus] = useState<'idle' | 'correct' | 'incorrect'>('idle');
+
+  const currentWord = words[index % words.length];
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (status !== 'idle') return;
+
+    if (input.trim().toLowerCase() === currentWord.word.toLowerCase()) {
+      setStatus('correct');
+      setTimeout(() => {
+        handleNext();
+      }, 1500);
+    } else {
+      setStatus('incorrect');
+    }
+  };
+
+  const handleNext = () => {
+    setIndex(prev => (prev + 1) % words.length);
+    setInput('');
+    setStatus('idle');
+  };
+
+  return (
+    <div className="flex flex-col items-center py-12 animate-in fade-in duration-500">
+      <div className="w-full max-w-xl bg-[#141A29] rounded-3xl border border-white/5 p-8 md:p-12 shadow-2xl">
+        <div className="text-center mb-10">
+          <span className="text-xs font-bold uppercase tracking-widest text-amber-500 mb-2 block">Write this word in target language</span>
+          <h2 className="text-4xl font-black text-white mb-2">{currentWord.translation}</h2>
+          <p className="text-slate-500 italic">"{currentWord.context}"</p>
+        </div>
+
+        <form onSubmit={handleSubmit} className="space-y-6">
+          <div className="relative">
+            <input
+              autoFocus
+              type="text"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              disabled={status === 'correct'}
+              placeholder="Type the word..."
+              className={`w-full bg-white/5 border-2 rounded-2xl py-5 px-6 text-2xl font-bold text-white outline-none transition-all placeholder:text-slate-700 ${
+                status === 'correct' ? 'border-emerald-500/50 bg-emerald-500/5' : 
+                status === 'incorrect' ? 'border-rose-500/50 bg-rose-500/5 animate-shake' : 
+                'border-white/5 focus:border-indigo-500/50 focus:bg-white/10'
+              }`}
+            />
+            {status === 'correct' && <CheckCircle2 className="absolute right-6 top-1/2 -translate-y-1/2 w-8 h-8 text-emerald-500" />}
+          </div>
+
+          <div className="flex gap-4">
+             {status === 'incorrect' ? (
+               <>
+                 <button type="button" onClick={() => setStatus('idle')} className="flex-1 py-4 bg-white/5 hover:bg-white/10 text-slate-400 rounded-2xl font-bold transition-all border border-white/5">
+                   Try Again
+                 </button>
+                 <button type="button" onClick={handleNext} className="flex-1 py-4 bg-rose-600/20 hover:bg-rose-600/30 text-rose-400 rounded-2xl font-bold transition-all border border-rose-500/30">
+                   Pass
+                 </button>
+               </>
+             ) : (
+               <button 
+                type="submit" 
+                disabled={!input.trim() || status === 'correct'}
+                className="w-full py-5 bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 text-white rounded-2xl font-black text-xl transition-all shadow-xl active:scale-[0.98]"
+               >
+                 Check Answer
+               </button>
+             )}
+          </div>
+        </form>
+      </div>
+      
+      <p className="text-slate-500 mt-8 font-medium">Card {index + 1} of {words.length}</p>
+    </div>
+  );
+}
+
+function ContextMode({ words }: { words: any[] }) {
+  const [index, setIndex] = useState(0);
+  const [options, setOptions] = useState<string[]>([]);
+  const [selected, setSelected] = useState<string | null>(null);
+
+  const currentWord = words[index % words.length];
+  
+  // Create the cloze sentence
+  const clozeSentence = currentWord.context.replace(new RegExp(currentWord.word, 'gi'), '__________');
+
+  useEffect(() => {
+    const correct = currentWord.word;
+    const others = words
+      .filter(w => w.id !== currentWord.id)
+      .map(w => w.word)
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 3);
+    
+    setOptions([correct, ...others].sort(() => Math.random() - 0.5));
+    setSelected(null);
+  }, [index, currentWord, words]);
+
+  const handleSelect = (opt: string) => {
+    if (selected) return;
+    setSelected(opt);
+    
+    if (opt === currentWord.word) {
+      setTimeout(() => {
+        setIndex(prev => (prev + 1) % words.length);
+      }, 1500);
+    }
+  };
+
+  return (
+    <div className="flex flex-col items-center py-12 animate-in fade-in duration-500">
+      <div className="w-full max-w-2xl bg-[#141A29] rounded-3xl border border-white/5 p-8 md:p-12 shadow-2xl relative">
+        <div className="text-center mb-12">
+          <div className="w-16 h-16 bg-emerald-500/20 rounded-2xl flex items-center justify-center text-emerald-400 mx-auto mb-6 border border-emerald-500/30">
+            <FileText className="w-8 h-8" />
+          </div>
+          <span className="text-xs font-bold uppercase tracking-widest text-emerald-500 mb-4 block">Complete the context</span>
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-200 leading-relaxed">
+            {clozeSentence.split('__________').map((part, i, arr) => (
+              <React.Fragment key={i}>
+                {part}
+                {i < arr.length - 1 && (
+                  <span className={`inline-block border-b-2 px-4 mx-1 min-w-[120px] transition-all ${
+                    selected 
+                      ? selected === currentWord.word ? 'text-emerald-400 border-emerald-500/50' : 'text-rose-400 border-rose-500/50'
+                      : 'text-indigo-400 border-indigo-500/30'
+                  }`}>
+                    {selected || '...'}
+                  </span>
+                )}
+              </React.Fragment>
+            ))}
+          </h2>
+          <p className="mt-6 text-slate-500 font-medium">
+             Mean: <span className="text-slate-400 italic text-lg ml-1">"{currentWord.translation}"</span>
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 gap-4">
+          {options.map((opt, i) => {
+             const isThisSelected = selected === opt;
+             const isThisCorrect = opt === currentWord.word;
+
+             return (
+               <button
+                 key={i}
+                 onClick={() => handleSelect(opt)}
+                 disabled={!!selected}
+                 className={`py-4 px-6 rounded-2xl font-bold text-lg transition-all border-2 ${
+                  selected 
+                    ? isThisCorrect
+                      ? 'bg-emerald-500/10 border-emerald-500/50 text-emerald-400'
+                      : isThisSelected
+                        ? 'bg-rose-500/10 border-rose-500/50 text-rose-400'
+                        : 'bg-white/5 border-transparent text-slate-600 opacity-50'
+                    : 'bg-white/5 border-white/5 text-slate-300 hover:border-white/20 hover:bg-white/10 active:scale-[0.98]'
+                 }`}
+               >
+                 {opt}
+               </button>
+             );
+          })}
+        </div>
+        
+        {selected && (
+          <div className="mt-10 text-center animate-in fade-in duration-300">
+             <button onClick={() => setIndex(prev => (prev + 1) % words.length)} className="text-indigo-400 hover:text-indigo-300 font-bold flex items-center space-x-2 mx-auto">
+                <span>{selected === currentWord.word ? 'Next Challenge' : 'Skip this word'}</span>
+                <span>&rarr;</span>
+             </button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

@@ -110,6 +110,18 @@ const translations = {
     'English': 'Matching',
     'Turkish': 'Eşleştirme'
   },
+  'practice_quiz': {
+    'English': 'Quiz',
+    'Turkish': 'Test'
+  },
+  'practice_writing': {
+    'English': 'Writing',
+    'Turkish': 'Yazma'
+  },
+  'practice_context': {
+    'English': 'Context',
+    'Turkish': 'Bağlam'
+  },
   'words_saved_in': {
     'English': 'words saved in',
     'Turkish': 'kelime kaydedildi:'
