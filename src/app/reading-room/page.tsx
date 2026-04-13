@@ -190,7 +190,31 @@ export default function ReadingLibrary() {
                 <h1 className="text-3xl md:text-4xl font-extrabold text-slate-100 leading-tight">{activeStory.title}</h1>
                 <span className="px-5 py-2 bg-indigo-500/20 text-indigo-400 font-bold rounded-full text-sm border border-indigo-500/30">{activeStory.level}</span>
               </div>
-              <TapToTranslateText text={activeStory.content} />
+              <div className="space-y-8">
+                {(() => {
+                  const parts = activeStory.content.split('--- English Translation ---');
+                  const mainContent = parts[0].trim();
+                  const translation = parts[1]?.trim();
+                  
+                  return (
+                    <>
+                      <TapToTranslateText text={mainContent} />
+                      
+                      {translation && (
+                        <div className="mt-12 pt-8 border-t border-white/10 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
+                          <h3 className="text-xl font-bold text-slate-400 mb-6 flex items-center gap-2">
+                            <Sparkles className="w-5 h-5 text-indigo-400" />
+                            English Translation
+                          </h3>
+                          <div className="p-6 rounded-2xl bg-white/5 border border-white/5 text-slate-400 leading-relaxed italic">
+                            {translation}
+                          </div>
+                        </div>
+                      )}
+                    </>
+                  );
+                })()}
+              </div>
             </div>
           </div>
        </div>
