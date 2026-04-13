@@ -107,27 +107,38 @@ export default function PracticeRoom() {
            </div>
         </header>
 
-        {myWords.length === 0 ? (
-          <div className="py-24 text-center text-slate-400 bg-[#141A29] rounded-3xl border border-white/5 shadow-sm">
-            <BrainCircuit className="w-12 h-12 mx-auto text-amber-500/50 mb-4" />
-            <p className="text-xl font-medium text-slate-300">Your Vault is empty!</p>
-            <p className="mt-2 text-slate-500">Go to The Library, read a story, and click on words to save them here.</p>
-            <Link href="/reading-room" className="inline-block mt-6 px-6 py-3 bg-amber-500/10 text-amber-400 hover:bg-amber-500/20 border border-amber-500/30 rounded-xl font-bold transition-all">Go to Library</Link>
-          </div>
-        ) : mode === 'list' ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {myWords.map(w => (
-              <div key={w.id} className="p-5 bg-[#141A29] rounded-2xl border border-white/5 hover:border-white/10 transition-colors flex justify-between items-start group">
-                <div>
-                  <h3 className="text-xl font-bold text-white mb-1">{w.word}</h3>
-                  <p className="text-indigo-400 font-medium mb-3">{w.translation}</p>
-                  <p className="text-sm text-slate-500 italic">"{w.context}"</p>
+        {mode === 'list' ? (
+          myWords.length === 0 ? (
+            <div className="py-24 text-center text-slate-400 bg-[#141A29] rounded-3xl border border-white/5 shadow-sm">
+              <BrainCircuit className="w-12 h-12 mx-auto text-amber-500/50 mb-4" />
+              <p className="text-xl font-medium text-slate-300">Your Vault is empty!</p>
+              <p className="mt-2 text-slate-500">Go to The Library, read a story, and click on words to save them here.</p>
+              <Link href="/reading-room" className="inline-block mt-6 px-6 py-3 bg-amber-500/10 text-amber-400 hover:bg-amber-500/20 border border-amber-500/30 rounded-xl font-bold transition-all">Go to Library</Link>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {myWords.map(w => (
+                <div key={w.id} className="p-5 bg-[#141A29] rounded-2xl border border-white/5 hover:border-white/10 transition-colors flex justify-between items-start group">
+                  <div>
+                    <h3 className="text-xl font-bold text-white mb-1">{w.word}</h3>
+                    <p className="text-indigo-400 font-medium mb-3">{w.translation}</p>
+                    <p className="text-sm text-slate-500 italic">"{w.context}"</p>
+                  </div>
+                  <button onClick={() => removeWord(w.id, user.id)} className="text-slate-600 hover:text-rose-400 transition-colors p-2 opacity-0 group-hover:opacity-100">
+                    <Trash2 className="w-5 h-5" />
+                  </button>
                 </div>
-                <button onClick={() => removeWord(w.id, user.id)} className="text-slate-600 hover:text-rose-400 transition-colors p-2 opacity-0 group-hover:opacity-100">
-                  <Trash2 className="w-5 h-5" />
-                </button>
-              </div>
-            ))}
+              ))}
+            </div>
+          )
+        ) : myWords.length === 0 ? (
+          <div className="py-24 text-center text-slate-400 bg-[#141A29] rounded-3xl border border-white/5 shadow-sm animate-in fade-in duration-500">
+             <div className="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center text-slate-400 mx-auto mb-6 border border-white/10">
+                {mode === 'quiz' ? <Check className="w-8 h-8"/> : mode === 'writing' ? <Edit className="w-8 h-8"/> : <File className="w-8 h-8"/>}
+             </div>
+             <p className="text-xl font-bold text-slate-200 uppercase tracking-wide">Empty {mode} Challenge</p>
+             <p className="mt-2 text-slate-500 max-w-md mx-auto">You need to save some words in your <b>Vault</b> before you can start the {mode} training.</p>
+             <Link href="/reading-room" className="inline-block mt-8 px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-black transition-all shadow-lg active:scale-95">Find Words to Save</Link>
           </div>
         ) : mode === 'flashcard' ? (
           <FlashcardMode words={myWords} />
