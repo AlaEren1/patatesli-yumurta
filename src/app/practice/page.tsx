@@ -61,48 +61,48 @@ export default function PracticeRoom() {
               <p className="text-slate-400 text-lg">You have <span className="font-bold text-amber-400">{myWords.length}</span> {t('words_saved_in', uiLanguage)} {targetLanguage}.</p>
            </div>
            
-           <div className="flex bg-[#141A29] p-1 rounded-xl border border-white/5">
+            <div className="flex flex-wrap items-center bg-[#141A29] p-1 rounded-xl border border-white/5 gap-1">
                <button 
                 onClick={() => setMode('list')}
-                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'list' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'list' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
                 <LayoutGrid className="w-4 h-4" />
-                <span>{t('practice_vault', uiLanguage)}</span>
+                <span className="text-sm">{t('practice_vault', uiLanguage)}</span>
               </button>
               <button 
                 onClick={() => setMode('flashcard')}
-                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'flashcard' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'flashcard' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
                 <CreditCard className="w-4 h-4" />
-                <span>{t('practice_flashcards', uiLanguage)}</span>
+                <span className="text-sm">{t('practice_flashcards', uiLanguage)}</span>
               </button>
               <button 
                 onClick={() => setMode('matching')}
-                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'matching' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'matching' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
                 <Zap className="w-4 h-4" />
-                <span>{t('practice_matching', uiLanguage)}</span>
+                <span className="text-sm">{t('practice_matching', uiLanguage)}</span>
               </button>
               <button 
                 onClick={() => setMode('quiz')}
-                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'quiz' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'quiz' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
-                <BrainCircuit className="w-4 h-4" />
-                <span>{t('practice_quiz', uiLanguage)}</span>
+                <CheckCircle2 className="w-4 h-4" />
+                <span className="text-sm">{t('practice_quiz', uiLanguage)}</span>
               </button>
               <button 
                 onClick={() => setMode('writing')}
-                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'writing' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'writing' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
-                <Zap className="w-4 h-4" />
-                <span>{t('practice_writing', uiLanguage)}</span>
+                <PenTool className="w-4 h-4" />
+                <span className="text-sm">{t('practice_writing', uiLanguage)}</span>
               </button>
               <button 
                 onClick={() => setMode('context')}
-                className={`flex items-center space-x-2 px-6 py-2.5 rounded-lg font-medium transition-all ${mode === 'context' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'context' ? 'bg-white/10 text-white shadow-sm' : 'text-slate-500 hover:text-slate-300'}`}
               >
-                <BrainCircuit className="w-4 h-4" />
-                <span>{t('practice_context', uiLanguage)}</span>
+                <FileText className="w-4 h-4" />
+                <span className="text-sm">{t('practice_context', uiLanguage)}</span>
               </button>
            </div>
         </header>
