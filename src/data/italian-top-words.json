@@ -181,722 +181,5414 @@
   },
   {
     "id": "it_gen_30",
-    "word": "dei",
-    "translation": "of",
-    "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
-  },
-  {
-    "id": "it_gen_31",
     "word": "tutti",
     "translation": "translation not found",
     "context": "Tutti hanno una valigia, uno zaino o una borsa voluminosa."
   },
   {
-    "id": "it_gen_32",
+    "id": "it_gen_31",
     "word": "acqua",
     "translation": "water",
     "context": "Vado in bagno e mi lavo la faccia con l'acqua fredda."
   },
   {
-    "id": "it_gen_33",
+    "id": "it_gen_32",
     "word": "lui",
     "translation": "he",
     "context": "Lui insegna italiano e storia."
   },
   {
-    "id": "it_gen_34",
+    "id": "it_gen_33",
     "word": "famiglia",
     "translation": "family",
     "context": "Dopo la scuola, torno a casa e mangio il pranzo con la mia famiglia."
   },
   {
-    "id": "it_gen_35",
+    "id": "it_gen_34",
     "word": "giorno",
     "translation": "day",
     "context": "Domani è un altro giorno bello."
   },
   {
-    "id": "it_gen_36",
+    "id": "it_gen_35",
     "word": "quasi",
     "translation": "virtually",
     "context": "Ogni giorno è quasi uguale agli altri, ma è sempre piacevole."
   },
   {
-    "id": "it_gen_37",
+    "id": "it_gen_36",
     "word": "piano",
     "translation": "translation not found",
     "context": "Io mi siedo accanto a lui e lo accarezzo piano piano."
   },
   {
-    "id": "it_gen_38",
+    "id": "it_gen_37",
     "word": "sulle",
     "translation": "about ",
     "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
   },
   {
-    "id": "it_gen_39",
+    "id": "it_gen_38",
     "word": "settimana",
     "translation": "week",
     "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
   },
   {
-    "id": "it_gen_40",
+    "id": "it_gen_39",
     "word": "anni",
     "translation": "years",
     "context": "Ho ventitré anni e abito a Roma."
   },
   {
-    "id": "it_gen_41",
+    "id": "it_gen_40",
     "word": "cucina",
     "translation": "kitchen",
     "context": "Poi vado in cucina e preparo la colazione."
   },
   {
-    "id": "it_gen_42",
+    "id": "it_gen_41",
     "word": "borsa",
     "translation": "pouch",
     "context": "Prendo la borsa e esco di casa."
   },
   {
-    "id": "it_gen_43",
+    "id": "it_gen_42",
     "word": "sole",
     "translation": "movement",
     "context": "Il sole splende e il cielo è blu."
   },
   {
-    "id": "it_gen_44",
+    "id": "it_gen_43",
     "word": "molte",
     "translation": "(many",
     "context": "Sull'autobus ci sono molte persone."
   },
   {
-    "id": "it_gen_45",
+    "id": "it_gen_44",
     "word": "chiama",
     "translation": "call",
     "context": "Il mio professore preferito si chiama Marco."
   },
   {
-    "id": "it_gen_46",
+    "id": "it_gen_45",
     "word": "storia",
     "translation": "story",
     "context": "Lui insegna italiano e storia."
   },
   {
-    "id": "it_gen_47",
+    "id": "it_gen_46",
     "word": "pomeriggio",
     "translation": "afternoon",
     "context": "Nel pomeriggio faccio i compiti a casa."
   },
   {
-    "id": "it_gen_48",
+    "id": "it_gen_47",
     "word": "faccio",
     "translation": "i have my",
     "context": "Nel pomeriggio faccio i compiti a casa."
   },
   {
-    "id": "it_gen_49",
+    "id": "it_gen_48",
     "word": "fine",
     "translation": "end",
     "context": "I compiti di matematica sono difficili oggi, ma alla fine capisco tutto."
   },
   {
-    "id": "it_gen_50",
+    "id": "it_gen_49",
     "word": "piace",
     "translation": "like this",
     "context": "Mi piace leggere storie di avventura."
   },
   {
-    "id": "it_gen_51",
+    "id": "it_gen_50",
     "word": "mondo",
     "translation": "translation not found",
     "context": "È il mio animale preferito di tutto il mondo."
   },
   {
-    "id": "it_gen_52",
+    "id": "it_gen_51",
     "word": "già",
     "translation": "use your",
     "context": "Ogni mattina, quando mi sveglio, Arancio è già sul mio letto."
   },
   {
-    "id": "it_gen_53",
+    "id": "it_gen_52",
     "word": "sul",
     "translation": "on the",
     "context": "Ogni mattina, quando mi sveglio, Arancio è già sul mio letto."
   },
   {
-    "id": "it_gen_54",
+    "id": "it_gen_53",
     "word": "mercato",
     "translation": "market",
     "context": "Ogni domenica mattina vado al mercato con mia nonna."
   },
   {
-    "id": "it_gen_55",
+    "id": "it_gen_54",
     "word": "posto",
     "translation": "whereas",
     "context": "È un posto animato e colorato che mi piace molto."
   },
   {
-    "id": "it_gen_56",
+    "id": "it_gen_55",
     "word": "banchi",
     "translation": "bench ",
     "context": "Il mercato apre di buonissima ora e già alle nove ci sono molte persone che camminano tra i banchi."
   },
   {
-    "id": "it_gen_57",
+    "id": "it_gen_56",
     "word": "pane",
     "translation": "bread",
     "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
   },
   {
-    "id": "it_gen_58",
+    "id": "it_gen_57",
     "word": "molti",
     "translation": "many",
     "context": "Lui conosce mia nonna da molti anni e la saluta sempre con un grande sorriso."
   },
   {
-    "id": "it_gen_59",
+    "id": "it_gen_58",
     "word": "abbiamo",
     "translation": "we",
     "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
   },
   {
-    "id": "it_gen_60",
+    "id": "it_gen_59",
     "word": "amici",
     "translation": "friends",
     "context": "Io e i miei migliori amici abbiamo subito cercato una gelateria."
   },
   {
-    "id": "it_gen_61",
+    "id": "it_gen_60",
     "word": "appartamento",
     "translation": "apartment",
     "context": "Lo scorso settembre ho affittato il mio primo appartamento da sola."
   },
   {
-    "id": "it_gen_62",
+    "id": "it_gen_61",
     "word": "colazione",
     "translation": "breakfast",
     "context": "Poi vado in cucina e preparo la colazione."
   },
   {
-    "id": "it_gen_63",
+    "id": "it_gen_62",
     "word": "fuori",
     "translation": "translation not found",
     "context": "Fuori fa bel tempo."
   },
   {
-    "id": "it_gen_64",
+    "id": "it_gen_63",
     "word": "tempo",
     "translation": "time",
     "context": "Fuori fa bel tempo."
   },
   {
-    "id": "it_gen_65",
+    "id": "it_gen_64",
     "word": "ancora",
     "translation": "be able to:",
     "context": "Alcune leggono il telefono, altre dormono ancora."
   },
   {
-    "id": "it_gen_66",
+    "id": "it_gen_65",
     "word": "minuti",
     "translation": "mins",
     "context": "Scendo dopo venti minuti davanti alla mia scuola."
   },
   {
-    "id": "it_gen_67",
+    "id": "it_gen_66",
     "word": "preferito",
     "translation": "preferred",
     "context": "Il mio professore preferito si chiama Marco."
   },
   {
-    "id": "it_gen_68",
+    "id": "it_gen_67",
     "word": "italiano",
     "translation": "translation not found",
     "context": "Lui insegna italiano e storia."
   },
   {
-    "id": "it_gen_69",
+    "id": "it_gen_68",
     "word": "guardo",
     "translation": "i look. ",
     "context": "La sera guardo un po' di televisione con i miei genitori."
   },
   {
-    "id": "it_gen_70",
+    "id": "it_gen_69",
     "word": "libro",
     "translation": "book",
     "context": "Prima di andare a letto, leggo un libro per trenta minuti."
   },
   {
-    "id": "it_gen_71",
+    "id": "it_gen_70",
     "word": "felice",
     "translation": "happy. ",
     "context": "Sono felice della mia vita semplice e tranquilla a Roma."
   },
   {
-    "id": "it_gen_72",
+    "id": "it_gen_71",
     "word": "cibo",
     "translation": "sales",
     "context": "Prendo la boccia del cibo per gatti e metto il cibo nella ciotola di Arancio."
   },
   {
-    "id": "it_gen_73",
+    "id": "it_gen_72",
     "word": "nella",
     "translation": "in the",
     "context": "Prendo la boccia del cibo per gatti e metto il cibo nella ciotola di Arancio."
   },
   {
-    "id": "it_gen_74",
+    "id": "it_gen_73",
     "word": "tutta",
     "translation": "whole",
     "context": "Lo porta in bocca e corre per tutta la casa."
   },
   {
-    "id": "it_gen_75",
+    "id": "it_gen_74",
     "word": "bene",
     "translation": "good",
     "context": "Arancio mi vuole bene, ne sono sicurissima."
   },
   {
-    "id": "it_gen_76",
+    "id": "it_gen_75",
     "word": "modo",
     "translation": "an extremely ",
     "context": "È il suo modo per dirmi che tutto va bene."
   },
   {
-    "id": "it_gen_77",
+    "id": "it_gen_76",
     "word": "piazza",
     "translation": "translation not found",
     "context": "Il mercato è in piazza, vicino alla chiesa del paese."
   },
   {
-    "id": "it_gen_78",
+    "id": "it_gen_77",
     "word": "paese",
     "translation": "country/region",
     "context": "Il mercato è in piazza, vicino alla chiesa del paese."
   },
   {
-    "id": "it_gen_79",
+    "id": "it_gen_78",
     "word": "piccola",
     "translation": "small",
     "context": "Io porto una borsa più piccola."
   },
   {
-    "id": "it_gen_80",
+    "id": "it_gen_79",
     "word": "ora",
     "translation": "hour",
     "context": "Il mercato apre di buonissima ora e già alle nove ci sono molte persone che camminano tra i banchi."
   },
   {
-    "id": "it_gen_81",
+    "id": "it_gen_80",
     "word": "frutta",
     "translation": "fruit",
     "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
   },
   {
-    "id": "it_gen_82",
+    "id": "it_gen_81",
     "word": "fare",
     "translation": "do",
     "context": "Mia nonna usa la ricotta per fare i dolci della domenica."
   },
   {
-    "id": "it_gen_83",
+    "id": "it_gen_82",
     "word": "mangiamo",
     "translation": "do we eat ?",
     "context": "Mangiamo le nostre brioches e guardiamo la gente che passa."
   },
   {
-    "id": "it_gen_84",
+    "id": "it_gen_83",
     "word": "parliamo",
     "translation": "let's talk",
     "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
   },
   {
-    "id": "it_gen_85",
+    "id": "it_gen_84",
     "word": "era",
     "translation": "\"was\",",
     "context": "Mia nonna mi racconta sempre storie bellissime di quando era giovane in questo stesso mercato."
   },
   {
-    "id": "it_gen_86",
+    "id": "it_gen_85",
     "word": "questo",
     "translation": "this",
     "context": "Mia nonna mi racconta sempre storie bellissime di quando era giovane in questo stesso mercato."
   },
   {
-    "id": "it_gen_87",
+    "id": "it_gen_86",
     "word": "treno",
     "translation": "train",
     "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
   },
   {
-    "id": "it_gen_88",
+    "id": "it_gen_87",
     "word": "tornare",
     "translation": "come back. ",
     "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
   },
   {
-    "id": "it_gen_89",
+    "id": "it_gen_88",
     "word": "durante",
     "translation": "translation not found",
     "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
   },
   {
-    "id": "it_gen_90",
+    "id": "it_gen_89",
     "word": "milano",
     "translation": "translation not found",
     "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
   },
   {
-    "id": "it_gen_91",
+    "id": "it_gen_90",
     "word": "tre",
     "translation": "three",
     "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
   },
   {
-    "id": "it_gen_92",
+    "id": "it_gen_91",
     "word": "ore",
     "translation": "hours",
     "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
   },
   {
-    "id": "it_gen_93",
+    "id": "it_gen_92",
     "word": "madre",
     "translation": "mother",
     "context": "Quando arrivo alla piccola stazione del mio paese, mia madre mi aspetta sempre sulla banchina."
   },
   {
-    "id": "it_gen_94",
+    "id": "it_gen_93",
     "word": "sei",
     "translation": "six",
     "context": "Siamo partiti in pullman alle sei di mattina."
   },
   {
-    "id": "it_gen_95",
+    "id": "it_gen_94",
     "word": "centro",
     "translation": "translation not found",
     "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
   },
   {
-    "id": "it_gen_96",
+    "id": "it_gen_95",
     "word": "sola",
     "translation": "single",
     "context": "Lo scorso settembre ho affittato il mio primo appartamento da sola."
   },
   {
-    "id": "it_gen_97",
+    "id": "it_gen_96",
     "word": "anche",
     "translation": "also",
     "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
   },
   {
-    "id": "it_gen_98",
+    "id": "it_gen_97",
     "word": "firenze",
     "translation": "florence",
     "context": "Mi chiamo Anna e oggi visito Firenze."
   },
   {
-    "id": "it_gen_99",
+    "id": "it_gen_98",
     "word": "facciamo",
     "translation": "we do",
     "context": "Facciamo una pausa alle undici."
   },
   {
-    "id": "it_gen_100",
+    "id": "it_gen_99",
     "word": "beviamo",
     "translation": "we smoke",
     "context": "Beviamo un caffè insieme al bar vicino alla scuola."
   },
   {
-    "id": "it_gen_101",
+    "id": "it_gen_100",
     "word": "roma",
     "translation": "translation not found",
     "context": "Ho ventitré anni e abito a Roma."
   },
   {
-    "id": "it_gen_102",
+    "id": "it_gen_101",
     "word": "mangio",
     "translation": "horse riding",
     "context": "A colazione mangio sempre un cornetto e bevo un cappuccino caldo."
   },
   {
-    "id": "it_gen_103",
+    "id": "it_gen_102",
     "word": "caldo",
     "translation": "hot",
     "context": "A colazione mangio sempre un cornetto e bevo un cappuccino caldo."
   },
   {
-    "id": "it_gen_104",
+    "id": "it_gen_103",
     "word": "bianca",
     "translation": "white",
     "context": "Porto una gonna rossa, una camicia bianca e scarpe nere."
   },
   {
-    "id": "it_gen_105",
+    "id": "it_gen_104",
     "word": "bel",
     "translation": "good morning and good day",
     "context": "Fuori fa bel tempo."
   },
   {
-    "id": "it_gen_106",
+    "id": "it_gen_105",
     "word": "autobus",
     "translation": "buses",
     "context": "Cammino veloce verso la fermata dell'autobus."
   },
   {
-    "id": "it_gen_107",
+    "id": "it_gen_106",
     "word": "persone",
     "translation": "people",
     "context": "Sull'autobus ci sono molte persone."
   },
   {
-    "id": "it_gen_108",
+    "id": "it_gen_107",
     "word": "davanti",
     "translation": "front ",
     "context": "Scendo dopo venti minuti davanti alla mia scuola."
   },
   {
-    "id": "it_gen_109",
+    "id": "it_gen_108",
     "word": "verde",
     "translation": " green",
     "context": "La scuola è un edificio grande e verde."
   },
   {
-    "id": "it_gen_110",
+    "id": "it_gen_109",
     "word": "studenti",
     "translation": "%d students",
     "context": "Dentro ci sono molte classi e tanti studenti."
   },
   {
-    "id": "it_gen_111",
+    "id": "it_gen_110",
     "word": "compagni",
     "translation": "schoolmates.",
     "context": "I miei compagni di classe sono simpatici e amichevoli."
   },
   {
-    "id": "it_gen_112",
+    "id": "it_gen_111",
     "word": "classe",
     "translation": "class",
     "context": "I miei compagni di classe sono simpatici e amichevoli."
   },
   {
-    "id": "it_gen_113",
+    "id": "it_gen_112",
     "word": "pranzo",
     "translation": "lunch",
     "context": "Dopo la scuola, torno a casa e mangio il pranzo con la mia famiglia."
   },
   {
-    "id": "it_gen_114",
+    "id": "it_gen_113",
     "word": "pasta",
     "translation": "translation not found",
     "context": "Oggi prepara la pasta al pomodoro, il mio piatto preferito."
   },
   {
-    "id": "it_gen_115",
+    "id": "it_gen_114",
     "word": "piatto",
     "translation": "plate",
     "context": "Oggi prepara la pasta al pomodoro, il mio piatto preferito."
   },
   {
-    "id": "it_gen_116",
+    "id": "it_gen_115",
     "word": "compiti",
     "translation": "tasks",
     "context": "Nel pomeriggio faccio i compiti a casa."
   },
   {
-    "id": "it_gen_117",
+    "id": "it_gen_116",
     "word": "genitori",
     "translation": "translation not found",
     "context": "La sera guardo un po' di televisione con i miei genitori."
   },
   {
-    "id": "it_gen_118",
+    "id": "it_gen_117",
     "word": "letto",
     "translation": "bed",
     "context": "Prima di andare a letto, leggo un libro per trenta minuti."
   },
   {
-    "id": "it_gen_119",
+    "id": "it_gen_118",
     "word": "perché",
     "translation": "because",
     "context": "Si chiama Arancio perché ha il pelo arancione e soffice."
   },
   {
-    "id": "it_gen_120",
+    "id": "it_gen_119",
     "word": "grandi",
     "translation": "large",
     "context": "Mi guarda con i suoi grandi occhi verdi e fa le fusa."
   },
   {
-    "id": "it_gen_121",
+    "id": "it_gen_120",
     "word": "fusa",
     "translation": "purring",
     "context": "Mi guarda con i suoi grandi occhi verdi e fa le fusa."
   },
   {
-    "id": "it_gen_122",
+    "id": "it_gen_121",
     "word": "fresca",
     "translation": "fresh",
     "context": "Lui mangia velocemente e poi beve l'acqua fresca."
   },
   {
-    "id": "it_gen_123",
+    "id": "it_gen_122",
     "word": "mangiato",
     "translation": "eaten",
     "context": "Dopo mangiato, Arancio è molto contento e gioca un po' in cucina."
   },
   {
-    "id": "it_gen_124",
+    "id": "it_gen_123",
     "word": "porta",
     "translation": "closes",
     "context": "Lo porta in bocca e corre per tutta la casa."
   },
   {
-    "id": "it_gen_125",
+    "id": "it_gen_124",
     "word": "finestra",
     "translation": "window",
     "context": "Nel pomeriggio, Arancio dorme sul divano vicino alla finestra."
   },
   {
-    "id": "it_gen_126",
+    "id": "it_gen_125",
     "word": "dalla",
     "translation": "translation not found",
     "context": "Il sole entra dalla finestra e lo scalda."
   },
   {
-    "id": "it_gen_127",
+    "id": "it_gen_126",
     "word": "come",
     "translation": "how",
     "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
   },
   {
-    "id": "it_gen_128",
+    "id": "it_gen_127",
     "word": "sotto",
     "translation": "translation not found",
     "context": "Il suo pelo è morbidissimo sotto le mie dita."
   },
   {
-    "id": "it_gen_129",
+    "id": "it_gen_128",
     "word": "solo",
     "translation": "one",
     "context": "Lui non è solo un animale domestico, è un vero membro della mia famiglia e il mio migliore amico silenzioso."
   },
   {
-    "id": "it_gen_130",
+    "id": "it_gen_129",
     "word": "domenica",
     "translation": "sunday",
     "context": "Ogni domenica mattina vado al mercato con mia nonna."
   },
   {
-    "id": "it_gen_131",
+    "id": "it_gen_130",
     "word": "nove",
     "translation": "nine",
     "context": "Partiamo da casa alle nove."
   },
   {
-    "id": "it_gen_132",
+    "id": "it_gen_131",
     "word": "borse",
     "translation": "bags",
     "context": "Mia nonna prende sempre due borse di tela grandi e resistenti."
   },
   {
-    "id": "it_gen_133",
+    "id": "it_gen_132",
     "word": "dolci",
     "translation": "sweets",
     "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
   },
   {
-    "id": "it_gen_134",
+    "id": "it_gen_133",
     "word": "freschi",
     "translation": "fresh cheeses",
     "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
   },
   {
-    "id": "it_gen_135",
+    "id": "it_gen_134",
     "word": "andiamo",
     "translation": "let's go",
     "context": "Prima di tutto, andiamo al banco della frutta."
   },
   {
-    "id": "it_gen_136",
+    "id": "it_gen_135",
     "word": "banco",
     "translation": "work",
     "context": "Prima di tutto, andiamo al banco della frutta."
   },
   {
-    "id": "it_gen_137",
+    "id": "it_gen_136",
     "word": "compriamo",
     "translation": "buy",
     "context": "Oggi compriamo pomodori rossi e maturi, pesche dolci e profumate, e un bel melone grande."
   },
   {
-    "id": "it_gen_138",
+    "id": "it_gen_137",
     "word": "formaggio",
     "translation": "cheese",
     "context": "Poi andiamo al banco del formaggio."
   },
   {
-    "id": "it_gen_139",
+    "id": "it_gen_138",
     "word": "venerdì",
     "translation": "friday",
     "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
   },
   {
-    "id": "it_gen_140",
+    "id": "it_gen_139",
     "word": "lavoro",
     "translation": "work",
     "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
   },
   {
-    "id": "it_gen_141",
+    "id": "it_gen_140",
     "word": "viaggio",
     "translation": "travel",
     "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
   },
   {
-    "id": "it_gen_142",
+    "id": "it_gen_141",
     "word": "mai",
     "translation": "never",
     "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
   },
   {
-    "id": "it_gen_143",
+    "id": "it_gen_142",
     "word": "stazione",
     "translation": "station",
     "context": "La stazione Centrale di Milano il venerdì sera è sempre caotica e piena di gente."
   },
   {
-    "id": "it_gen_144",
-    "word": "uno",
-    "translation": "a",
-    "context": "Tutti hanno una valigia, uno zaino o una borsa voluminosa."
-  },
-  {
-    "id": "it_gen_145",
+    "id": "it_gen_143",
     "word": "piccoli",
     "translation": "translation not found",
     "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
   },
   {
-    "id": "it_gen_146",
+    "id": "it_gen_144",
     "word": "arrivo",
     "translation": "arrival",
     "context": "Io arrivo sempre con qualche minuto di anticipo per trovare un buon posto vicino al finestrino."
   },
   {
-    "id": "it_gen_147",
+    "id": "it_gen_145",
     "word": "calda",
     "translation": "water",
     "context": "Il sole scende lentamente e colora tutta la campagna di una luce calda e dorata."
   },
   {
-    "id": "it_gen_148",
+    "id": "it_gen_146",
     "word": "sulla",
     "translation": "on",
     "context": "Quando arrivo alla piccola stazione del mio paese, mia madre mi aspetta sempre sulla banchina."
   },
   {
-    "id": "it_gen_149",
+    "id": "it_gen_147",
     "word": "venezia",
     "translation": "venice",
     "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
+  },
+  {
+    "id": "it_gen_148",
+    "word": "erano",
+    "translation": "\"were\",",
+    "context": "Alcuni compagni dormivano ancora appoggiati ai finestrini, mentre altri erano già allegri e rumorosi."
+  },
+  {
+    "id": "it_gen_149",
+    "word": "stato",
+    "translation": "state",
+    "context": "Quando Venezia è apparsa davanti a noi dall'acqua, è stato un momento di pura magia."
+  },
+  {
+    "id": "it_gen_150",
+    "word": "primo",
+    "translation": "translation not found",
+    "context": "Lo scorso settembre ho affittato il mio primo appartamento da sola."
+  },
+  {
+    "id": "it_gen_151",
+    "word": "mesi",
+    "translation": "months",
+    "context": "Ho cercato per quasi due mesi su tutti i siti internet disponibili."
+  },
+  {
+    "id": "it_gen_152",
+    "word": "spesa",
+    "translation": "expense",
+    "context": "Ora devo pensare da sola alla spesa, ai pasti, alla pulizia e a tutto il resto."
+  },
+  {
+    "id": "it_gen_153",
+    "word": "pausa",
+    "translation": "break",
+    "context": "Facciamo una pausa alle undici."
+  },
+  {
+    "id": "it_gen_154",
+    "word": "compro",
+    "translation": "i take",
+    "context": "Compro un chilo di mele rosse, sei banane e un chilo di pomodori freschi."
+  },
+  {
+    "id": "it_gen_155",
+    "word": "chiamo",
+    "translation": "io ti chiamo",
+    "context": "Mi chiamo Giulia."
+  },
+  {
+    "id": "it_gen_156",
+    "word": "sveglio",
+    "translation": "merry christmas to you",
+    "context": "Ogni mattina mi sveglio alle sette."
+  },
+  {
+    "id": "it_gen_157",
+    "word": "sette",
+    "translation": "seven",
+    "context": "Ogni mattina mi sveglio alle sette."
+  },
+  {
+    "id": "it_gen_158",
+    "word": "bagno",
+    "translation": "bathroom",
+    "context": "Vado in bagno e mi lavo la faccia con l'acqua fredda."
+  },
+  {
+    "id": "it_gen_159",
+    "word": "preparo",
+    "translation": "                                                 i prepare",
+    "context": "Poi vado in cucina e preparo la colazione."
+  },
+  {
+    "id": "it_gen_160",
+    "word": "bevo",
+    "translation": "i've been drinking",
+    "context": "A colazione mangio sempre un cornetto e bevo un cappuccino caldo."
+  },
+  {
+    "id": "it_gen_161",
+    "word": "cappuccino",
+    "translation": "translation not found",
+    "context": "A colazione mangio sempre un cornetto e bevo un cappuccino caldo."
+  },
+  {
+    "id": "it_gen_162",
+    "word": "buono",
+    "translation": "good",
+    "context": "Il cappuccino è buono."
+  },
+  {
+    "id": "it_gen_163",
+    "word": "porto",
+    "translation": "translation not found",
+    "context": "Porto una gonna rossa, una camicia bianca e scarpe nere."
+  },
+  {
+    "id": "it_gen_164",
+    "word": "rossa",
+    "translation": "red",
+    "context": "Porto una gonna rossa, una camicia bianca e scarpe nere."
+  },
+  {
+    "id": "it_gen_165",
+    "word": "splende",
+    "translation": "translation not found",
+    "context": "Il sole splende e il cielo è blu."
+  },
+  {
+    "id": "it_gen_166",
+    "word": "cielo",
+    "translation": "sky",
+    "context": "Il sole splende e il cielo è blu."
+  },
+  {
+    "id": "it_gen_167",
+    "word": "cammino",
+    "translation": "path",
+    "context": "Cammino veloce verso la fermata dell'autobus."
+  },
+  {
+    "id": "it_gen_168",
+    "word": "verso",
+    "translation": "translation not found",
+    "context": "Cammino veloce verso la fermata dell'autobus."
+  },
+  {
+    "id": "it_gen_169",
+    "word": "puntuale",
+    "translation": "wanting to get involved in a new job",
+    "context": "L'autobus arriva puntuale alle sette e trenta."
+  },
+  {
+    "id": "it_gen_170",
+    "word": "trenta",
+    "translation": "thirty",
+    "context": "L'autobus arriva puntuale alle sette e trenta."
+  },
+  {
+    "id": "it_gen_171",
+    "word": "sull",
+    "translation": "on the",
+    "context": "Sull'autobus ci sono molte persone."
+  },
+  {
+    "id": "it_gen_172",
+    "word": "alcune",
+    "translation": "translation not found",
+    "context": "Alcune leggono il telefono, altre dormono ancora."
+  },
+  {
+    "id": "it_gen_173",
+    "word": "leggono",
+    "translation": "they read",
+    "context": "Alcune leggono il telefono, altre dormono ancora."
+  },
+  {
+    "id": "it_gen_174",
+    "word": "dentro",
+    "translation": "inside",
+    "context": "Dentro ci sono molte classi e tanti studenti."
+  },
+  {
+    "id": "it_gen_175",
+    "word": "marco",
+    "translation": "translation not found",
+    "context": "Il mio professore preferito si chiama Marco."
+  },
+  {
+    "id": "it_gen_176",
+    "word": "torno",
+    "translation": "translation not found",
+    "context": "Dopo la scuola, torno a casa e mangio il pranzo con la mia famiglia."
+  },
+  {
+    "id": "it_gen_177",
+    "word": "mamma",
+    "translation": "mum",
+    "context": "La mamma cucina sempre qualcosa di buono."
+  },
+  {
+    "id": "it_gen_178",
+    "word": "qualcosa",
+    "translation": "because you know something",
+    "context": "La mamma cucina sempre qualcosa di buono."
+  },
+  {
+    "id": "it_gen_179",
+    "word": "storie",
+    "translation": "stories",
+    "context": "Mi piace leggere storie di avventura."
+  },
+  {
+    "id": "it_gen_180",
+    "word": "luce",
+    "translation": "light",
+    "context": "Poi spengo la luce e mi addormento."
+  },
+  {
+    "id": "it_gen_181",
+    "word": "addormento",
+    "translation": "falling asleep",
+    "context": "Poi spengo la luce e mi addormento."
+  },
+  {
+    "id": "it_gen_182",
+    "word": "domani",
+    "translation": "tomorrow",
+    "context": "Domani è un altro giorno bello."
+  },
+  {
+    "id": "it_gen_183",
+    "word": "altro",
+    "translation": "other",
+    "context": "Domani è un altro giorno bello."
+  },
+  {
+    "id": "it_gen_184",
+    "word": "bello",
+    "translation": "beautiful",
+    "context": "Domani è un altro giorno bello."
+  },
+  {
+    "id": "it_gen_185",
+    "word": "vita",
+    "translation": "translation not found",
+    "context": "Sono felice della mia vita semplice e tranquilla a Roma."
+  },
+  {
+    "id": "it_gen_186",
+    "word": "altri",
+    "translation": "other",
+    "context": "Ogni giorno è quasi uguale agli altri, ma è sempre piacevole."
+  },
+  {
+    "id": "it_gen_187",
+    "word": "penso",
+    "translation": "i think.",
+    "context": "La sera penso a cosa faccio domani e sorrido."
+  },
+  {
+    "id": "it_gen_188",
+    "word": "cosa",
+    "translation": "what",
+    "context": "La sera penso a cosa faccio domani e sorrido."
+  },
+  {
+    "id": "it_gen_189",
+    "word": "pelo",
+    "translation": "hair ",
+    "context": "Si chiama Arancio perché ha il pelo arancione e soffice."
+  },
+  {
+    "id": "it_gen_190",
+    "word": "arancione",
+    "translation": "orange",
+    "context": "Si chiama Arancio perché ha il pelo arancione e soffice."
+  },
+  {
+    "id": "it_gen_191",
+    "word": "animale",
+    "translation": "animal",
+    "context": "È il mio animale preferito di tutto il mondo."
+  },
+  {
+    "id": "it_gen_192",
+    "word": "occhi",
+    "translation": "eyes ",
+    "context": "Mi guarda con i suoi grandi occhi verdi e fa le fusa."
+  },
+  {
+    "id": "it_gen_193",
+    "word": "verdi",
+    "translation": "translation not found",
+    "context": "Mi guarda con i suoi grandi occhi verdi e fa le fusa."
+  },
+  {
+    "id": "it_gen_194",
+    "word": "alzo",
+    "translation": "elevation",
+    "context": "Mi alzo e vado in cucina."
+  },
+  {
+    "id": "it_gen_195",
+    "word": "gatti",
+    "translation": "cats",
+    "context": "Prendo la boccia del cibo per gatti e metto il cibo nella ciotola di Arancio."
+  },
+  {
+    "id": "it_gen_196",
+    "word": "metto",
+    "translation": "i put ",
+    "context": "Prendo la boccia del cibo per gatti e metto il cibo nella ciotola di Arancio."
+  },
+  {
+    "id": "it_gen_197",
+    "word": "divertente",
+    "translation": "fun",
+    "context": "È molto divertente guardarlo."
+  },
+  {
+    "id": "it_gen_198",
+    "word": "divano",
+    "translation": "sofa",
+    "context": "Nel pomeriggio, Arancio dorme sul divano vicino alla finestra."
+  },
+  {
+    "id": "it_gen_199",
+    "word": "volte",
+    "translation": "times",
+    "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
+  },
+  {
+    "id": "it_gen_200",
+    "word": "muove",
+    "translation": "surface",
+    "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
+  },
+  {
+    "id": "it_gen_201",
+    "word": "suo",
+    "translation": ".",
+    "context": "Il suo pelo è morbidissimo sotto le mie dita."
+  },
+  {
+    "id": "it_gen_202",
+    "word": "aspetta",
+    "translation": "hold on. ",
+    "context": "La sera, quando ritorno da scuola, Arancio mi aspetta sempre vicino alla porta."
+  },
+  {
+    "id": "it_gen_203",
+    "word": "appena",
+    "translation": "\"hardly\",",
+    "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
+  },
+  {
+    "id": "it_gen_204",
+    "word": "incontro",
+    "translation": "encounter",
+    "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
+  },
+  {
+    "id": "it_gen_205",
+    "word": "gambe",
+    "translation": "legs",
+    "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
+  },
+  {
+    "id": "it_gen_206",
+    "word": "questa",
+    "translation": ".",
+    "context": "Ti ho aspettato tutto il giorno.' Questa cosa mi rende molto felice."
+  },
+  {
+    "id": "it_gen_207",
+    "word": "stanca",
+    "translation": "stanča",
+    "context": "Quando sono triste o stanca, lui sente la mia energia e si siede vicino a me."
+  },
+  {
+    "id": "it_gen_208",
+    "word": "tela",
+    "translation": "canvas",
+    "context": "Mia nonna prende sempre due borse di tela grandi e resistenti."
+  },
+  {
+    "id": "it_gen_209",
+    "word": "verdura",
+    "translation": "vegetable",
+    "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
+  },
+  {
+    "id": "it_gen_210",
+    "word": "nell",
+    "translation": "in",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_211",
+    "word": "aria",
+    "translation": "air",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_212",
+    "word": "vincenzo",
+    "translation": "james",
+    "context": "Il fruttivendolo si chiama Vincenzo."
+  },
+  {
+    "id": "it_gen_213",
+    "word": "pomodori",
+    "translation": "tomatoes",
+    "context": "Oggi compriamo pomodori rossi e maturi, pesche dolci e profumate, e un bel melone grande."
+  },
+  {
+    "id": "it_gen_214",
+    "word": "pezzo",
+    "translation": "part",
+    "context": "Compriamo un pezzo di pecorino stagionato e un po' di ricotta fresca."
+  },
+  {
+    "id": "it_gen_215",
+    "word": "ricotta",
+    "translation": "ricotta cheese",
+    "context": "Compriamo un pezzo di pecorino stagionato e un po' di ricotta fresca."
+  },
+  {
+    "id": "it_gen_216",
+    "word": "pietra",
+    "translation": "stone",
+    "context": "Quando tutte le borse sono piene e pesanti, ci sediamo su una panchina di pietra nella piazza soleggiata."
+  },
+  {
+    "id": "it_gen_217",
+    "word": "brioches",
+    "translation": "croissants",
+    "context": "Mia nonna compra due brioches calde dalla signora del bar vicino."
+  },
+  {
+    "id": "it_gen_218",
+    "word": "calde",
+    "translation": "cool down.",
+    "context": "Mia nonna compra due brioches calde dalla signora del bar vicino."
+  },
+  {
+    "id": "it_gen_219",
+    "word": "signora",
+    "translation": "ms.",
+    "context": "Mia nonna compra due brioches calde dalla signora del bar vicino."
+  },
+  {
+    "id": "it_gen_220",
+    "word": "bar",
+    "translation": "translation not found",
+    "context": "Mia nonna compra due brioches calde dalla signora del bar vicino."
+  },
+  {
+    "id": "it_gen_221",
+    "word": "guardiamo",
+    "translation": "at them...",
+    "context": "Mangiamo le nostre brioches e guardiamo la gente che passa."
+  },
+  {
+    "id": "it_gen_222",
+    "word": "gente",
+    "translation": ".",
+    "context": "Mangiamo le nostre brioches e guardiamo la gente che passa."
+  },
+  {
+    "id": "it_gen_223",
+    "word": "cose",
+    "translation": "translation not found",
+    "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
+  },
+  {
+    "id": "it_gen_224",
+    "word": "bellissime",
+    "translation": "wonderful villas",
+    "context": "Mia nonna mi racconta sempre storie bellissime di quando era giovane in questo stesso mercato."
+  },
+  {
+    "id": "it_gen_225",
+    "word": "comprare",
+    "translation": "buy",
+    "context": "Il mercato domenicale non è solo un posto dove comprare il cibo."
+  },
+  {
+    "id": "it_gen_226",
+    "word": "dai",
+    "translation": "translation not found",
+    "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
+  },
+  {
+    "id": "it_gen_227",
+    "word": "vivo",
+    "translation": "i live",
+    "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
+  },
+  {
+    "id": "it_gen_228",
+    "word": "dura",
+    "translation": "hard",
+    "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
+  },
+  {
+    "id": "it_gen_229",
+    "word": "hanno",
+    "translation": "\"have\",",
+    "context": "Tutti hanno una valigia, uno zaino o una borsa voluminosa."
+  },
+  {
+    "id": "it_gen_230",
+    "word": "nelle",
+    "translation": "into the",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_231",
+    "word": "qualche",
+    "translation": "some",
+    "context": "Io arrivo sempre con qualche minuto di anticipo per trovare un buon posto vicino al finestrino."
+  },
+  {
+    "id": "it_gen_232",
+    "word": "trovare",
+    "translation": "find",
+    "context": "Io arrivo sempre con qualche minuto di anticipo per trovare un buon posto vicino al finestrino."
+  },
+  {
+    "id": "it_gen_233",
+    "word": "lentamente",
+    "translation": "slowly,",
+    "context": "Il treno parte puntuale e lascia lentamente il grande capoluogo milanese."
+  },
+  {
+    "id": "it_gen_234",
+    "word": "palazzi",
+    "translation": "palazzo",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_235",
+    "word": "silenziosi",
+    "translation": "silent",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_236",
+    "word": "campagna",
+    "translation": "campaign",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_237",
+    "word": "dal",
+    "translation": "from",
+    "context": "Ogni tanto alzo gli occhi dal libro e guardo fuori."
+  },
+  {
+    "id": "it_gen_238",
+    "word": "subito",
+    "translation": "at once",
+    "context": "Mi abbraccia forte e mi chiede subito se ho mangiato bene durante la settimana."
+  },
+  {
+    "id": "it_gen_239",
+    "word": "fatta",
+    "translation": "[background talking]",
+    "context": "Mio padre ha già preparato la cena: pasta fatta in casa con il ragù della nonna, il piatto che amo di più al mondo."
+  },
+  {
+    "id": "it_gen_240",
+    "word": "ascolto",
+    "translation": "informed",
+    "context": "Rido, racconto, ascolto e dimentico completamente lo stress del lavoro e della città."
+  },
+  {
+    "id": "it_gen_241",
+    "word": "dimentico",
+    "translation": "i forget",
+    "context": "Rido, racconto, ascolto e dimentico completamente lo stress del lavoro e della città."
+  },
+  {
+    "id": "it_gen_242",
+    "word": "completamente",
+    "translation": "fully",
+    "context": "Rido, racconto, ascolto e dimentico completamente lo stress del lavoro e della città."
+  },
+  {
+    "id": "it_gen_243",
+    "word": "quella",
+    "translation": "translation not found",
+    "context": "Quella strana, dolce sensazione di tornare a casa ogni venerdì sera è qualcosa che non cambierei mai con nulla al mondo."
+  },
+  {
+    "id": "it_gen_244",
+    "word": "scorso",
+    "translation": "performed",
+    "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
+  },
+  {
+    "id": "it_gen_245",
+    "word": "bellissima",
+    "translation": "it was magnificent.",
+    "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
+  },
+  {
+    "id": "it_gen_246",
+    "word": "gita",
+    "translation": "tour",
+    "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
+  },
+  {
+    "id": "it_gen_247",
+    "word": "noi",
+    "translation": "about us",
+    "context": "Venezia è una città unica al mondo e molti di noi non l'avevano mai visitata prima."
+  },
+  {
+    "id": "it_gen_248",
+    "word": "professoressa",
+    "translation": "comic",
+    "context": "La professoressa di storia, la signora Ferretti, ci ha chiesto di fare silenzio almeno per la prima mezz'ora."
+  },
+  {
+    "id": "it_gen_249",
+    "word": "silenzio",
+    "translation": "translation not found",
+    "context": "La professoressa di storia, la signora Ferretti, ci ha chiesto di fare silenzio almeno per la prima mezz'ora."
+  },
+  {
+    "id": "it_gen_250",
+    "word": "laguna",
+    "translation": "lagoon",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_251",
+    "word": "momento",
+    "translation": "the time",
+    "context": "Quando Venezia è apparsa davanti a noi dall'acqua, è stato un momento di pura magia."
+  },
+  {
+    "id": "it_gen_252",
+    "word": "avevo",
+    "translation": "i was messed up",
+    "context": "Avevo visto le foto, certo, ma dal vivo era completamente diverso."
+  },
+  {
+    "id": "it_gen_253",
+    "word": "foto",
+    "translation": "photos",
+    "context": "Avevo visto le foto, certo, ma dal vivo era completamente diverso."
+  },
+  {
+    "id": "it_gen_254",
+    "word": "diverso",
+    "translation": "different",
+    "context": "Avevo visto le foto, certo, ma dal vivo era completamente diverso."
+  },
+  {
+    "id": "it_gen_255",
+    "word": "palazzo",
+    "translation": "palace",
+    "context": "Abbiamo visitato Piazza San Marco, la Basilica e il famoso Palazzo Ducale."
+  },
+  {
+    "id": "it_gen_256",
+    "word": "cercato",
+    "translation": "sought after,",
+    "context": "Io e i miei migliori amici abbiamo subito cercato una gelateria."
+  },
+  {
+    "id": "it_gen_257",
+    "word": "cioccolato",
+    "translation": "chocolate",
+    "context": "Abbiamo mangiato dei gelati artigianali eccezionali con gusti di pistacchio, cioccolato fondente e amarena."
+  },
+  {
+    "id": "it_gen_258",
+    "word": "comprato",
+    "translation": "bought",
+    "context": "Prima di partire, ho comprato un piccolo carnevale veneziano in vetro di Murano come ricordo per mia madre."
+  },
+  {
+    "id": "it_gen_259",
+    "word": "tardi",
+    "translation": "later.",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_260",
+    "word": "pieno",
+    "translation": "full",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_261",
+    "word": "arte",
+    "translation": "art",
+    "context": "Quella gita ha cambiato il mio modo di vedere l'arte e la storia."
+  },
+  {
+    "id": "it_gen_262",
+    "word": "trovato",
+    "translation": "found",
+    "context": "Prima vivevo ancora con i miei genitori in una grande casa in periferia, ma quando ho trovato lavoro in città ho deciso finalmente di diventare indipendente."
+  },
+  {
+    "id": "it_gen_263",
+    "word": "finalmente",
+    "translation": "finally.",
+    "context": "Prima vivevo ancora con i miei genitori in una grande casa in periferia, ma quando ho trovato lavoro in città ho deciso finalmente di diventare indipendente."
+  },
+  {
+    "id": "it_gen_264",
+    "word": "grazie",
+    "translation": "thank you",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_265",
+    "word": "degli",
+    "translation": "translation not found",
+    "context": "L'appartamento si trova al terzo piano di un palazzo degli anni Sessanta."
+  },
+  {
+    "id": "it_gen_266",
+    "word": "piedi",
+    "translation": "feet",
+    "context": "Non c'è l'ascensore, quindi ogni giorno faccio le scale a piedi, ma mi sono abituata in fretta e ormai non ci penso quasi più."
+  },
+  {
+    "id": "it_gen_267",
+    "word": "camera",
+    "translation": "room",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_268",
+    "word": "luci",
+    "translation": "lights",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_269",
+    "word": "bianche",
+    "translation": "translation not found",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_270",
+    "word": "difficile",
+    "translation": "difficult",
+    "context": "Il momento più difficile del primo mese è stato imparare a cucinare da sola ogni sera."
+  },
+  {
+    "id": "it_gen_271",
+    "word": "mese",
+    "translation": "month",
+    "context": "Il momento più difficile del primo mese è stato imparare a cucinare da sola ogni sera."
+  },
+  {
+    "id": "it_gen_272",
+    "word": "imparare",
+    "translation": "learn",
+    "context": "Il momento più difficile del primo mese è stato imparare a cucinare da sola ogni sera."
+  },
+  {
+    "id": "it_gen_273",
+    "word": "devo",
+    "translation": "need",
+    "context": "Ora devo pensare da sola alla spesa, ai pasti, alla pulizia e a tutto il resto."
+  },
+  {
+    "id": "it_gen_274",
+    "word": "sento",
+    "translation": "do you hear ?",
+    "context": "Mi sento finalmente a casa mia, padrona del mio spazio e del mio tempo."
+  },
+  {
+    "id": "it_gen_275",
+    "word": "italia",
+    "translation": "italy",
+    "context": "Firenze è una città d'arte molto famosa in Italia."
+  },
+  {
+    "id": "it_gen_276",
+    "word": "vedo",
+    "translation": "l see",
+    "context": "Vedo il Duomo, è bellissimo e molto grande."
+  },
+  {
+    "id": "it_gen_277",
+    "word": "bicchiere",
+    "translation": "glass",
+    "context": "Bevo un bicchiere di acqua naturale."
+  },
+  {
+    "id": "it_gen_278",
+    "word": "lingua",
+    "translation": "translation not found",
+    "context": "La scuola si chiama \"Lingua Viva\"."
+  },
+  {
+    "id": "it_gen_279",
+    "word": "dieci",
+    "translation": "ten",
+    "context": "Siamo dieci studenti in tutto."
+  },
+  {
+    "id": "it_gen_280",
+    "word": "lucia",
+    "translation": "translation not found",
+    "context": "La nostra insegnante si chiama Lucia."
+  },
+  {
+    "id": "it_gen_281",
+    "word": "avere",
+    "translation": "to have",
+    "context": "Oggi studiamo i verbi: essere, avere e fare."
+  },
+  {
+    "id": "it_gen_282",
+    "word": "rosso",
+    "translation": "pad",
+    "context": "Io prendo appunti nel mio qualderno rosso."
+  },
+  {
+    "id": "it_gen_283",
+    "word": "insieme",
+    "translation": "translation not found",
+    "context": "Beviamo un caffè insieme al bar vicino alla scuola."
+  },
+  {
+    "id": "it_gen_284",
+    "word": "musica",
+    "translation": "music",
+    "context": "A casa faccio i compiti e ascolto musica italiana."
+  },
+  {
+    "id": "it_gen_285",
+    "word": "sabato",
+    "translation": "saturday",
+    "context": "Oggi è sabato e devo fare la spesa."
+  },
+  {
+    "id": "it_gen_286",
+    "word": "reparto",
+    "translation": "ward",
+    "context": "Prima vado nel reparto frutta e verdura."
+  },
+  {
+    "id": "it_gen_287",
+    "word": "chilo",
+    "translation": "kilo-",
+    "context": "Compro un chilo di mele rosse, sei banane e un chilo di pomodori freschi."
+  },
+  {
+    "id": "it_gen_288",
+    "word": "insalata",
+    "translation": "salad",
+    "context": "Poi prendo l'insalata e le carote."
+  },
+  {
+    "id": "it_gen_289",
+    "word": "pacchi",
+    "translation": "packages",
+    "context": "Compro tre pacchi di spaghetti e due pacchi di penne."
+  },
+  {
+    "id": "it_gen_290",
+    "word": "montagna",
+    "translation": "mountain  montagna",
+    "context": "Questo fine settimana vado in montagna con i miei amici."
+  },
+  {
+    "id": "it_gen_291",
+    "word": "vediamo",
+    "translation": "let's take a look",
+    "context": "Vediamo le montagne alte con la neve bianca."
+  },
+  {
+    "id": "it_gen_292",
+    "word": "albergo",
+    "translation": "hotel",
+    "context": "Arriviamo in un albergo accogliente e pulito."
+  },
+  {
+    "id": "it_gen_293",
+    "word": "funghi",
+    "translation": "mushrooms",
+    "context": "Troviamo anche dei funghi sotto gli alberi."
+  },
+  {
+    "id": "it_gen_294",
+    "word": "festa",
+    "translation": "fete",
+    "context": "Organizzo una festa nel giardino di casa mia."
+  },
+  {
+    "id": "it_gen_295",
+    "word": "giardino",
+    "translation": "garden",
+    "context": "Organizzo una festa nel giardino di casa mia."
+  },
+  {
+    "id": "it_gen_296",
+    "word": "torta",
+    "translation": "cake",
+    "context": "Mia madre porta una torta al cioccolato fatta in casa."
+  },
+  {
+    "id": "it_gen_297",
+    "word": "giulia",
+    "translation": "translation not found",
+    "context": "Mi chiamo Giulia."
+  },
+  {
+    "id": "it_gen_298",
+    "word": "ventitré",
+    "translation": "twenty three",
+    "context": "Ho ventitré anni e abito a Roma."
+  },
+  {
+    "id": "it_gen_299",
+    "word": "abito",
+    "translation": "frock",
+    "context": "Ho ventitré anni e abito a Roma."
+  },
+  {
+    "id": "it_gen_300",
+    "word": "bella",
+    "translation": "it's beautiful",
+    "context": "Roma è una città molto bella e grande."
+  },
+  {
+    "id": "it_gen_301",
+    "word": "lavo",
+    "translation": "hands before eating",
+    "context": "Vado in bagno e mi lavo la faccia con l'acqua fredda."
+  },
+  {
+    "id": "it_gen_302",
+    "word": "faccia",
+    "translation": "face",
+    "context": "Vado in bagno e mi lavo la faccia con l'acqua fredda."
+  },
+  {
+    "id": "it_gen_303",
+    "word": "fredda",
+    "translation": "cold",
+    "context": "Vado in bagno e mi lavo la faccia con l'acqua fredda."
+  },
+  {
+    "id": "it_gen_304",
+    "word": "cornetto",
+    "translation": "croissant",
+    "context": "A colazione mangio sempre un cornetto e bevo un cappuccino caldo."
+  },
+  {
+    "id": "it_gen_305",
+    "word": "vesto",
+    "translation": "dress",
+    "context": "Dopo la colazione, mi vesto."
+  },
+  {
+    "id": "it_gen_306",
+    "word": "gonna",
+    "translation": "skirt",
+    "context": "Porto una gonna rossa, una camicia bianca e scarpe nere."
+  },
+  {
+    "id": "it_gen_307",
+    "word": "camicia",
+    "translation": "shirt",
+    "context": "Porto una gonna rossa, una camicia bianca e scarpe nere."
+  },
+  {
+    "id": "it_gen_308",
+    "word": "scarpe",
+    "translation": "shoes",
+    "context": "Porto una gonna rossa, una camicia bianca e scarpe nere."
+  },
+  {
+    "id": "it_gen_309",
+    "word": "nere",
+    "translation": "translation not found",
+    "context": "Porto una gonna rossa, una camicia bianca e scarpe nere."
+  },
+  {
+    "id": "it_gen_310",
+    "word": "esco",
+    "translation": "went out. ",
+    "context": "Prendo la borsa e esco di casa."
+  },
+  {
+    "id": "it_gen_311",
+    "word": "blu",
+    "translation": "blue",
+    "context": "Il sole splende e il cielo è blu."
+  },
+  {
+    "id": "it_gen_312",
+    "word": "veloce",
+    "translation": "fast",
+    "context": "Cammino veloce verso la fermata dell'autobus."
+  },
+  {
+    "id": "it_gen_313",
+    "word": "fermata",
+    "translation": "stop",
+    "context": "Cammino veloce verso la fermata dell'autobus."
+  },
+  {
+    "id": "it_gen_314",
+    "word": "arriva",
+    "translation": "is transmitted",
+    "context": "L'autobus arriva puntuale alle sette e trenta."
+  },
+  {
+    "id": "it_gen_315",
+    "word": "telefono",
+    "translation": "phone",
+    "context": "Alcune leggono il telefono, altre dormono ancora."
+  },
+  {
+    "id": "it_gen_316",
+    "word": "altre",
+    "translation": "other",
+    "context": "Alcune leggono il telefono, altre dormono ancora."
+  },
+  {
+    "id": "it_gen_317",
+    "word": "dormono",
+    "translation": "they are in a daydream!!",
+    "context": "Alcune leggono il telefono, altre dormono ancora."
+  },
+  {
+    "id": "it_gen_318",
+    "word": "scendo",
+    "translation": "i'm coming down",
+    "context": "Scendo dopo venti minuti davanti alla mia scuola."
+  },
+  {
+    "id": "it_gen_319",
+    "word": "venti",
+    "translation": "twenty",
+    "context": "Scendo dopo venti minuti davanti alla mia scuola."
+  },
+  {
+    "id": "it_gen_320",
+    "word": "edificio",
+    "translation": "plant",
+    "context": "La scuola è un edificio grande e verde."
+  },
+  {
+    "id": "it_gen_321",
+    "word": "classi",
+    "translation": "classes",
+    "context": "Dentro ci sono molte classi e tanti studenti."
+  },
+  {
+    "id": "it_gen_322",
+    "word": "tanti",
+    "translation": "so many gracie",
+    "context": "Dentro ci sono molte classi e tanti studenti."
+  },
+  {
+    "id": "it_gen_323",
+    "word": "simpatici",
+    "translation": "sympathetic",
+    "context": "I miei compagni di classe sono simpatici e amichevoli."
+  },
+  {
+    "id": "it_gen_324",
+    "word": "amichevoli",
+    "translation": "friendly matches",
+    "context": "I miei compagni di classe sono simpatici e amichevoli."
+  },
+  {
+    "id": "it_gen_325",
+    "word": "professore",
+    "translation": "professor",
+    "context": "Il mio professore preferito si chiama Marco."
+  },
+  {
+    "id": "it_gen_326",
+    "word": "insegna",
+    "translation": "enseigne",
+    "context": "Lui insegna italiano e storia."
+  },
+  {
+    "id": "it_gen_327",
+    "word": "sue",
+    "translation": "translation not found",
+    "context": "Le sue lezioni sono sempre molto interessanti."
+  },
+  {
+    "id": "it_gen_328",
+    "word": "lezioni",
+    "translation": "classes",
+    "context": "Le sue lezioni sono sempre molto interessanti."
+  },
+  {
+    "id": "it_gen_329",
+    "word": "interessanti",
+    "translation": "interesting",
+    "context": "Le sue lezioni sono sempre molto interessanti."
+  },
+  {
+    "id": "it_gen_330",
+    "word": "prepara",
+    "translation": "",
+    "context": "Oggi prepara la pasta al pomodoro, il mio piatto preferito."
+  },
+  {
+    "id": "it_gen_331",
+    "word": "pomodoro",
+    "translation": "tomato",
+    "context": "Oggi prepara la pasta al pomodoro, il mio piatto preferito."
+  },
+  {
+    "id": "it_gen_332",
+    "word": "matematica",
+    "translation": "maths",
+    "context": "I compiti di matematica sono difficili oggi, ma alla fine capisco tutto."
+  },
+  {
+    "id": "it_gen_333",
+    "word": "difficili",
+    "translation": " conditions.",
+    "context": "I compiti di matematica sono difficili oggi, ma alla fine capisco tutto."
+  },
+  {
+    "id": "it_gen_334",
+    "word": "capisco",
+    "translation": "i understand",
+    "context": "I compiti di matematica sono difficili oggi, ma alla fine capisco tutto."
+  },
+  {
+    "id": "it_gen_335",
+    "word": "televisione",
+    "translation": "television",
+    "context": "La sera guardo un po' di televisione con i miei genitori."
+  },
+  {
+    "id": "it_gen_336",
+    "word": "serie",
+    "translation": "progressive no. ",
+    "context": "Guardo una serie comica che mi fa ridere molto."
+  },
+  {
+    "id": "it_gen_337",
+    "word": "comica",
+    "translation": "comical. ",
+    "context": "Guardo una serie comica che mi fa ridere molto."
+  },
+  {
+    "id": "it_gen_338",
+    "word": "ridere",
+    "translation": "laughter",
+    "context": "Guardo una serie comica che mi fa ridere molto."
+  },
+  {
+    "id": "it_gen_339",
+    "word": "andare",
+    "translation": "be",
+    "context": "Prima di andare a letto, leggo un libro per trenta minuti."
+  },
+  {
+    "id": "it_gen_340",
+    "word": "leggo",
+    "translation": "do you read ?",
+    "context": "Prima di andare a letto, leggo un libro per trenta minuti."
+  },
+  {
+    "id": "it_gen_341",
+    "word": "leggere",
+    "translation": "lightweight",
+    "context": "Mi piace leggere storie di avventura."
+  },
+  {
+    "id": "it_gen_342",
+    "word": "avventura",
+    "translation": "park",
+    "context": "Mi piace leggere storie di avventura."
+  },
+  {
+    "id": "it_gen_343",
+    "word": "spengo",
+    "translation": "let me just turn it off. ",
+    "context": "Poi spengo la luce e mi addormento."
+  },
+  {
+    "id": "it_gen_344",
+    "word": "semplice",
+    "translation": "ordinary",
+    "context": "Sono felice della mia vita semplice e tranquilla a Roma."
+  },
+  {
+    "id": "it_gen_345",
+    "word": "tranquilla",
+    "translation": "brings",
+    "context": "Sono felice della mia vita semplice e tranquilla a Roma."
+  },
+  {
+    "id": "it_gen_346",
+    "word": "uguale",
+    "translation": "same",
+    "context": "Ogni giorno è quasi uguale agli altri, ma è sempre piacevole."
+  },
+  {
+    "id": "it_gen_347",
+    "word": "agli",
+    "translation": "translation not found",
+    "context": "Ogni giorno è quasi uguale agli altri, ma è sempre piacevole."
+  },
+  {
+    "id": "it_gen_348",
+    "word": "piacevole",
+    "translation": "pleasant",
+    "context": "Ogni giorno è quasi uguale agli altri, ma è sempre piacevole."
+  },
+  {
+    "id": "it_gen_349",
+    "word": "sorrido",
+    "translation": "i smile.",
+    "context": "La sera penso a cosa faccio domani e sorrido."
+  },
+  {
+    "id": "it_gen_350",
+    "word": "gatto",
+    "translation": "cat",
+    "context": "Ho un gatto."
+  },
+  {
+    "id": "it_gen_351",
+    "word": "soffice",
+    "translation": "translation not found",
+    "context": "Si chiama Arancio perché ha il pelo arancione e soffice."
+  },
+  {
+    "id": "it_gen_352",
+    "word": "quattro",
+    "translation": "four",
+    "context": "Arancio ha quattro anni."
+  },
+  {
+    "id": "it_gen_353",
+    "word": "guarda",
+    "translation": "look",
+    "context": "Mi guarda con i suoi grandi occhi verdi e fa le fusa."
+  },
+  {
+    "id": "it_gen_354",
+    "word": "suoi",
+    "translation": "his",
+    "context": "Mi guarda con i suoi grandi occhi verdi e fa le fusa."
+  },
+  {
+    "id": "it_gen_355",
+    "word": "suono",
+    "translation": "sound",
+    "context": "Le fusa di Arancio sono il suono più bello del mondo per me."
+  },
+  {
+    "id": "it_gen_356",
+    "word": "boccia",
+    "translation": "+ damper",
+    "context": "Prendo la boccia del cibo per gatti e metto il cibo nella ciotola di Arancio."
+  },
+  {
+    "id": "it_gen_357",
+    "word": "ciotola",
+    "translation": "a teaspoon of honey",
+    "context": "Prendo la boccia del cibo per gatti e metto il cibo nella ciotola di Arancio."
+  },
+  {
+    "id": "it_gen_358",
+    "word": "mangia",
+    "translation": "eats",
+    "context": "Lui mangia velocemente e poi beve l'acqua fresca."
+  },
+  {
+    "id": "it_gen_359",
+    "word": "velocemente",
+    "translation": "rapidly",
+    "context": "Lui mangia velocemente e poi beve l'acqua fresca."
+  },
+  {
+    "id": "it_gen_360",
+    "word": "beve",
+    "translation": "for breakfast i eat milk and cereal",
+    "context": "Lui mangia velocemente e poi beve l'acqua fresca."
+  },
+  {
+    "id": "it_gen_361",
+    "word": "contento",
+    "translation": "contented",
+    "context": "Dopo mangiato, Arancio è molto contento e gioca un po' in cucina."
+  },
+  {
+    "id": "it_gen_362",
+    "word": "gioca",
+    "translation": "plays",
+    "context": "Dopo mangiato, Arancio è molto contento e gioca un po' in cucina."
+  },
+  {
+    "id": "it_gen_363",
+    "word": "giocattolo",
+    "translation": "toy",
+    "context": "Ha un giocattolo preferito: un topolino di plastica gialla."
+  },
+  {
+    "id": "it_gen_364",
+    "word": "topolino",
+    "translation": "mickey mouse",
+    "context": "Ha un giocattolo preferito: un topolino di plastica gialla."
+  },
+  {
+    "id": "it_gen_365",
+    "word": "plastica",
+    "translation": "plastic",
+    "context": "Ha un giocattolo preferito: un topolino di plastica gialla."
+  },
+  {
+    "id": "it_gen_366",
+    "word": "gialla",
+    "translation": "yellow",
+    "context": "Ha un giocattolo preferito: un topolino di plastica gialla."
+  },
+  {
+    "id": "it_gen_367",
+    "word": "bocca",
+    "translation": "mouth",
+    "context": "Lo porta in bocca e corre per tutta la casa."
+  },
+  {
+    "id": "it_gen_368",
+    "word": "corre",
+    "translation": "runs away,",
+    "context": "Lo porta in bocca e corre per tutta la casa."
+  },
+  {
+    "id": "it_gen_369",
+    "word": "guardarlo",
+    "translation": "seeing it.",
+    "context": "È molto divertente guardarlo."
+  },
+  {
+    "id": "it_gen_370",
+    "word": "dorme",
+    "translation": "sleeps",
+    "context": "Nel pomeriggio, Arancio dorme sul divano vicino alla finestra."
+  },
+  {
+    "id": "it_gen_371",
+    "word": "entra",
+    "translation": "enters",
+    "context": "Il sole entra dalla finestra e lo scalda."
+  },
+  {
+    "id": "it_gen_372",
+    "word": "scalda",
+    "translation": "tale!).",
+    "context": "Il sole entra dalla finestra e lo scalda."
+  },
+  {
+    "id": "it_gen_373",
+    "word": "sonno",
+    "translation": "sleep: [illegible]",
+    "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
+  },
+  {
+    "id": "it_gen_374",
+    "word": "zampe",
+    "translation": "feet",
+    "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
+  },
+  {
+    "id": "it_gen_375",
+    "word": "stesse",
+    "translation": "same. ",
+    "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
+  },
+  {
+    "id": "it_gen_376",
+    "word": "correndo",
+    "translation": "running.",
+    "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
+  },
+  {
+    "id": "it_gen_377",
+    "word": "sogno",
+    "translation": "dream",
+    "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
+  },
+  {
+    "id": "it_gen_378",
+    "word": "siedo",
+    "translation": "i sat",
+    "context": "Io mi siedo accanto a lui e lo accarezzo piano piano."
+  },
+  {
+    "id": "it_gen_379",
+    "word": "accanto",
+    "translation": "\"beside\",",
+    "context": "Io mi siedo accanto a lui e lo accarezzo piano piano."
+  },
+  {
+    "id": "it_gen_380",
+    "word": "accarezzo",
+    "translation": "caress",
+    "context": "Io mi siedo accanto a lui e lo accarezzo piano piano."
+  },
+  {
+    "id": "it_gen_381",
+    "word": "morbidissimo",
+    "translation": "super soft",
+    "context": "Il suo pelo è morbidissimo sotto le mie dita."
+  },
+  {
+    "id": "it_gen_382",
+    "word": "mie",
+    "translation": "mine",
+    "context": "Il suo pelo è morbidissimo sotto le mie dita."
+  },
+  {
+    "id": "it_gen_383",
+    "word": "dita",
+    "translation": "finger",
+    "context": "Il suo pelo è morbidissimo sotto le mie dita."
+  },
+  {
+    "id": "it_gen_384",
+    "word": "ritorno",
+    "translation": "line",
+    "context": "La sera, quando ritorno da scuola, Arancio mi aspetta sempre vicino alla porta."
+  },
+  {
+    "id": "it_gen_385",
+    "word": "entro",
+    "translation": "within",
+    "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
+  },
+  {
+    "id": "it_gen_386",
+    "word": "viene",
+    "translation": "prompt",
+    "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
+  },
+  {
+    "id": "it_gen_387",
+    "word": "sfrega",
+    "translation": "rub",
+    "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
+  },
+  {
+    "id": "it_gen_388",
+    "word": "testa",
+    "translation": "head,",
+    "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
+  },
+  {
+    "id": "it_gen_389",
+    "word": "sembra",
+    "translation": "\"looks\",",
+    "context": "Mi sembra di dire: 'Bentornata a casa!"
+  },
+  {
+    "id": "it_gen_390",
+    "word": "dire",
+    "translation": "\"say\",",
+    "context": "Mi sembra di dire: 'Bentornata a casa!"
+  },
+  {
+    "id": "it_gen_391",
+    "word": "bentornata",
+    "translation": "welcome back. ",
+    "context": "Mi sembra di dire: 'Bentornata a casa!"
+  },
+  {
+    "id": "it_gen_392",
+    "word": "aspettato",
+    "translation": "expected",
+    "context": "Ti ho aspettato tutto il giorno.' Questa cosa mi rende molto felice."
+  },
+  {
+    "id": "it_gen_393",
+    "word": "rende",
+    "translation": "translation not found",
+    "context": "Ti ho aspettato tutto il giorno.' Questa cosa mi rende molto felice."
+  },
+  {
+    "id": "it_gen_394",
+    "word": "fratello",
+    "translation": "mud",
+    "context": "Mio fratello dice che i gatti non amano i padroni, ma io non sono d'accordo."
+  },
+  {
+    "id": "it_gen_395",
+    "word": "dice",
+    "translation": "says",
+    "context": "Mio fratello dice che i gatti non amano i padroni, ma io non sono d'accordo."
+  },
+  {
+    "id": "it_gen_396",
+    "word": "amano",
+    "translation": "by hand",
+    "context": "Mio fratello dice che i gatti non amano i padroni, ma io non sono d'accordo."
+  },
+  {
+    "id": "it_gen_397",
+    "word": "padroni",
+    "translation": "the owners.",
+    "context": "Mio fratello dice che i gatti non amano i padroni, ma io non sono d'accordo."
+  },
+  {
+    "id": "it_gen_398",
+    "word": "accordo",
+    "translation": "translation not found",
+    "context": "Mio fratello dice che i gatti non amano i padroni, ma io non sono d'accordo."
+  },
+  {
+    "id": "it_gen_399",
+    "word": "vuole",
+    "translation": "wants",
+    "context": "Arancio mi vuole bene, ne sono sicurissima."
+  },
+  {
+    "id": "it_gen_400",
+    "word": "sicurissima",
+    "translation": "i'm very sure. ",
+    "context": "Arancio mi vuole bene, ne sono sicurissima."
+  },
+  {
+    "id": "it_gen_401",
+    "word": "triste",
+    "translation": "sad, ",
+    "context": "Quando sono triste o stanca, lui sente la mia energia e si siede vicino a me."
+  },
+  {
+    "id": "it_gen_402",
+    "word": "sente",
+    "translation": "translation not found",
+    "context": "Quando sono triste o stanca, lui sente la mia energia e si siede vicino a me."
+  },
+  {
+    "id": "it_gen_403",
+    "word": "energia",
+    "translation": "energy",
+    "context": "Quando sono triste o stanca, lui sente la mia energia e si siede vicino a me."
+  },
+  {
+    "id": "it_gen_404",
+    "word": "siede",
+    "translation": "he sits down.",
+    "context": "Quando sono triste o stanca, lui sente la mia energia e si siede vicino a me."
+  },
+  {
+    "id": "it_gen_405",
+    "word": "dirmi",
+    "translation": "tell me",
+    "context": "È il suo modo per dirmi che tutto va bene."
+  },
+  {
+    "id": "it_gen_406",
+    "word": "posso",
+    "translation": "i can",
+    "context": "Non posso immaginare la mia vita senza Arancio."
+  },
+  {
+    "id": "it_gen_407",
+    "word": "immaginare",
+    "translation": "imagine",
+    "context": "Non posso immaginare la mia vita senza Arancio."
+  },
+  {
+    "id": "it_gen_408",
+    "word": "senza",
+    "translation": "translation not found",
+    "context": "Non posso immaginare la mia vita senza Arancio."
+  },
+  {
+    "id": "it_gen_409",
+    "word": "domestico",
+    "translation": "translation not found",
+    "context": "Lui non è solo un animale domestico, è un vero membro della mia famiglia e il mio migliore amico silenzioso."
+  },
+  {
+    "id": "it_gen_410",
+    "word": "vero",
+    "translation": "true",
+    "context": "Lui non è solo un animale domestico, è un vero membro della mia famiglia e il mio migliore amico silenzioso."
+  },
+  {
+    "id": "it_gen_411",
+    "word": "membro",
+    "translation": "ember",
+    "context": "Lui non è solo un animale domestico, è un vero membro della mia famiglia e il mio migliore amico silenzioso."
+  },
+  {
+    "id": "it_gen_412",
+    "word": "migliore",
+    "translation": "best",
+    "context": "Lui non è solo un animale domestico, è un vero membro della mia famiglia e il mio migliore amico silenzioso."
+  },
+  {
+    "id": "it_gen_413",
+    "word": "amico",
+    "translation": "a precious collaborator of mine",
+    "context": "Lui non è solo un animale domestico, è un vero membro della mia famiglia e il mio migliore amico silenzioso."
+  },
+  {
+    "id": "it_gen_414",
+    "word": "silenzioso",
+    "translation": "mute",
+    "context": "Lui non è solo un animale domestico, è un vero membro della mia famiglia e il mio migliore amico silenzioso."
+  },
+  {
+    "id": "it_gen_415",
+    "word": "chiesa",
+    "translation": "church",
+    "context": "Il mercato è in piazza, vicino alla chiesa del paese."
+  },
+  {
+    "id": "it_gen_416",
+    "word": "animato",
+    "translation": "animated",
+    "context": "È un posto animato e colorato che mi piace molto."
+  },
+  {
+    "id": "it_gen_417",
+    "word": "colorato",
+    "translation": "colorful",
+    "context": "È un posto animato e colorato che mi piace molto."
+  },
+  {
+    "id": "it_gen_418",
+    "word": "partiamo",
+    "translation": "let's do it",
+    "context": "Partiamo da casa alle nove."
+  },
+  {
+    "id": "it_gen_419",
+    "word": "prende",
+    "translation": "earn",
+    "context": "Mia nonna prende sempre due borse di tela grandi e resistenti."
+  },
+  {
+    "id": "it_gen_420",
+    "word": "resistenti",
+    "translation": "resistant",
+    "context": "Mia nonna prende sempre due borse di tela grandi e resistenti."
+  },
+  {
+    "id": "it_gen_421",
+    "word": "apre",
+    "translation": "opens",
+    "context": "Il mercato apre di buonissima ora e già alle nove ci sono molte persone che camminano tra i banchi."
+  },
+  {
+    "id": "it_gen_422",
+    "word": "buonissima",
+    "translation": "delicious!",
+    "context": "Il mercato apre di buonissima ora e già alle nove ci sono molte persone che camminano tra i banchi."
+  },
+  {
+    "id": "it_gen_423",
+    "word": "camminano",
+    "translation": "camminano.",
+    "context": "Il mercato apre di buonissima ora e già alle nove ci sono molte persone che camminano tra i banchi."
+  },
+  {
+    "id": "it_gen_424",
+    "word": "tra",
+    "translation": "between",
+    "context": "Il mercato apre di buonissima ora e già alle nove ci sono molte persone che camminano tra i banchi."
+  },
+  {
+    "id": "it_gen_425",
+    "word": "formaggi",
+    "translation": "cheese",
+    "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
+  },
+  {
+    "id": "it_gen_426",
+    "word": "salumi",
+    "translation": "cold cuts;",
+    "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
+  },
+  {
+    "id": "it_gen_427",
+    "word": "vestiti",
+    "translation": "clothes",
+    "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
+  },
+  {
+    "id": "it_gen_428",
+    "word": "odore",
+    "translation": "translation not found",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_429",
+    "word": "meraviglioso",
+    "translation": "to a wonderful",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_430",
+    "word": "profuma",
+    "translation": "perfumes",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_431",
+    "word": "matura",
+    "translation": "mature",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_432",
+    "word": "sfornato",
+    "translation": "baked",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_433",
+    "word": "fiori",
+    "translation": "dj flowers",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_434",
+    "word": "fruttivendolo",
+    "translation": "fruit",
+    "context": "Il fruttivendolo si chiama Vincenzo."
+  },
+  {
+    "id": "it_gen_435",
+    "word": "conosce",
+    "translation": "aware",
+    "context": "Lui conosce mia nonna da molti anni e la saluta sempre con un grande sorriso."
+  },
+  {
+    "id": "it_gen_436",
+    "word": "saluta",
+    "translation": "say hello to",
+    "context": "Lui conosce mia nonna da molti anni e la saluta sempre con un grande sorriso."
+  },
+  {
+    "id": "it_gen_437",
+    "word": "sorriso",
+    "translation": "smile ",
+    "context": "Lui conosce mia nonna da molti anni e la saluta sempre con un grande sorriso."
+  },
+  {
+    "id": "it_gen_438",
+    "word": "rossi",
+    "translation": "translation not found",
+    "context": "Oggi compriamo pomodori rossi e maturi, pesche dolci e profumate, e un bel melone grande."
+  },
+  {
+    "id": "it_gen_439",
+    "word": "maturi",
+    "translation": "adults",
+    "context": "Oggi compriamo pomodori rossi e maturi, pesche dolci e profumate, e un bel melone grande."
+  },
+  {
+    "id": "it_gen_440",
+    "word": "pesche",
+    "translation": "translation not found",
+    "context": "Oggi compriamo pomodori rossi e maturi, pesche dolci e profumate, e un bel melone grande."
+  },
+  {
+    "id": "it_gen_441",
+    "word": "profumate",
+    "translation": "scented",
+    "context": "Oggi compriamo pomodori rossi e maturi, pesche dolci e profumate, e un bel melone grande."
+  },
+  {
+    "id": "it_gen_442",
+    "word": "melone",
+    "translation": "melon",
+    "context": "Oggi compriamo pomodori rossi e maturi, pesche dolci e profumate, e un bel melone grande."
+  },
+  {
+    "id": "it_gen_443",
+    "word": "sconto",
+    "translation": "discount",
+    "context": "Vincenzo ci fa sempre un piccolo sconto perché siamo clienti affezionate."
+  },
+  {
+    "id": "it_gen_444",
+    "word": "clienti",
+    "translation": "customers",
+    "context": "Vincenzo ci fa sempre un piccolo sconto perché siamo clienti affezionate."
+  },
+  {
+    "id": "it_gen_445",
+    "word": "affezionate",
+    "translation": "affectionate",
+    "context": "Vincenzo ci fa sempre un piccolo sconto perché siamo clienti affezionate."
+  },
+  {
+    "id": "it_gen_446",
+    "word": "locale",
+    "translation": "translation not found",
+    "context": "Il formaggio locale ha un sapore fortissimo e buonissimo."
+  },
+  {
+    "id": "it_gen_447",
+    "word": "sapore",
+    "translation": "temperature controlled",
+    "context": "Il formaggio locale ha un sapore fortissimo e buonissimo."
+  },
+  {
+    "id": "it_gen_448",
+    "word": "fortissimo",
+    "translation": "very strong",
+    "context": "Il formaggio locale ha un sapore fortissimo e buonissimo."
+  },
+  {
+    "id": "it_gen_449",
+    "word": "buonissimo",
+    "translation": "it's great. ",
+    "context": "Il formaggio locale ha un sapore fortissimo e buonissimo."
+  },
+  {
+    "id": "it_gen_450",
+    "word": "pecorino",
+    "translation": "<g id=\"italic\">pecorino</g> cheese",
+    "context": "Compriamo un pezzo di pecorino stagionato e un po' di ricotta fresca."
+  },
+  {
+    "id": "it_gen_451",
+    "word": "stagionato",
+    "translation": "aged",
+    "context": "Compriamo un pezzo di pecorino stagionato e un po' di ricotta fresca."
+  },
+  {
+    "id": "it_gen_452",
+    "word": "usa",
+    "translation": "use",
+    "context": "Mia nonna usa la ricotta per fare i dolci della domenica."
+  },
+  {
+    "id": "it_gen_453",
+    "word": "fermiamo",
+    "translation": "we stop",
+    "context": "Dopo, ci fermiamo al banco del pesce."
+  },
+  {
+    "id": "it_gen_454",
+    "word": "pesce",
+    "translation": "fish",
+    "context": "Dopo, ci fermiamo al banco del pesce."
+  },
+  {
+    "id": "it_gen_455",
+    "word": "pesci",
+    "translation": "fish dishes",
+    "context": "I pesci sono freschi e brillano sotto il sole del mattino."
+  },
+  {
+    "id": "it_gen_456",
+    "word": "brillano",
+    "translation": "shine",
+    "context": "I pesci sono freschi e brillano sotto il sole del mattino."
+  },
+  {
+    "id": "it_gen_457",
+    "word": "mattino",
+    "translation": "morning",
+    "context": "I pesci sono freschi e brillano sotto il sole del mattino."
+  },
+  {
+    "id": "it_gen_458",
+    "word": "sardine",
+    "translation": "sardines",
+    "context": "Compriamo delle sardine belle grandi per il pranzo di oggi."
+  },
+  {
+    "id": "it_gen_459",
+    "word": "belle",
+    "translation": "beautiful, gorgeous",
+    "context": "Compriamo delle sardine belle grandi per il pranzo di oggi."
+  },
+  {
+    "id": "it_gen_460",
+    "word": "tutte",
+    "translation": "translation not found",
+    "context": "Quando tutte le borse sono piene e pesanti, ci sediamo su una panchina di pietra nella piazza soleggiata."
+  },
+  {
+    "id": "it_gen_461",
+    "word": "piene",
+    "translation": "entirely filled.",
+    "context": "Quando tutte le borse sono piene e pesanti, ci sediamo su una panchina di pietra nella piazza soleggiata."
+  },
+  {
+    "id": "it_gen_462",
+    "word": "pesanti",
+    "translation": "translation not found",
+    "context": "Quando tutte le borse sono piene e pesanti, ci sediamo su una panchina di pietra nella piazza soleggiata."
+  },
+  {
+    "id": "it_gen_463",
+    "word": "sediamo",
+    "translation": "let's sit",
+    "context": "Quando tutte le borse sono piene e pesanti, ci sediamo su una panchina di pietra nella piazza soleggiata."
+  },
+  {
+    "id": "it_gen_464",
+    "word": "panchina",
+    "translation": "bench",
+    "context": "Quando tutte le borse sono piene e pesanti, ci sediamo su una panchina di pietra nella piazza soleggiata."
+  },
+  {
+    "id": "it_gen_465",
+    "word": "soleggiata",
+    "translation": "sunny",
+    "context": "Quando tutte le borse sono piene e pesanti, ci sediamo su una panchina di pietra nella piazza soleggiata."
+  },
+  {
+    "id": "it_gen_466",
+    "word": "compra",
+    "translation": "buy",
+    "context": "Mia nonna compra due brioches calde dalla signora del bar vicino."
+  },
+  {
+    "id": "it_gen_467",
+    "word": "nostre",
+    "translation": "&#13;",
+    "context": "Mangiamo le nostre brioches e guardiamo la gente che passa."
+  },
+  {
+    "id": "it_gen_468",
+    "word": "passa",
+    "translation": "passes",
+    "context": "Mangiamo le nostre brioches e guardiamo la gente che passa."
+  },
+  {
+    "id": "it_gen_469",
+    "word": "tante",
+    "translation": ".",
+    "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
+  },
+  {
+    "id": "it_gen_470",
+    "word": "vicinato",
+    "translation": "nearby",
+    "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
+  },
+  {
+    "id": "it_gen_471",
+    "word": "ricordi",
+    "translation": "memories",
+    "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
+  },
+  {
+    "id": "it_gen_472",
+    "word": "passato",
+    "translation": "ago",
+    "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
+  },
+  {
+    "id": "it_gen_473",
+    "word": "racconta",
+    "translation": "portrays",
+    "context": "Mia nonna mi racconta sempre storie bellissime di quando era giovane in questo stesso mercato."
+  },
+  {
+    "id": "it_gen_474",
+    "word": "giovane",
+    "translation": "young",
+    "context": "Mia nonna mi racconta sempre storie bellissime di quando era giovane in questo stesso mercato."
+  },
+  {
+    "id": "it_gen_475",
+    "word": "stesso",
+    "translation": "same. ",
+    "context": "Mia nonna mi racconta sempre storie bellissime di quando era giovane in questo stesso mercato."
+  },
+  {
+    "id": "it_gen_476",
+    "word": "domenicale",
+    "translation": "sunday",
+    "context": "Il mercato domenicale non è solo un posto dove comprare il cibo."
+  },
+  {
+    "id": "it_gen_477",
+    "word": "dove",
+    "translation": "where",
+    "context": "Il mercato domenicale non è solo un posto dove comprare il cibo."
+  },
+  {
+    "id": "it_gen_478",
+    "word": "luogo",
+    "translation": "translation not found",
+    "context": "È un luogo di incontro, di chiacchiere e di tradizioni che si ripetono da sempre."
+  },
+  {
+    "id": "it_gen_479",
+    "word": "chiacchiere",
+    "translation": "natter",
+    "context": "È un luogo di incontro, di chiacchiere e di tradizioni che si ripetono da sempre."
+  },
+  {
+    "id": "it_gen_480",
+    "word": "tradizioni",
+    "translation": "rural traditions and customs ",
+    "context": "È un luogo di incontro, di chiacchiere e di tradizioni che si ripetono da sempre."
+  },
+  {
+    "id": "it_gen_481",
+    "word": "ripetono",
+    "translation": "(ripetono)",
+    "context": "È un luogo di incontro, di chiacchiere e di tradizioni che si ripetono da sempre."
+  },
+  {
+    "id": "it_gen_482",
+    "word": "diciotto",
+    "translation": "eighteen",
+    "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
+  },
+  {
+    "id": "it_gen_483",
+    "word": "quaranta",
+    "translation": "and forty).",
+    "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
+  },
+  {
+    "id": "it_gen_484",
+    "word": "preferisco",
+    "translation": "do they prefer ?",
+    "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
+  },
+  {
+    "id": "it_gen_485",
+    "word": "toscana",
+    "translation": "tuscany",
+    "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
+  },
+  {
+    "id": "it_gen_486",
+    "word": "annoia",
+    "translation": "bored",
+    "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
+  },
+  {
+    "id": "it_gen_487",
+    "word": "centrale",
+    "translation": "translation not found",
+    "context": "La stazione Centrale di Milano il venerdì sera è sempre caotica e piena di gente."
+  },
+  {
+    "id": "it_gen_488",
+    "word": "caotica",
+    "translation": "chaotic",
+    "context": "La stazione Centrale di Milano il venerdì sera è sempre caotica e piena di gente."
+  },
+  {
+    "id": "it_gen_489",
+    "word": "piena",
+    "translation": "full",
+    "context": "La stazione Centrale di Milano il venerdì sera è sempre caotica e piena di gente."
+  },
+  {
+    "id": "it_gen_490",
+    "word": "valigia",
+    "translation": "suitcase",
+    "context": "Tutti hanno una valigia, uno zaino o una borsa voluminosa."
+  },
+  {
+    "id": "it_gen_491",
+    "word": "zaino",
+    "translation": "backpack",
+    "context": "Tutti hanno una valigia, uno zaino o una borsa voluminosa."
+  },
+  {
+    "id": "it_gen_492",
+    "word": "voluminosa",
+    "translation": "voluminous",
+    "context": "Tutti hanno una valigia, uno zaino o una borsa voluminosa."
+  },
+  {
+    "id": "it_gen_493",
+    "word": "famiglie",
+    "translation": "translation not found",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_494",
+    "word": "bambini",
+    "translation": "children",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_495",
+    "word": "giovani",
+    "translation": "translation not found",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_496",
+    "word": "cuffie",
+    "translation": "earphones",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_497",
+    "word": "orecchie",
+    "translation": "ears",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_498",
+    "word": "anziani",
+    "translation": "elderly",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_499",
+    "word": "signori",
+    "translation": "mr &amp; mrs",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_500",
+    "word": "giornale",
+    "translation": "newspaper",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_501",
+    "word": "seduti",
+    "translation": "seated",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_502",
+    "word": "panchine",
+    "translation": "benches",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
+  },
+  {
+    "id": "it_gen_503",
+    "word": "minuto",
+    "translation": "minute",
+    "context": "Io arrivo sempre con qualche minuto di anticipo per trovare un buon posto vicino al finestrino."
+  },
+  {
+    "id": "it_gen_504",
+    "word": "anticipo",
+    "translation": "translation not found",
+    "context": "Io arrivo sempre con qualche minuto di anticipo per trovare un buon posto vicino al finestrino."
+  },
+  {
+    "id": "it_gen_505",
+    "word": "buon",
+    "translation": "good",
+    "context": "Io arrivo sempre con qualche minuto di anticipo per trovare un buon posto vicino al finestrino."
+  },
+  {
+    "id": "it_gen_506",
+    "word": "finestrino",
+    "translation": "picture shape",
+    "context": "Io arrivo sempre con qualche minuto di anticipo per trovare un buon posto vicino al finestrino."
+  },
+  {
+    "id": "it_gen_507",
+    "word": "guardare",
+    "translation": "see",
+    "context": "Mi piace guardare il paesaggio fuori durante il viaggio."
+  },
+  {
+    "id": "it_gen_508",
+    "word": "paesaggio",
+    "translation": "landscape",
+    "context": "Mi piace guardare il paesaggio fuori durante il viaggio."
+  },
+  {
+    "id": "it_gen_509",
+    "word": "parte",
+    "translation": "translation not found",
+    "context": "Il treno parte puntuale e lascia lentamente il grande capoluogo milanese."
+  },
+  {
+    "id": "it_gen_510",
+    "word": "lascia",
+    "translation": "leaves",
+    "context": "Il treno parte puntuale e lascia lentamente il grande capoluogo milanese."
+  },
+  {
+    "id": "it_gen_511",
+    "word": "capoluogo",
+    "translation": "translation not found",
+    "context": "Il treno parte puntuale e lascia lentamente il grande capoluogo milanese."
+  },
+  {
+    "id": "it_gen_512",
+    "word": "milanese",
+    "translation": "of milan.",
+    "context": "Il treno parte puntuale e lascia lentamente il grande capoluogo milanese."
+  },
+  {
+    "id": "it_gen_513",
+    "word": "pochi",
+    "translation": "few",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_514",
+    "word": "grigi",
+    "translation": "grey",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_515",
+    "word": "strade",
+    "translation": "streets",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_516",
+    "word": "trafficate",
+    "translation": "traded? ",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_517",
+    "word": "lasciano",
+    "translation": "i am leaving",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_518",
+    "word": "campi",
+    "translation": "fields",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_519",
+    "word": "aperti",
+    "translation": "open",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_520",
+    "word": "borghi",
+    "translation": "villages ",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_521",
+    "word": "lombarda",
+    "translation": "lombardy",
+    "context": "Dopo pochi minuti, i palazzi grigi e le strade trafficate lasciano il posto ai campi verdi aperti e ai piccoli borghi silenziosi della campagna lombarda."
+  },
+  {
+    "id": "it_gen_522",
+    "word": "tiro",
+    "translation": "hit",
+    "context": "Tiro fuori dalla borsa un romanzo giallo che sto leggendo da qualche settimana e mi immergo nella storia."
+  },
+  {
+    "id": "it_gen_523",
+    "word": "romanzo",
+    "translation": "\"novel\",",
+    "context": "Tiro fuori dalla borsa un romanzo giallo che sto leggendo da qualche settimana e mi immergo nella storia."
+  },
+  {
+    "id": "it_gen_524",
+    "word": "giallo",
+    "translation": "yellow",
+    "context": "Tiro fuori dalla borsa un romanzo giallo che sto leggendo da qualche settimana e mi immergo nella storia."
+  },
+  {
+    "id": "it_gen_525",
+    "word": "sto",
+    "translation": "august.",
+    "context": "Tiro fuori dalla borsa un romanzo giallo che sto leggendo da qualche settimana e mi immergo nella storia."
+  },
+  {
+    "id": "it_gen_526",
+    "word": "leggendo",
+    "translation": "reading",
+    "context": "Tiro fuori dalla borsa un romanzo giallo che sto leggendo da qualche settimana e mi immergo nella storia."
+  },
+  {
+    "id": "it_gen_527",
+    "word": "immergo",
+    "translation": "dive",
+    "context": "Tiro fuori dalla borsa un romanzo giallo che sto leggendo da qualche settimana e mi immergo nella storia."
+  },
+  {
+    "id": "it_gen_528",
+    "word": "tanto",
+    "translation": "failing ",
+    "context": "Ogni tanto alzo gli occhi dal libro e guardo fuori."
+  },
+  {
+    "id": "it_gen_529",
+    "word": "tardo",
+    "translation": "belatedly",
+    "context": "Il cielo del tardo pomeriggio è dipinto di arancione e rosa."
+  },
+  {
+    "id": "it_gen_530",
+    "word": "dipinto",
+    "translation": "painted",
+    "context": "Il cielo del tardo pomeriggio è dipinto di arancione e rosa."
+  },
+  {
+    "id": "it_gen_531",
+    "word": "rosa",
+    "translation": "pink",
+    "context": "Il cielo del tardo pomeriggio è dipinto di arancione e rosa."
+  },
+  {
+    "id": "it_gen_532",
+    "word": "scende",
+    "translation": "sinks",
+    "context": "Il sole scende lentamente e colora tutta la campagna di una luce calda e dorata."
+  },
+  {
+    "id": "it_gen_533",
+    "word": "colora",
+    "translation": "color ",
+    "context": "Il sole scende lentamente e colora tutta la campagna di una luce calda e dorata."
+  },
+  {
+    "id": "it_gen_534",
+    "word": "dorata",
+    "translation": "leather",
+    "context": "Il sole scende lentamente e colora tutta la campagna di una luce calda e dorata."
+  },
+  {
+    "id": "it_gen_535",
+    "word": "sedile",
+    "translation": "seat",
+    "context": "Alcune volte mi addormento sul sedile morbido, con il libro aperto sulle gambe."
+  },
+  {
+    "id": "it_gen_536",
+    "word": "morbido",
+    "translation": "weiches",
+    "context": "Alcune volte mi addormento sul sedile morbido, con il libro aperto sulle gambe."
+  },
+  {
+    "id": "it_gen_537",
+    "word": "aperto",
+    "translation": "translation not found",
+    "context": "Alcune volte mi addormento sul sedile morbido, con il libro aperto sulle gambe."
+  },
+  {
+    "id": "it_gen_538",
+    "word": "dondolio",
+    "translation": "rocking",
+    "context": "Il dondolio regolare del treno mi culla come una ninna nanna."
+  },
+  {
+    "id": "it_gen_539",
+    "word": "regolare",
+    "translation": "consistent",
+    "context": "Il dondolio regolare del treno mi culla come una ninna nanna."
+  },
+  {
+    "id": "it_gen_540",
+    "word": "culla",
+    "translation": "bassinet",
+    "context": "Il dondolio regolare del treno mi culla come una ninna nanna."
+  },
+  {
+    "id": "it_gen_541",
+    "word": "ninna",
+    "translation": "ninna? ",
+    "context": "Il dondolio regolare del treno mi culla come una ninna nanna."
+  },
+  {
+    "id": "it_gen_542",
+    "word": "nanna",
+    "translation": "translation not found",
+    "context": "Il dondolio regolare del treno mi culla come una ninna nanna."
+  },
+  {
+    "id": "it_gen_543",
+    "word": "banchina",
+    "translation": "shoulder",
+    "context": "Quando arrivo alla piccola stazione del mio paese, mia madre mi aspetta sempre sulla banchina."
+  },
+  {
+    "id": "it_gen_544",
+    "word": "abbraccia",
+    "translation": "embrace",
+    "context": "Mi abbraccia forte e mi chiede subito se ho mangiato bene durante la settimana."
+  },
+  {
+    "id": "it_gen_545",
+    "word": "forte",
+    "translation": "heavily",
+    "context": "Mi abbraccia forte e mi chiede subito se ho mangiato bene durante la settimana."
+  },
+  {
+    "id": "it_gen_546",
+    "word": "chiede",
+    "translation": "asks",
+    "context": "Mi abbraccia forte e mi chiede subito se ho mangiato bene durante la settimana."
+  },
+  {
+    "id": "it_gen_547",
+    "word": "padre",
+    "translation": "translation not found",
+    "context": "Mio padre ha già preparato la cena: pasta fatta in casa con il ragù della nonna, il piatto che amo di più al mondo."
+  },
+  {
+    "id": "it_gen_548",
+    "word": "preparato",
+    "translation": "prepared",
+    "context": "Mio padre ha già preparato la cena: pasta fatta in casa con il ragù della nonna, il piatto che amo di più al mondo."
+  },
+  {
+    "id": "it_gen_549",
+    "word": "cena",
+    "translation": "dinner",
+    "context": "Mio padre ha già preparato la cena: pasta fatta in casa con il ragù della nonna, il piatto che amo di più al mondo."
+  },
+  {
+    "id": "it_gen_550",
+    "word": "ragù",
+    "translation": "cuttlefish ragout",
+    "context": "Mio padre ha già preparato la cena: pasta fatta in casa con il ragù della nonna, il piatto che amo di più al mondo."
+  },
+  {
+    "id": "it_gen_551",
+    "word": "amo",
+    "translation": "hook",
+    "context": "Mio padre ha già preparato la cena: pasta fatta in casa con il ragù della nonna, il piatto che amo di più al mondo."
+  },
+  {
+    "id": "it_gen_552",
+    "word": "tavola",
+    "translation": "board",
+    "context": "A tavola, tutta la famiglia si riunisce e parla di tutto quello che è successo durante la settimana."
+  },
+  {
+    "id": "it_gen_553",
+    "word": "riunisce",
+    "translation": "brings together",
+    "context": "A tavola, tutta la famiglia si riunisce e parla di tutto quello che è successo durante la settimana."
+  },
+  {
+    "id": "it_gen_554",
+    "word": "parla",
+    "translation": "talks",
+    "context": "A tavola, tutta la famiglia si riunisce e parla di tutto quello che è successo durante la settimana."
+  },
+  {
+    "id": "it_gen_555",
+    "word": "quello",
+    "translation": "to",
+    "context": "A tavola, tutta la famiglia si riunisce e parla di tutto quello che è successo durante la settimana."
+  },
+  {
+    "id": "it_gen_556",
+    "word": "successo",
+    "translation": "success",
+    "context": "A tavola, tutta la famiglia si riunisce e parla di tutto quello che è successo durante la settimana."
+  },
+  {
+    "id": "it_gen_557",
+    "word": "rido",
+    "translation": "lauro",
+    "context": "Rido, racconto, ascolto e dimentico completamente lo stress del lavoro e della città."
+  },
+  {
+    "id": "it_gen_558",
+    "word": "racconto",
+    "translation": "story.",
+    "context": "Rido, racconto, ascolto e dimentico completamente lo stress del lavoro e della città."
+  },
+  {
+    "id": "it_gen_559",
+    "word": "stress",
+    "translation": "translation not found",
+    "context": "Rido, racconto, ascolto e dimentico completamente lo stress del lavoro e della città."
+  },
+  {
+    "id": "it_gen_560",
+    "word": "strana",
+    "translation": "strange",
+    "context": "Quella strana, dolce sensazione di tornare a casa ogni venerdì sera è qualcosa che non cambierei mai con nulla al mondo."
+  },
+  {
+    "id": "it_gen_561",
+    "word": "dolce",
+    "translation": "confectionery",
+    "context": "Quella strana, dolce sensazione di tornare a casa ogni venerdì sera è qualcosa che non cambierei mai con nulla al mondo."
+  },
+  {
+    "id": "it_gen_562",
+    "word": "sensazione",
+    "translation": "feeling",
+    "context": "Quella strana, dolce sensazione di tornare a casa ogni venerdì sera è qualcosa che non cambierei mai con nulla al mondo."
+  },
+  {
+    "id": "it_gen_563",
+    "word": "cambierei",
+    "translation": "i would change",
+    "context": "Quella strana, dolce sensazione di tornare a casa ogni venerdì sera è qualcosa che non cambierei mai con nulla al mondo."
+  },
+  {
+    "id": "it_gen_564",
+    "word": "nulla",
+    "translation": "nothing",
+    "context": "Quella strana, dolce sensazione di tornare a casa ogni venerdì sera è qualcosa che non cambierei mai con nulla al mondo."
+  },
+  {
+    "id": "it_gen_565",
+    "word": "anno",
+    "translation": "year",
+    "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
+  },
+  {
+    "id": "it_gen_566",
+    "word": "maggio",
+    "translation": "may",
+    "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
+  },
+  {
+    "id": "it_gen_567",
+    "word": "fatto",
+    "translation": "done",
+    "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
+  },
+  {
+    "id": "it_gen_568",
+    "word": "scolastica",
+    "translation": "translation not found",
+    "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
+  },
+  {
+    "id": "it_gen_569",
+    "word": "eravamo",
+    "translation": "we were",
+    "context": "Eravamo tutti molto eccitati già da settimane prima della partenza."
+  },
+  {
+    "id": "it_gen_570",
+    "word": "eccitati",
+    "translation": "excited",
+    "context": "Eravamo tutti molto eccitati già da settimane prima della partenza."
+  },
+  {
+    "id": "it_gen_571",
+    "word": "settimane",
+    "translation": "weeks",
+    "context": "Eravamo tutti molto eccitati già da settimane prima della partenza."
+  },
+  {
+    "id": "it_gen_572",
+    "word": "partenza",
+    "translation": "departure",
+    "context": "Eravamo tutti molto eccitati già da settimane prima della partenza."
+  },
+  {
+    "id": "it_gen_573",
+    "word": "unica",
+    "translation": "length",
+    "context": "Venezia è una città unica al mondo e molti di noi non l'avevano mai visitata prima."
+  },
+  {
+    "id": "it_gen_574",
+    "word": "avevano",
+    "translation": "both partners",
+    "context": "Venezia è una città unica al mondo e molti di noi non l'avevano mai visitata prima."
+  },
+  {
+    "id": "it_gen_575",
+    "word": "visitata",
+    "translation": "visited",
+    "context": "Venezia è una città unica al mondo e molti di noi non l'avevano mai visitata prima."
+  },
+  {
+    "id": "it_gen_576",
+    "word": "partiti",
+    "translation": "parties",
+    "context": "Siamo partiti in pullman alle sei di mattina."
+  },
+  {
+    "id": "it_gen_577",
+    "word": "pullman",
+    "translation": "coaches",
+    "context": "Siamo partiti in pullman alle sei di mattina."
+  },
+  {
+    "id": "it_gen_578",
+    "word": "buio",
+    "translation": "the dark",
+    "context": "Era ancora buio quando siamo saliti sul bus davanti alla scuola."
+  },
+  {
+    "id": "it_gen_579",
+    "word": "saliti",
+    "translation": "uphill",
+    "context": "Era ancora buio quando siamo saliti sul bus davanti alla scuola."
+  },
+  {
+    "id": "it_gen_580",
+    "word": "bus",
+    "translation": "intercity",
+    "context": "Era ancora buio quando siamo saliti sul bus davanti alla scuola."
+  },
+  {
+    "id": "it_gen_581",
+    "word": "alcuni",
+    "translation": "few",
+    "context": "Alcuni compagni dormivano ancora appoggiati ai finestrini, mentre altri erano già allegri e rumorosi."
+  },
+  {
+    "id": "it_gen_582",
+    "word": "dormivano",
+    "translation": "sleeping. ",
+    "context": "Alcuni compagni dormivano ancora appoggiati ai finestrini, mentre altri erano già allegri e rumorosi."
+  },
+  {
+    "id": "it_gen_583",
+    "word": "appoggiati",
+    "translation": "supported",
+    "context": "Alcuni compagni dormivano ancora appoggiati ai finestrini, mentre altri erano già allegri e rumorosi."
+  },
+  {
+    "id": "it_gen_584",
+    "word": "finestrini",
+    "translation": "windows",
+    "context": "Alcuni compagni dormivano ancora appoggiati ai finestrini, mentre altri erano già allegri e rumorosi."
+  },
+  {
+    "id": "it_gen_585",
+    "word": "mentre",
+    "translation": "while ",
+    "context": "Alcuni compagni dormivano ancora appoggiati ai finestrini, mentre altri erano già allegri e rumorosi."
+  },
+  {
+    "id": "it_gen_586",
+    "word": "allegri",
+    "translation": "translation not found",
+    "context": "Alcuni compagni dormivano ancora appoggiati ai finestrini, mentre altri erano già allegri e rumorosi."
+  },
+  {
+    "id": "it_gen_587",
+    "word": "rumorosi",
+    "translation": "noisy",
+    "context": "Alcuni compagni dormivano ancora appoggiati ai finestrini, mentre altri erano già allegri e rumorosi."
+  },
+  {
+    "id": "it_gen_588",
+    "word": "ferretti",
+    "translation": "translation not found",
+    "context": "La professoressa di storia, la signora Ferretti, ci ha chiesto di fare silenzio almeno per la prima mezz'ora."
+  },
+  {
+    "id": "it_gen_589",
+    "word": "chiesto",
+    "translation": "required.",
+    "context": "La professoressa di storia, la signora Ferretti, ci ha chiesto di fare silenzio almeno per la prima mezz'ora."
+  },
+  {
+    "id": "it_gen_590",
+    "word": "almeno",
+    "translation": "at least",
+    "context": "La professoressa di storia, la signora Ferretti, ci ha chiesto di fare silenzio almeno per la prima mezz'ora."
+  },
+  {
+    "id": "it_gen_591",
+    "word": "mezz",
+    "translation": "half",
+    "context": "La professoressa di storia, la signora Ferretti, ci ha chiesto di fare silenzio almeno per la prima mezz'ora."
+  },
+  {
+    "id": "it_gen_592",
+    "word": "circa",
+    "translation": "approx.",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_593",
+    "word": "arrivati",
+    "translation": "we've arrived!",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_594",
+    "word": "mestre",
+    "translation": "translation not found",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_595",
+    "word": "preso",
+    "translation": "\"took\",",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_596",
+    "word": "vaporetto",
+    "translation": "steamer",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_597",
+    "word": "attraversare",
+    "translation": "go through",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_598",
+    "word": "raggiungere",
+    "translation": "to reach.",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_599",
+    "word": "storico",
+    "translation": "historic",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_600",
+    "word": "apparsa",
+    "translation": "appeared",
+    "context": "Quando Venezia è apparsa davanti a noi dall'acqua, è stato un momento di pura magia."
+  },
+  {
+    "id": "it_gen_601",
+    "word": "pura",
+    "translation": "translation not found",
+    "context": "Quando Venezia è apparsa davanti a noi dall'acqua, è stato un momento di pura magia."
+  },
+  {
+    "id": "it_gen_602",
+    "word": "magia",
+    "translation": "magic",
+    "context": "Quando Venezia è apparsa davanti a noi dall'acqua, è stato un momento di pura magia."
+  },
+  {
+    "id": "it_gen_603",
+    "word": "visto",
+    "translation": "having regard to",
+    "context": "Avevo visto le foto, certo, ma dal vivo era completamente diverso."
+  },
+  {
+    "id": "it_gen_604",
+    "word": "certo",
+    "translation": "ok",
+    "context": "Avevo visto le foto, certo, ma dal vivo era completamente diverso."
+  },
+  {
+    "id": "it_gen_605",
+    "word": "macchine",
+    "translation": "(machines)",
+    "context": "Non c'erano macchine, non c'erano motorini."
+  },
+  {
+    "id": "it_gen_606",
+    "word": "motorini",
+    "translation": "scooters",
+    "context": "Non c'erano macchine, non c'erano motorini."
+  },
+  {
+    "id": "it_gen_607",
+    "word": "canali",
+    "translation": "ducts",
+    "context": "Solo i canali, le gondole, i ponti di pietra e i bellissimi palazzi antichi che si specchiavano nell'acqua verde della laguna."
+  },
+  {
+    "id": "it_gen_608",
+    "word": "gondole",
+    "translation": "gondolas",
+    "context": "Solo i canali, le gondole, i ponti di pietra e i bellissimi palazzi antichi che si specchiavano nell'acqua verde della laguna."
+  },
+  {
+    "id": "it_gen_609",
+    "word": "ponti",
+    "translation": "bridges",
+    "context": "Solo i canali, le gondole, i ponti di pietra e i bellissimi palazzi antichi che si specchiavano nell'acqua verde della laguna."
+  },
+  {
+    "id": "it_gen_610",
+    "word": "bellissimi",
+    "translation": "beautiful shots",
+    "context": "Solo i canali, le gondole, i ponti di pietra e i bellissimi palazzi antichi che si specchiavano nell'acqua verde della laguna."
+  },
+  {
+    "id": "it_gen_611",
+    "word": "antichi",
+    "translation": "antiques",
+    "context": "Solo i canali, le gondole, i ponti di pietra e i bellissimi palazzi antichi che si specchiavano nell'acqua verde della laguna."
+  },
+  {
+    "id": "it_gen_612",
+    "word": "specchiavano",
+    "translation": "mirrored",
+    "context": "Solo i canali, le gondole, i ponti di pietra e i bellissimi palazzi antichi che si specchiavano nell'acqua verde della laguna."
+  },
+  {
+    "id": "it_gen_613",
+    "word": "visitato",
+    "translation": "visited...",
+    "context": "Abbiamo visitato Piazza San Marco, la Basilica e il famoso Palazzo Ducale."
+  },
+  {
+    "id": "it_gen_614",
+    "word": "san",
+    "translation": "translation not found",
+    "context": "Abbiamo visitato Piazza San Marco, la Basilica e il famoso Palazzo Ducale."
+  },
+  {
+    "id": "it_gen_615",
+    "word": "basilica",
+    "translation": "cathedral",
+    "context": "Abbiamo visitato Piazza San Marco, la Basilica e il famoso Palazzo Ducale."
+  },
+  {
+    "id": "it_gen_616",
+    "word": "famoso",
+    "translation": "expert...",
+    "context": "Abbiamo visitato Piazza San Marco, la Basilica e il famoso Palazzo Ducale."
+  },
+  {
+    "id": "it_gen_617",
+    "word": "ducale",
+    "translation": "translation not found",
+    "context": "Abbiamo visitato Piazza San Marco, la Basilica e il famoso Palazzo Ducale."
+  },
+  {
+    "id": "it_gen_618",
+    "word": "spiegato",
+    "translation": "explained.",
+    "context": "La professoressa ci ha spiegato la storia di ogni monumento con grande passione."
+  },
+  {
+    "id": "it_gen_619",
+    "word": "monumento",
+    "translation": "a monument",
+    "context": "La professoressa ci ha spiegato la storia di ogni monumento con grande passione."
+  },
+  {
+    "id": "it_gen_620",
+    "word": "passione",
+    "translation": "passion",
+    "context": "La professoressa ci ha spiegato la storia di ogni monumento con grande passione."
+  },
+  {
+    "id": "it_gen_621",
+    "word": "tour",
+    "translation": "tours",
+    "context": "Dopo il tour guidato, ci hanno dato due ore di tempo libero."
+  },
+  {
+    "id": "it_gen_622",
+    "word": "guidato",
+    "translation": "bisarca",
+    "context": "Dopo il tour guidato, ci hanno dato due ore di tempo libero."
+  },
+  {
+    "id": "it_gen_623",
+    "word": "dato",
+    "translation": "data",
+    "context": "Dopo il tour guidato, ci hanno dato due ore di tempo libero."
+  },
+  {
+    "id": "it_gen_624",
+    "word": "libero",
+    "translation": "free",
+    "context": "Dopo il tour guidato, ci hanno dato due ore di tempo libero."
+  },
+  {
+    "id": "it_gen_625",
+    "word": "migliori",
+    "translation": "best",
+    "context": "Io e i miei migliori amici abbiamo subito cercato una gelateria."
+  },
+  {
+    "id": "it_gen_626",
+    "word": "gelateria",
+    "translation": "ice cream parlour",
+    "context": "Io e i miei migliori amici abbiamo subito cercato una gelateria."
+  },
+  {
+    "id": "it_gen_627",
+    "word": "gelati",
+    "translation": "ice creams",
+    "context": "Abbiamo mangiato dei gelati artigianali eccezionali con gusti di pistacchio, cioccolato fondente e amarena."
+  },
+  {
+    "id": "it_gen_628",
+    "word": "artigianali",
+    "translation": "artisan",
+    "context": "Abbiamo mangiato dei gelati artigianali eccezionali con gusti di pistacchio, cioccolato fondente e amarena."
+  },
+  {
+    "id": "it_gen_629",
+    "word": "eccezionali",
+    "translation": "translation not found",
+    "context": "Abbiamo mangiato dei gelati artigianali eccezionali con gusti di pistacchio, cioccolato fondente e amarena."
+  },
+  {
+    "id": "it_gen_630",
+    "word": "gusti",
+    "translation": "  flavours",
+    "context": "Abbiamo mangiato dei gelati artigianali eccezionali con gusti di pistacchio, cioccolato fondente e amarena."
+  },
+  {
+    "id": "it_gen_631",
+    "word": "pistacchio",
+    "translation": "pistachio",
+    "context": "Abbiamo mangiato dei gelati artigianali eccezionali con gusti di pistacchio, cioccolato fondente e amarena."
+  },
+  {
+    "id": "it_gen_632",
+    "word": "fondente",
+    "translation": "dark chocolate",
+    "context": "Abbiamo mangiato dei gelati artigianali eccezionali con gusti di pistacchio, cioccolato fondente e amarena."
+  },
+  {
+    "id": "it_gen_633",
+    "word": "amarena",
+    "translation": "sour cherry",
+    "context": "Abbiamo mangiato dei gelati artigianali eccezionali con gusti di pistacchio, cioccolato fondente e amarena."
+  },
+  {
+    "id": "it_gen_634",
+    "word": "persi",
+    "translation": "losts",
+    "context": "Poi ci siamo persi nei vicoli stretti e silenziosi lontano dai turisti."
+  },
+  {
+    "id": "it_gen_635",
+    "word": "nei",
+    "translation": "translation not found",
+    "context": "Poi ci siamo persi nei vicoli stretti e silenziosi lontano dai turisti."
+  },
+  {
+    "id": "it_gen_636",
+    "word": "vicoli",
+    "translation": "alleys",
+    "context": "Poi ci siamo persi nei vicoli stretti e silenziosi lontano dai turisti."
+  },
+  {
+    "id": "it_gen_637",
+    "word": "stretti",
+    "translation": "narrow",
+    "context": "Poi ci siamo persi nei vicoli stretti e silenziosi lontano dai turisti."
+  },
+  {
+    "id": "it_gen_638",
+    "word": "lontano",
+    "translation": "get far. ",
+    "context": "Poi ci siamo persi nei vicoli stretti e silenziosi lontano dai turisti."
+  },
+  {
+    "id": "it_gen_639",
+    "word": "turisti",
+    "translation": "tourists",
+    "context": "Poi ci siamo persi nei vicoli stretti e silenziosi lontano dai turisti."
+  },
+  {
+    "id": "it_gen_640",
+    "word": "attraversato",
+    "translation": "crossed",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_641",
+    "word": "ponticelli",
+    "translation": "jumpers",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_642",
+    "word": "guardato",
+    "translation": "watched",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_643",
+    "word": "finestre",
+    "translation": "windows",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_644",
+    "word": "fiorite",
+    "translation": "blooms",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_645",
+    "word": "case",
+    "translation": "translation not found",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_646",
+    "word": "colorate",
+    "translation": "coloured",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_647",
+    "word": "sentito",
+    "translation": "do i hear ?",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_648",
+    "word": "respirare",
+    "translation": "breathe",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_649",
+    "word": "rispetto",
+    "translation": "respect",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_650",
+    "word": "qualsiasi",
+    "translation": "translation not found",
+    "context": "Abbiamo attraversato ponticelli, guardato le finestre fiorite delle case colorate e sentito la città respirare in modo diverso rispetto a qualsiasi altro posto."
+  },
+  {
+    "id": "it_gen_651",
+    "word": "partire",
+    "translation": "we start.",
+    "context": "Prima di partire, ho comprato un piccolo carnevale veneziano in vetro di Murano come ricordo per mia madre."
+  },
+  {
+    "id": "it_gen_652",
+    "word": "carnevale",
+    "translation": "carnival",
+    "context": "Prima di partire, ho comprato un piccolo carnevale veneziano in vetro di Murano come ricordo per mia madre."
+  },
+  {
+    "id": "it_gen_653",
+    "word": "veneziano",
+    "translation": "venetian",
+    "context": "Prima di partire, ho comprato un piccolo carnevale veneziano in vetro di Murano come ricordo per mia madre."
+  },
+  {
+    "id": "it_gen_654",
+    "word": "vetro",
+    "translation": "glass",
+    "context": "Prima di partire, ho comprato un piccolo carnevale veneziano in vetro di Murano come ricordo per mia madre."
+  },
+  {
+    "id": "it_gen_655",
+    "word": "murano",
+    "translation": "translation not found",
+    "context": "Prima di partire, ho comprato un piccolo carnevale veneziano in vetro di Murano come ricordo per mia madre."
+  },
+  {
+    "id": "it_gen_656",
+    "word": "ricordo",
+    "translation": "memory",
+    "context": "Prima di partire, ho comprato un piccolo carnevale veneziano in vetro di Murano come ricordo per mia madre."
+  },
+  {
+    "id": "it_gen_657",
+    "word": "tornati",
+    "translation": "back",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_658",
+    "word": "ero",
+    "translation": "hero",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_659",
+    "word": "stanchissima",
+    "translation": "tired! ",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_660",
+    "word": "cuore",
+    "translation": "heart shape",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_661",
+    "word": "immagini",
+    "translation": "images",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_662",
+    "word": "sensazioni",
+    "translation": "translation not found",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_663",
+    "word": "meravigliose",
+    "translation": "charming churches!",
+    "context": "Tornati a casa la sera tardi, ero stanchissima ma avevo il cuore pieno di immagini e sensazioni meravigliose."
+  },
+  {
+    "id": "it_gen_664",
+    "word": "cambiato",
+    "translation": "changed",
+    "context": "Quella gita ha cambiato il mio modo di vedere l'arte e la storia."
+  },
+  {
+    "id": "it_gen_665",
+    "word": "vedere",
+    "translation": "see",
+    "context": "Quella gita ha cambiato il mio modo di vedere l'arte e la storia."
+  },
+  {
+    "id": "it_gen_666",
+    "word": "settembre",
+    "translation": "september",
+    "context": "Lo scorso settembre ho affittato il mio primo appartamento da sola."
+  },
+  {
+    "id": "it_gen_667",
+    "word": "affittato",
+    "translation": "rented",
+    "context": "Lo scorso settembre ho affittato il mio primo appartamento da sola."
+  },
+  {
+    "id": "it_gen_668",
+    "word": "vivevo",
+    "translation": "lived",
+    "context": "Prima vivevo ancora con i miei genitori in una grande casa in periferia, ma quando ho trovato lavoro in città ho deciso finalmente di diventare indipendente."
+  },
+  {
+    "id": "it_gen_669",
+    "word": "periferia",
+    "translation": "periphery",
+    "context": "Prima vivevo ancora con i miei genitori in una grande casa in periferia, ma quando ho trovato lavoro in città ho deciso finalmente di diventare indipendente."
+  },
+  {
+    "id": "it_gen_670",
+    "word": "deciso",
+    "translation": "laura is all this and much more",
+    "context": "Prima vivevo ancora con i miei genitori in una grande casa in periferia, ma quando ho trovato lavoro in città ho deciso finalmente di diventare indipendente."
+  },
+  {
+    "id": "it_gen_671",
+    "word": "diventare",
+    "translation": "become",
+    "context": "Prima vivevo ancora con i miei genitori in una grande casa in periferia, ma quando ho trovato lavoro in città ho deciso finalmente di diventare indipendente."
+  },
+  {
+    "id": "it_gen_672",
+    "word": "indipendente",
+    "translation": "independent",
+    "context": "Prima vivevo ancora con i miei genitori in una grande casa in periferia, ma quando ho trovato lavoro in città ho deciso finalmente di diventare indipendente."
+  },
+  {
+    "id": "it_gen_673",
+    "word": "adatto",
+    "translation": "maximum suitable",
+    "context": "Trovare un appartamento adatto a Milano non è stato facile."
+  },
+  {
+    "id": "it_gen_674",
+    "word": "facile",
+    "translation": "low",
+    "context": "Trovare un appartamento adatto a Milano non è stato facile."
+  },
+  {
+    "id": "it_gen_675",
+    "word": "siti",
+    "translation": "sites ",
+    "context": "Ho cercato per quasi due mesi su tutti i siti internet disponibili."
+  },
+  {
+    "id": "it_gen_676",
+    "word": "internet",
+    "translation": "translation not found",
+    "context": "Ho cercato per quasi due mesi su tutti i siti internet disponibili."
+  },
+  {
+    "id": "it_gen_677",
+    "word": "disponibili",
+    "translation": "available",
+    "context": "Ho cercato per quasi due mesi su tutti i siti internet disponibili."
+  },
+  {
+    "id": "it_gen_678",
+    "word": "problema",
+    "translation": "problem",
+    "context": "Il problema principale era il prezzo: gli affitti in centro sono altissimi."
+  },
+  {
+    "id": "it_gen_679",
+    "word": "principale",
+    "translation": "console",
+    "context": "Il problema principale era il prezzo: gli affitti in centro sono altissimi."
+  },
+  {
+    "id": "it_gen_680",
+    "word": "prezzo",
+    "translation": "price",
+    "context": "Il problema principale era il prezzo: gli affitti in centro sono altissimi."
+  },
+  {
+    "id": "it_gen_681",
+    "word": "affitti",
+    "translation": "rents",
+    "context": "Il problema principale era il prezzo: gli affitti in centro sono altissimi."
+  },
+  {
+    "id": "it_gen_682",
+    "word": "altissimi",
+    "translation": "very high",
+    "context": "Il problema principale era il prezzo: gli affitti in centro sono altissimi."
+  },
+  {
+    "id": "it_gen_683",
+    "word": "aiuto",
+    "translation": "aid",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_684",
+    "word": "agente",
+    "translation": "agent",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_685",
+    "word": "immobiliare",
+    "translation": "real estate",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_686",
+    "word": "carino",
+    "translation": "cute",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_687",
+    "word": "bilocale",
+    "translation": "two-bedroom apartment",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_688",
+    "word": "quartiere",
+    "translation": "neighborhood",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_689",
+    "word": "tranquillo",
+    "translation": "tranquil",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_690",
+    "word": "parco",
+    "translation": "green",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_691",
+    "word": "trova",
+    "translation": "find",
+    "context": "L'appartamento si trova al terzo piano di un palazzo degli anni Sessanta."
+  },
+  {
+    "id": "it_gen_692",
+    "word": "terzo",
+    "translation": "translation not found",
+    "context": "L'appartamento si trova al terzo piano di un palazzo degli anni Sessanta."
+  },
+  {
+    "id": "it_gen_693",
+    "word": "sessanta",
+    "translation": "translation not found",
+    "context": "L'appartamento si trova al terzo piano di un palazzo degli anni Sessanta."
+  },
+  {
+    "id": "it_gen_694",
+    "word": "ascensore",
+    "translation": "lift",
+    "context": "Non c'è l'ascensore, quindi ogni giorno faccio le scale a piedi, ma mi sono abituata in fretta e ormai non ci penso quasi più."
+  },
+  {
+    "id": "it_gen_695",
+    "word": "quindi",
+    "translation": "therefore ",
+    "context": "Non c'è l'ascensore, quindi ogni giorno faccio le scale a piedi, ma mi sono abituata in fretta e ormai non ci penso quasi più."
+  },
+  {
+    "id": "it_gen_696",
+    "word": "scale",
+    "translation": "steps",
+    "context": "Non c'è l'ascensore, quindi ogni giorno faccio le scale a piedi, ma mi sono abituata in fretta e ormai non ci penso quasi più."
+  },
+  {
+    "id": "it_gen_697",
+    "word": "abituata",
+    "translation": "accustomed",
+    "context": "Non c'è l'ascensore, quindi ogni giorno faccio le scale a piedi, ma mi sono abituata in fretta e ormai non ci penso quasi più."
+  },
+  {
+    "id": "it_gen_698",
+    "word": "fretta",
+    "translation": "in no hurry. ",
+    "context": "Non c'è l'ascensore, quindi ogni giorno faccio le scale a piedi, ma mi sono abituata in fretta e ormai non ci penso quasi più."
+  },
+  {
+    "id": "it_gen_699",
+    "word": "ormai",
+    "translation": "now",
+    "context": "Non c'è l'ascensore, quindi ogni giorno faccio le scale a piedi, ma mi sono abituata in fretta e ormai non ci penso quasi più."
+  },
+  {
+    "id": "it_gen_700",
+    "word": "ingresso",
+    "translation": "power",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_701",
+    "word": "moderna",
+    "translation": "translation not found",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_702",
+    "word": "elettrodomestici",
+    "translation": "household appliances",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_703",
+    "word": "soggiorno",
+    "translation": "translation not found",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_704",
+    "word": "luminoso",
+    "translation": "switch",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_705",
+    "word": "cortile",
+    "translation": "",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_706",
+    "word": "interno",
+    "translation": "internal",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_707",
+    "word": "abbastanza",
+    "translation": "enough?’",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_708",
+    "word": "doccia",
+    "translation": "shower",
+    "context": "Dentro l'appartamento c'è un piccolo ingresso, una cucina moderna con tutti gli elettrodomestici, un soggiorno luminoso con una grande finestra che dà sul cortile interno, una camera da letto abbastanza grande e un bagno con la doccia."
+  },
+  {
+    "id": "it_gen_709",
+    "word": "entrata",
+    "translation": "die",
+    "context": "Quando sono entrata per la prima volta con le scatole dei miei mobili, mi sembrava quasi vuoto e freddo."
+  },
+  {
+    "id": "it_gen_710",
+    "word": "volta",
+    "translation": "time",
+    "context": "Quando sono entrata per la prima volta con le scatole dei miei mobili, mi sembrava quasi vuoto e freddo."
+  },
+  {
+    "id": "it_gen_711",
+    "word": "scatole",
+    "translation": "boxes",
+    "context": "Quando sono entrata per la prima volta con le scatole dei miei mobili, mi sembrava quasi vuoto e freddo."
+  },
+  {
+    "id": "it_gen_712",
+    "word": "mobili",
+    "translation": "furniture",
+    "context": "Quando sono entrata per la prima volta con le scatole dei miei mobili, mi sembrava quasi vuoto e freddo."
+  },
+  {
+    "id": "it_gen_713",
+    "word": "sembrava",
+    "translation": "it seemed",
+    "context": "Quando sono entrata per la prima volta con le scatole dei miei mobili, mi sembrava quasi vuoto e freddo."
+  },
+  {
+    "id": "it_gen_714",
+    "word": "vuoto",
+    "translation": "blank",
+    "context": "Quando sono entrata per la prima volta con le scatole dei miei mobili, mi sembrava quasi vuoto e freddo."
+  },
+  {
+    "id": "it_gen_715",
+    "word": "freddo",
+    "translation": "chill",
+    "context": "Quando sono entrata per la prima volta con le scatole dei miei mobili, mi sembrava quasi vuoto e freddo."
+  },
+  {
+    "id": "it_gen_716",
+    "word": "iniziato",
+    "translation": "started",
+    "context": "Ma giorno dopo giorno ho iniziato ad arredarlo a modo mio."
+  },
+  {
+    "id": "it_gen_717",
+    "word": "arredarlo",
+    "translation": "furnish it",
+    "context": "Ma giorno dopo giorno ho iniziato ad arredarlo a modo mio."
+  },
+  {
+    "id": "it_gen_718",
+    "word": "muschio",
+    "translation": "moss.",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_719",
+    "word": "negozio",
+    "translation": "store",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_720",
+    "word": "seconda",
+    "translation": "translation not found",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_721",
+    "word": "mano",
+    "translation": "hand",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_722",
+    "word": "messo",
+    "translation": "bottled",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_723",
+    "word": "mensole",
+    "translation": "shelves",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_724",
+    "word": "appeso",
+    "translation": "hanging",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_725",
+    "word": "poster",
+    "translation": "poster.",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_726",
+    "word": "film",
+    "translation": "translation not found",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_727",
+    "word": "preferiti",
+    "translation": "favorites",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_728",
+    "word": "pareti",
+    "translation": "walls",
+    "context": "Ho comprato un bel divano verde muschio da un negozio di seconda mano, ho messo delle luci calde sulle mensole e ho appeso dei poster dei miei film preferiti sulle pareti bianche."
+  },
+  {
+    "id": "it_gen_729",
+    "word": "cucinare",
+    "translation": "cooking ",
+    "context": "Il momento più difficile del primo mese è stato imparare a cucinare da sola ogni sera."
+  },
+  {
+    "id": "it_gen_730",
+    "word": "cucinava",
+    "translation": "cooked",
+    "context": "Prima mia mamma cucinava per tutta la famiglia."
+  },
+  {
+    "id": "it_gen_731",
+    "word": "pensare",
+    "translation": "you take care of it",
+    "context": "Ora devo pensare da sola alla spesa, ai pasti, alla pulizia e a tutto il resto."
+  },
+  {
+    "id": "it_gen_732",
+    "word": "pasti",
+    "translation": "technical intervention report",
+    "context": "Ora devo pensare da sola alla spesa, ai pasti, alla pulizia e a tutto il resto."
+  },
+  {
+    "id": "it_gen_733",
+    "word": "pulizia",
+    "translation": "cleaning",
+    "context": "Ora devo pensare da sola alla spesa, ai pasti, alla pulizia e a tutto il resto."
+  },
+  {
+    "id": "it_gen_734",
+    "word": "resto",
+    "translation": "remainder",
+    "context": "Ora devo pensare da sola alla spesa, ai pasti, alla pulizia e a tutto il resto."
+  },
+  {
+    "id": "it_gen_735",
+    "word": "chiamato",
+    "translation": "called ",
+    "context": "Ho chiamato mia madre quasi ogni sera il primo mese per chiederle le ricette!"
+  },
+  {
+    "id": "it_gen_736",
+    "word": "chiederle",
+    "translation": "ask her",
+    "context": "Ho chiamato mia madre quasi ogni sera il primo mese per chiederle le ricette!"
+  },
+  {
+    "id": "it_gen_737",
+    "word": "ricette",
+    "translation": "recipes",
+    "context": "Ho chiamato mia madre quasi ogni sera il primo mese per chiederle le ricette!"
+  },
+  {
+    "id": "it_gen_738",
+    "word": "col",
+    "translation": "with the",
+    "context": "Ma col tempo ho imparato a farcela da sola."
+  },
+  {
+    "id": "it_gen_739",
+    "word": "imparato",
+    "translation": "learned",
+    "context": "Ma col tempo ho imparato a farcela da sola."
+  },
+  {
+    "id": "it_gen_740",
+    "word": "farcela",
+    "translation": "make it",
+    "context": "Ma col tempo ho imparato a farcela da sola."
+  },
+  {
+    "id": "it_gen_741",
+    "word": "diventato",
+    "translation": "became",
+    "context": "Ora, dopo sei mesi, questo piccolo appartamento è diventato il mio nido."
+  },
+  {
+    "id": "it_gen_742",
+    "word": "nido",
+    "translation": "nursery",
+    "context": "Ora, dopo sei mesi, questo piccolo appartamento è diventato il mio nido."
+  },
+  {
+    "id": "it_gen_743",
+    "word": "padrona",
+    "translation": "mistress…",
+    "context": "Mi sento finalmente a casa mia, padrona del mio spazio e del mio tempo."
+  },
+  {
+    "id": "it_gen_744",
+    "word": "spazio",
+    "translation": "translation not found",
+    "context": "Mi sento finalmente a casa mia, padrona del mio spazio e del mio tempo."
+  },
+  {
+    "id": "it_gen_745",
+    "word": "anna",
+    "translation": "translation not found",
+    "context": "Mi chiamo Anna e oggi visito Firenze."
+  },
+  {
+    "id": "it_gen_746",
+    "word": "visito",
+    "translation": "visit",
+    "context": "Mi chiamo Anna e oggi visito Firenze."
+  },
+  {
+    "id": "it_gen_747",
+    "word": "famosa",
+    "translation": "\"famous\" = \"    \";",
+    "context": "Firenze è una città d'arte molto famosa in Italia."
+  },
+  {
+    "id": "it_gen_748",
+    "word": "santa",
+    "translation": "translation not found",
+    "context": "Arrivo alla stazione di Santa Maria Novella alle nove di mattina."
+  },
+  {
+    "id": "it_gen_749",
+    "word": "maria",
+    "translation": "jane",
+    "context": "Arrivo alla stazione di Santa Maria Novella alle nove di mattina."
+  },
+  {
+    "id": "it_gen_750",
+    "word": "novella",
+    "translation": "translation not found",
+    "context": "Arrivo alla stazione di Santa Maria Novella alle nove di mattina."
+  },
+  {
+    "id": "it_gen_751",
+    "word": "mappa",
+    "translation": "map",
+    "context": "Ho una borsa piccola e una mappa della città."
+  },
+  {
+    "id": "it_gen_752",
+    "word": "duomo",
+    "translation": "domie",
+    "context": "Vedo il Duomo, è bellissimo e molto grande."
+  },
+  {
+    "id": "it_gen_753",
+    "word": "bellissimo",
+    "translation": "you're welcome beautiful",
+    "context": "Vedo il Duomo, è bellissimo e molto grande."
+  },
+  {
+    "id": "it_gen_754",
+    "word": "cupola",
+    "translation": "crown",
+    "context": "La cupola è rossa e bianca."
+  },
+  {
+    "id": "it_gen_755",
+    "word": "signoria",
+    "translation": "lordship",
+    "context": "Dopo vado in Piazza della Signoria."
+  },
+  {
+    "id": "it_gen_756",
+    "word": "statue",
+    "translation": "statues",
+    "context": "Ci sono molte statue bellissime."
+  },
+  {
+    "id": "it_gen_757",
+    "word": "mezzogiorno",
+    "translation": "midday",
+    "context": "A mezzogiorno ho fame."
+  },
+  {
+    "id": "it_gen_758",
+    "word": "fame",
+    "translation": "hunger",
+    "context": "A mezzogiorno ho fame."
+  },
+  {
+    "id": "it_gen_759",
+    "word": "ristorante",
+    "translation": "restaurant",
+    "context": "Vado in un ristorante piccolo e mangio una schiacciata con il prosciutto."
+  },
+  {
+    "id": "it_gen_760",
+    "word": "schiacciata",
+    "translation": "crushed ends",
+    "context": "Vado in un ristorante piccolo e mangio una schiacciata con il prosciutto."
+  },
+  {
+    "id": "it_gen_761",
+    "word": "prosciutto",
+    "translation": "translation not found",
+    "context": "Vado in un ristorante piccolo e mangio una schiacciata con il prosciutto."
+  },
+  {
+    "id": "it_gen_762",
+    "word": "buona",
+    "translation": "translation not found",
+    "context": "È molto buona!"
+  },
+  {
+    "id": "it_gen_763",
+    "word": "naturale",
+    "translation": "translation not found",
+    "context": "Bevo un bicchiere di acqua naturale."
+  },
+  {
+    "id": "it_gen_764",
+    "word": "ponte",
+    "translation": "pons",
+    "context": "Nel pomeriggio vado al Ponte Vecchio."
+  },
+  {
+    "id": "it_gen_765",
+    "word": "vecchio",
+    "translation": "\"old\",",
+    "context": "Nel pomeriggio vado al Ponte Vecchio."
+  },
+  {
+    "id": "it_gen_766",
+    "word": "negozi",
+    "translation": "stores",
+    "context": "Ci sono molti negozi di oro."
+  },
+  {
+    "id": "it_gen_767",
+    "word": "oro",
+    "translation": "gold",
+    "context": "Ci sono molti negozi di oro."
+  },
+  {
+    "id": "it_gen_768",
+    "word": "romantico",
+    "translation": "romance",
+    "context": "È molto romantico."
+  },
+  {
+    "id": "it_gen_769",
+    "word": "arno",
+    "translation": "arno river",
+    "context": "Guardo l'Arno, il fiume di Firenze."
+  },
+  {
+    "id": "it_gen_770",
+    "word": "fiume",
+    "translation": "river ",
+    "context": "Guardo l'Arno, il fiume di Firenze."
+  },
+  {
+    "id": "it_gen_771",
+    "word": "galleria",
+    "translation": "photo gallery",
+    "context": "Poi vado alla Galleria degli Uffizi."
+  },
+  {
+    "id": "it_gen_772",
+    "word": "uffizi",
+    "translation": "translation not found",
+    "context": "Poi vado alla Galleria degli Uffizi."
+  },
+  {
+    "id": "it_gen_773",
+    "word": "quadri",
+    "translation": "paintings",
+    "context": "Vedo molti quadri famosi."
+  },
+  {
+    "id": "it_gen_774",
+    "word": "famosi",
+    "translation": "famous",
+    "context": "Vedo molti quadri famosi."
+  },
+  {
+    "id": "it_gen_775",
+    "word": "magica",
+    "translation": "magical",
+    "context": "Firenze è magica."
+  },
+  {
+    "id": "it_gen_776",
+    "word": "studio",
+    "translation": "translation not found",
+    "context": "Studio l'italiano da due mesi."
+  },
+  {
+    "id": "it_gen_777",
+    "word": "frequento",
+    "translation": "frequent",
+    "context": "Frequento un corso in una scuola nel centro di Milano."
+  },
+  {
+    "id": "it_gen_778",
+    "word": "corso",
+    "translation": "course",
+    "context": "Frequento un corso in una scuola nel centro di Milano."
+  },
+  {
+    "id": "it_gen_779",
+    "word": "viva",
+    "translation": "alive.",
+    "context": "La scuola si chiama \"Lingua Viva\"."
+  },
+  {
+    "id": "it_gen_780",
+    "word": "secondo",
+    "translation": "translation not found",
+    "context": "La mia classe è al secondo piano."
+  },
+  {
+    "id": "it_gen_781",
+    "word": "vengono",
+    "translation": "are",
+    "context": "Gli studenti vengono da molti paesi: Francia, Germania, Spagna e Giappone."
+  },
+  {
+    "id": "it_gen_782",
+    "word": "paesi",
+    "translation": "translation not found",
+    "context": "Gli studenti vengono da molti paesi: Francia, Germania, Spagna e Giappone."
+  },
+  {
+    "id": "it_gen_783",
+    "word": "francia",
+    "translation": "france",
+    "context": "Gli studenti vengono da molti paesi: Francia, Germania, Spagna e Giappone."
+  },
+  {
+    "id": "it_gen_784",
+    "word": "germania",
+    "translation": "germany",
+    "context": "Gli studenti vengono da molti paesi: Francia, Germania, Spagna e Giappone."
+  },
+  {
+    "id": "it_gen_785",
+    "word": "spagna",
+    "translation": "spain",
+    "context": "Gli studenti vengono da molti paesi: Francia, Germania, Spagna e Giappone."
+  },
+  {
+    "id": "it_gen_786",
+    "word": "giappone",
+    "translation": "japan",
+    "context": "Gli studenti vengono da molti paesi: Francia, Germania, Spagna e Giappone."
+  },
+  {
+    "id": "it_gen_787",
+    "word": "nostra",
+    "translation": "our ",
+    "context": "La nostra insegnante si chiama Lucia."
+  },
+  {
+    "id": "it_gen_788",
+    "word": "insegnante",
+    "translation": "teacher",
+    "context": "La nostra insegnante si chiama Lucia."
+  },
+  {
+    "id": "it_gen_789",
+    "word": "lei",
+    "translation": "her",
+    "context": "Lei è molto brava e paziente."
+  },
+  {
+    "id": "it_gen_790",
+    "word": "brava",
+    "translation": "good nice",
+    "context": "Lei è molto brava e paziente."
+  },
+  {
+    "id": "it_gen_791",
+    "word": "paziente",
+    "translation": "patient",
+    "context": "Lei è molto brava e paziente."
+  },
+  {
+    "id": "it_gen_792",
+    "word": "lezione",
+    "translation": "lesson,",
+    "context": "Ogni lezione iniziamo con un saluto: \"Buongiorno a tutti!\"."
+  },
+  {
+    "id": "it_gen_793",
+    "word": "iniziamo",
+    "translation": "let's get us started now",
+    "context": "Ogni lezione iniziamo con un saluto: \"Buongiorno a tutti!\"."
+  },
+  {
+    "id": "it_gen_794",
+    "word": "saluto",
+    "translation": "greeting",
+    "context": "Ogni lezione iniziamo con un saluto: \"Buongiorno a tutti!\"."
+  },
+  {
+    "id": "it_gen_795",
+    "word": "buongiorno",
+    "translation": "good morning.",
+    "context": "Ogni lezione iniziamo con un saluto: \"Buongiorno a tutti!\"."
+  },
+  {
+    "id": "it_gen_796",
+    "word": "impariamo",
+    "translation": "let us learn",
+    "context": "Poi impariamo nuove parole e la grammatica."
+  },
+  {
+    "id": "it_gen_797",
+    "word": "nuove",
+    "translation": "used",
+    "context": "Poi impariamo nuove parole e la grammatica."
+  },
+  {
+    "id": "it_gen_798",
+    "word": "parole",
+    "translation": "words",
+    "context": "Poi impariamo nuove parole e la grammatica."
+  },
+  {
+    "id": "it_gen_799",
+    "word": "grammatica",
+    "translation": "grammar",
+    "context": "Poi impariamo nuove parole e la grammatica."
+  },
+  {
+    "id": "it_gen_800",
+    "word": "studiamo",
+    "translation": "we do research",
+    "context": "Oggi studiamo i verbi: essere, avere e fare."
+  },
+  {
+    "id": "it_gen_801",
+    "word": "verbi",
+    "translation": "verbs",
+    "context": "Oggi studiamo i verbi: essere, avere e fare."
+  },
+  {
+    "id": "it_gen_802",
+    "word": "essere",
+    "translation": "è",
+    "context": "Oggi studiamo i verbi: essere, avere e fare."
+  },
+  {
+    "id": "it_gen_803",
+    "word": "leggiamo",
+    "translation": "do we not read ?",
+    "context": "Leggiamo un brano corto e rispondiamo alle domande."
+  },
+  {
+    "id": "it_gen_804",
+    "word": "brano",
+    "translation": "song",
+    "context": "Leggiamo un brano corto e rispondiamo alle domande."
+  },
+  {
+    "id": "it_gen_805",
+    "word": "corto",
+    "translation": "short",
+    "context": "Leggiamo un brano corto e rispondiamo alle domande."
+  },
+  {
+    "id": "it_gen_806",
+    "word": "rispondiamo",
+    "translation": "do we respond",
+    "context": "Leggiamo un brano corto e rispondiamo alle domande."
+  },
+  {
+    "id": "it_gen_807",
+    "word": "domande",
+    "translation": "questions",
+    "context": "Leggiamo un brano corto e rispondiamo alle domande."
+  },
+  {
+    "id": "it_gen_808",
+    "word": "scrive",
+    "translation": "writes",
+    "context": "Lucia scrive sulla lavagna con un pennarello nero."
+  },
+  {
+    "id": "it_gen_809",
+    "word": "lavagna",
+    "translation": "board",
+    "context": "Lucia scrive sulla lavagna con un pennarello nero."
+  },
+  {
+    "id": "it_gen_810",
+    "word": "pennarello",
+    "translation": "marker pen",
+    "context": "Lucia scrive sulla lavagna con un pennarello nero."
+  },
+  {
+    "id": "it_gen_811",
+    "word": "nero",
+    "translation": "translation not found",
+    "context": "Lucia scrive sulla lavagna con un pennarello nero."
+  },
+  {
+    "id": "it_gen_812",
+    "word": "appunti",
+    "translation": "notes",
+    "context": "Io prendo appunti nel mio qualderno rosso."
+  },
+  {
+    "id": "it_gen_813",
+    "word": "qualderno",
+    "translation": "translation not found",
+    "context": "Io prendo appunti nel mio qualderno rosso."
+  },
+  {
+    "id": "it_gen_814",
+    "word": "undici",
+    "translation": "eleven",
+    "context": "Facciamo una pausa alle undici."
+  },
+  {
+    "id": "it_gen_815",
+    "word": "caffè",
+    "translation": "coffee",
+    "context": "Beviamo un caffè insieme al bar vicino alla scuola."
+  },
+  {
+    "id": "it_gen_816",
+    "word": "video",
+    "translation": "translation not found",
+    "context": "Dopo la pausa, guardiamo un video sull'Italia."
+  },
+  {
+    "id": "it_gen_817",
+    "word": "musicale",
+    "translation": "musical ",
+    "context": "Mi piace molto imparare l'italiano perché la lingua è musicale."
+  },
+  {
+    "id": "it_gen_818",
+    "word": "italiana",
+    "translation": "translation not found",
+    "context": "A casa faccio i compiti e ascolto musica italiana."
+  },
+  {
+    "id": "it_gen_819",
+    "word": "spero",
+    "translation": "do i not hope ?",
+    "context": "Spero di parlare bene presto."
+  },
+  {
+    "id": "it_gen_820",
+    "word": "parlare",
+    "translation": "speak",
+    "context": "Spero di parlare bene presto."
+  },
+  {
+    "id": "it_gen_821",
+    "word": "presto",
+    "translation": "soon",
+    "context": "Spero di parlare bene presto."
+  },
+  {
+    "id": "it_gen_822",
+    "word": "supermercato",
+    "translation": "supermarket",
+    "context": "Vado al supermercato \"Esselunga\" vicino a casa mia."
+  },
+  {
+    "id": "it_gen_823",
+    "word": "esselunga",
+    "translation": "translation not found",
+    "context": "Vado al supermercato \"Esselunga\" vicino a casa mia."
+  },
+  {
+    "id": "it_gen_824",
+    "word": "carrello",
+    "translation": "cart",
+    "context": "Prendo un carrello grande."
+  },
+  {
+    "id": "it_gen_825",
+    "word": "lista",
+    "translation": "list",
+    "context": "Ho una lista delle cose da comprare."
+  },
+  {
+    "id": "it_gen_826",
+    "word": "mele",
+    "translation": "apples",
+    "context": "Compro un chilo di mele rosse, sei banane e un chilo di pomodori freschi."
+  },
+  {
+    "id": "it_gen_827",
+    "word": "rosse",
+    "translation": "translation not found",
+    "context": "Compro un chilo di mele rosse, sei banane e un chilo di pomodori freschi."
+  },
+  {
+    "id": "it_gen_828",
+    "word": "banane",
+    "translation": "mashed",
+    "context": "Compro un chilo di mele rosse, sei banane e un chilo di pomodori freschi."
+  },
+  {
+    "id": "it_gen_829",
+    "word": "carote",
+    "translation": "carrots",
+    "context": "Poi prendo l'insalata e le carote."
+  },
+  {
+    "id": "it_gen_830",
+    "word": "serve",
+    "translation": "it's useful",
+    "context": "Mi serve anche il pane."
+  },
+  {
+    "id": "it_gen_831",
+    "word": "bancone",
+    "translation": "counter",
+    "context": "Vado al bancone del pane e chiedo tre sfilatini croccanti."
+  },
+  {
+    "id": "it_gen_832",
+    "word": "chiedo",
+    "translation": "i hereby request",
+    "context": "Vado al bancone del pane e chiedo tre sfilatini croccanti."
+  },
+  {
+    "id": "it_gen_833",
+    "word": "sfilatini",
+    "translation": "parades",
+    "context": "Vado al bancone del pane e chiedo tre sfilatini croccanti."
+  },
+  {
+    "id": "it_gen_834",
+    "word": "croccanti",
+    "translation": "macaroons ",
+    "context": "Vado al bancone del pane e chiedo tre sfilatini croccanti."
+  },
+  {
+    "id": "it_gen_835",
+    "word": "frigo",
+    "translation": "fridge",
+    "context": "Dopo vado nel reparto frigo."
+  },
+  {
+    "id": "it_gen_836",
+    "word": "latte",
+    "translation": "milk",
+    "context": "Prendo il latte, il burro e uno yogurt alla fragola."
+  },
+  {
+    "id": "it_gen_837",
+    "word": "burro",
+    "translation": "butter",
+    "context": "Prendo il latte, il burro e uno yogurt alla fragola."
+  },
+  {
+    "id": "it_gen_838",
+    "word": "yogurt",
+    "translation": "yoghurt",
+    "context": "Prendo il latte, il burro e uno yogurt alla fragola."
+  },
+  {
+    "id": "it_gen_839",
+    "word": "fragola",
+    "translation": "strawberry",
+    "context": "Prendo il latte, il burro e uno yogurt alla fragola."
+  },
+  {
+    "id": "it_gen_840",
+    "word": "parmigiano",
+    "translation": "parmesan",
+    "context": "Non dimentico il formaggio: compro un pezzo di parmigiano reggiano."
+  },
+  {
+    "id": "it_gen_841",
+    "word": "reggiano",
+    "translation": "translation not found",
+    "context": "Non dimentico il formaggio: compro un pezzo di parmigiano reggiano."
+  },
+  {
+    "id": "it_gen_842",
+    "word": "cerco",
+    "translation": "looking for",
+    "context": "Poi cerco la pasta."
+  },
+  {
+    "id": "it_gen_843",
+    "word": "spaghetti",
+    "translation": "translation not found",
+    "context": "Compro tre pacchi di spaghetti e due pacchi di penne."
+  },
+  {
+    "id": "it_gen_844",
+    "word": "penne",
+    "translation": "pens",
+    "context": "Compro tre pacchi di spaghetti e due pacchi di penne."
+  },
+  {
+    "id": "it_gen_845",
+    "word": "bottiglia",
+    "translation": "bottle",
+    "context": "Prendo anche una bottiglia d'olio d'oliva e il sale."
+  },
+  {
+    "id": "it_gen_846",
+    "word": "olio",
+    "translation": "oil",
+    "context": "Prendo anche una bottiglia d'olio d'oliva e il sale."
+  },
+  {
+    "id": "it_gen_847",
+    "word": "oliva",
+    "translation": "olive",
+    "context": "Prendo anche una bottiglia d'olio d'oliva e il sale."
+  },
+  {
+    "id": "it_gen_848",
+    "word": "sale",
+    "translation": "salt",
+    "context": "Prendo anche una bottiglia d'olio d'oliva e il sale."
+  },
+  {
+    "id": "it_gen_849",
+    "word": "cassa",
+    "translation": "cashier",
+    "context": "Alla fine vado alla cassa."
+  },
+  {
+    "id": "it_gen_850",
+    "word": "fila",
+    "translation": "seat",
+    "context": "C'è una fila lunga."
+  },
+  {
+    "id": "it_gen_851",
+    "word": "lunga",
+    "translation": "long",
+    "context": "C'è una fila lunga."
+  },
+  {
+    "id": "it_gen_852",
+    "word": "aspetto",
+    "translation": "appearance",
+    "context": "Aspetto dieci minuti."
+  },
+  {
+    "id": "it_gen_853",
+    "word": "pago",
+    "translation": "translation not found",
+    "context": "Pago con la carta di credito."
+  },
+  {
+    "id": "it_gen_854",
+    "word": "carta",
+    "translation": "paper",
+    "context": "Pago con la carta di credito."
+  },
+  {
+    "id": "it_gen_855",
+    "word": "credito",
+    "translation": "credit",
+    "context": "Pago con la carta di credito."
+  },
+  {
+    "id": "it_gen_856",
+    "word": "costa",
+    "translation": "coast",
+    "context": "La spesa costa cinquanta euro."
+  },
+  {
+    "id": "it_gen_857",
+    "word": "cinquanta",
+    "translation": "translation not found",
+    "context": "La spesa costa cinquanta euro."
+  },
+  {
+    "id": "it_gen_858",
+    "word": "euro",
+    "translation": "translation not found",
+    "context": "La spesa costa cinquanta euro."
+  },
+  {
+    "id": "it_gen_859",
+    "word": "adesso",
+    "translation": "right now",
+    "context": "Adesso il mio frigorifero è pieno."
+  },
+  {
+    "id": "it_gen_860",
+    "word": "frigorifero",
+    "translation": "refrigerator",
+    "context": "Adesso il mio frigorifero è pieno."
+  },
+  {
+    "id": "it_gen_861",
+    "word": "alpi",
+    "translation": "the alps",
+    "context": "Andiamo in un piccolo paese sulle Alpi."
+  },
+  {
+    "id": "it_gen_862",
+    "word": "macchina",
+    "translation": "status",
+    "context": "Il viaggio in macchina dura tre ore."
+  },
+  {
+    "id": "it_gen_863",
+    "word": "montagne",
+    "translation": "energy of the mountains",
+    "context": "Vediamo le montagne alte con la neve bianca."
+  },
+  {
+    "id": "it_gen_864",
+    "word": "alte",
+    "translation": "high",
+    "context": "Vediamo le montagne alte con la neve bianca."
+  },
+  {
+    "id": "it_gen_865",
+    "word": "neve",
+    "translation": "snow",
+    "context": "Vediamo le montagne alte con la neve bianca."
+  },
+  {
+    "id": "it_gen_866",
+    "word": "scenario",
+    "translation": "online",
+    "context": "È uno scenario fantastico."
+  },
+  {
+    "id": "it_gen_867",
+    "word": "fantastico",
+    "translation": "fantastic",
+    "context": "È uno scenario fantastico."
+  },
+  {
+    "id": "it_gen_868",
+    "word": "arriviamo",
+    "translation": "we arrive.",
+    "context": "Arriviamo in un albergo accogliente e pulito."
+  },
+  {
+    "id": "it_gen_869",
+    "word": "accogliente",
+    "translation": "welcoming. ",
+    "context": "Arriviamo in un albergo accogliente e pulito."
+  },
+  {
+    "id": "it_gen_870",
+    "word": "pulito",
+    "translation": "clean",
+    "context": "Arriviamo in un albergo accogliente e pulito."
+  },
+  {
+    "id": "it_gen_871",
+    "word": "passeggiata",
+    "translation": "walk-3",
+    "context": "Sabato mattina facciamo una passeggiata nel bosco."
+  },
+  {
+    "id": "it_gen_872",
+    "word": "bosco",
+    "translation": "woods",
+    "context": "Sabato mattina facciamo una passeggiata nel bosco."
+  },
+  {
+    "id": "it_gen_873",
+    "word": "ruscello",
+    "translation": "romanesco",
+    "context": "Vediamo un ruscello con l'acqua pulita."
+  },
+  {
+    "id": "it_gen_874",
+    "word": "pulita",
+    "translation": ".",
+    "context": "Vediamo un ruscello con l'acqua pulita."
+  },
+  {
+    "id": "it_gen_875",
+    "word": "troviamo",
+    "translation": "thus,",
+    "context": "Troviamo anche dei funghi sotto gli alberi."
+  },
+  {
+    "id": "it_gen_876",
+    "word": "alberi",
+    "translation": "trees",
+    "context": "Troviamo anche dei funghi sotto gli alberi."
+  },
+  {
+    "id": "it_gen_877",
+    "word": "polenta",
+    "translation": "translation not found",
+    "context": "A pranzo mangiamo polenta e funghi in un rifugio."
+  },
+  {
+    "id": "it_gen_878",
+    "word": "rifugio",
+    "translation": "shelter",
+    "context": "A pranzo mangiamo polenta e funghi in un rifugio."
+  },
+  {
+    "id": "it_gen_879",
+    "word": "tipico",
+    "translation": "typical",
+    "context": "È un piatto tipico di montagna."
+  },
+  {
+    "id": "it_gen_880",
+    "word": "cioccolata",
+    "translation": "chocolate",
+    "context": "Nel pomeriggio facciamo una pausa e beviamo una cioccolata calda in una baita."
+  },
+  {
+    "id": "it_gen_881",
+    "word": "baita",
+    "translation": "hut",
+    "context": "Nel pomeriggio facciamo una pausa e beviamo una cioccolata calda in una baita."
+  },
+  {
+    "id": "it_gen_882",
+    "word": "ceniamo",
+    "translation": "let's have dinner",
+    "context": "La sera ceniamo in albergo."
+  },
+  {
+    "id": "it_gen_883",
+    "word": "zuppa",
+    "translation": "pearled spelt",
+    "context": "Mangiamo la zuppa di verdure e beviamo un bicchiere di vino rosso."
+  },
+  {
+    "id": "it_gen_884",
+    "word": "verdure",
+    "translation": "vegetables",
+    "context": "Mangiamo la zuppa di verdure e beviamo un bicchiere di vino rosso."
+  },
+  {
+    "id": "it_gen_885",
+    "word": "vino",
+    "translation": "wine",
+    "context": "Mangiamo la zuppa di verdure e beviamo un bicchiere di vino rosso."
+  },
+  {
+    "id": "it_gen_886",
+    "word": "ridiamo",
+    "translation": " we laugh.",
+    "context": "Parliamo e ridiamo molto."
+  },
+  {
+    "id": "it_gen_887",
+    "word": "marmellata",
+    "translation": "jam",
+    "context": "Domenica mattina facciamo colazione con pane e marmellata."
+  },
+  {
+    "id": "it_gen_888",
+    "word": "torniamo",
+    "translation": "guess what",
+    "context": "Poi torniamo a casa."
+  },
+  {
+    "id": "it_gen_889",
+    "word": "rilassato",
+    "translation": "relaxed",
+    "context": "Sono molto rilassato dopo questo weekend nella natura."
+  },
+  {
+    "id": "it_gen_890",
+    "word": "weekend",
+    "translation": "translation not found",
+    "context": "Sono molto rilassato dopo questo weekend nella natura."
+  },
+  {
+    "id": "it_gen_891",
+    "word": "natura",
+    "translation": "translation not found",
+    "context": "Sono molto rilassato dopo questo weekend nella natura."
+  },
+  {
+    "id": "it_gen_892",
+    "word": "compleanno",
+    "translation": "birthday",
+    "context": "Oggi è il mio compleanno!"
+  },
+  {
+    "id": "it_gen_893",
+    "word": "compio",
+    "translation": "translation not found",
+    "context": "Compio trent'anni e sono molto felice."
+  },
+  {
+    "id": "it_gen_894",
+    "word": "trent",
+    "translation": "“trent-” ",
+    "context": "Compio trent'anni e sono molto felice."
+  },
+  {
+    "id": "it_gen_895",
+    "word": "organizzo",
+    "translation": "i organise,",
+    "context": "Organizzo una festa nel giardino di casa mia."
+  },
+  {
+    "id": "it_gen_896",
+    "word": "invito",
+    "translation": "invitation",
+    "context": "Invito la mia famiglia e i miei amici più cari."
+  },
+  {
+    "id": "it_gen_897",
+    "word": "cari",
+    "translation": "many good wishes",
+    "context": "Invito la mia famiglia e i miei amici più cari."
+  },
+  {
+    "id": "it_gen_898",
+    "word": "quindici",
+    "translation": "fifteen",
+    "context": "In tutto siamo quindici persone."
+  },
+  {
+    "id": "it_gen_899",
+    "word": "pizza",
+    "translation": "translation not found",
+    "context": "Preparo molto cibo: pizza, focaccia, insalata di riso e piccoli panini."
+  },
+  {
+    "id": "it_gen_900",
+    "word": "focaccia",
+    "translation": "translation not found",
+    "context": "Preparo molto cibo: pizza, focaccia, insalata di riso e piccoli panini."
+  },
+  {
+    "id": "it_gen_901",
+    "word": "riso",
+    "translation": "rice",
+    "context": "Preparo molto cibo: pizza, focaccia, insalata di riso e piccoli panini."
+  },
+  {
+    "id": "it_gen_902",
+    "word": "panini",
+    "translation": "sandwiches",
+    "context": "Preparo molto cibo: pizza, focaccia, insalata di riso e piccoli panini."
+  },
+  {
+    "id": "it_gen_903",
+    "word": "preferita",
+    "translation": "favorite",
+    "context": "È la mia preferita!"
+  },
+  {
+    "id": "it_gen_904",
+    "word": "addobbo",
+    "translation": "tree ornament",
+    "context": "Addobbo il giardino con palloncini colorati e luci bianche."
+  },
+  {
+    "id": "it_gen_905",
+    "word": "palloncini",
+    "translation": "balloons",
+    "context": "Addobbo il giardino con palloncini colorati e luci bianche."
+  },
+  {
+    "id": "it_gen_906",
+    "word": "colorati",
+    "translation": "hair",
+    "context": "Addobbo il giardino con palloncini colorati e luci bianche."
+  },
+  {
+    "id": "it_gen_907",
+    "word": "otto",
+    "translation": "eight",
+    "context": "Alle otto di sera arrivano gli ospiti."
+  },
+  {
+    "id": "it_gen_908",
+    "word": "arrivano",
+    "translation": "you did not arrive",
+    "context": "Alle otto di sera arrivano gli ospiti."
+  },
+  {
+    "id": "it_gen_909",
+    "word": "ospiti",
+    "translation": "guests",
+    "context": "Alle otto di sera arrivano gli ospiti."
+  },
+  {
+    "id": "it_gen_910",
+    "word": "portano",
+    "translation": "translation not found",
+    "context": "Tutti portano dei regali e dicono: \"Auguri!\"."
+  },
+  {
+    "id": "it_gen_911",
+    "word": "regali",
+    "translation": "gifts",
+    "context": "Tutti portano dei regali e dicono: \"Auguri!\"."
+  },
+  {
+    "id": "it_gen_912",
+    "word": "dicono",
+    "translation": "says",
+    "context": "Tutti portano dei regali e dicono: \"Auguri!\"."
+  },
+  {
+    "id": "it_gen_913",
+    "word": "auguri",
+    "translation": "best wishes !",
+    "context": "Tutti portano dei regali e dicono: \"Auguri!\"."
+  },
+  {
+    "id": "it_gen_914",
+    "word": "ascoltiamo",
+    "translation": "let’s listen...",
+    "context": "Ascoltiamo musica allegra e balliamo."
+  },
+  {
+    "id": "it_gen_915",
+    "word": "allegra",
+    "translation": "allegra ",
+    "context": "Ascoltiamo musica allegra e balliamo."
+  },
+  {
+    "id": "it_gen_916",
+    "word": "balliamo",
+    "translation": "let's dance.",
+    "context": "Ascoltiamo musica allegra e balliamo."
+  },
+  {
+    "id": "it_gen_917",
+    "word": "spumante",
+    "translation": "sparkling wine",
+    "context": "Mangiamo insieme e beviamo un po' di spumante."
+  },
+  {
+    "id": "it_gen_918",
+    "word": "spegno",
+    "translation": "off",
+    "context": "Spegno le candeline sulla torta e esprimo un desiderio."
+  },
+  {
+    "id": "it_gen_919",
+    "word": "candeline",
+    "translation": "birthday candles",
+    "context": "Spegno le candeline sulla torta e esprimo un desiderio."
+  },
+  {
+    "id": "it_gen_920",
+    "word": "esprimo",
+    "translation": "do you express ?",
+    "context": "Spegno le candeline sulla torta e esprimo un desiderio."
+  },
+  {
+    "id": "it_gen_921",
+    "word": "desiderio",
+    "translation": "wish",
+    "context": "Spegno le candeline sulla torta e esprimo un desiderio."
+  },
+  {
+    "id": "it_gen_922",
+    "word": "regalano",
+    "translation": "translation not found",
+    "context": "I miei amici mi regalano un libro di fotografia e un profumo."
+  },
+  {
+    "id": "it_gen_923",
+    "word": "fotografia",
+    "translation": "photography",
+    "context": "I miei amici mi regalano un libro di fotografia e un profumo."
+  },
+  {
+    "id": "it_gen_924",
+    "word": "profumo",
+    "translation": "aroma",
+    "context": "I miei amici mi regalano un libro di fotografia e un profumo."
+  },
+  {
+    "id": "it_gen_925",
+    "word": "serata",
+    "translation": "cosy",
+    "context": "È una serata bellissima."
+  },
+  {
+    "id": "it_gen_926",
+    "word": "divertiamo",
+    "translation": "we have fun",
+    "context": "Ci divertiamo molto e parliamo fino a tardi."
+  },
+  {
+    "id": "it_gen_927",
+    "word": "fino",
+    "translation": "translation not found",
+    "context": "Ci divertiamo molto e parliamo fino a tardi."
+  },
+  {
+    "id": "it_gen_928",
+    "word": "fortunato",
+    "translation": "lucky",
+    "context": "Mi sento fortunato ad avere amici così speciali."
+  },
+  {
+    "id": "it_gen_929",
+    "word": "così",
+    "translation": "\"so\",",
+    "context": "Mi sento fortunato ad avere amici così speciali."
+  },
+  {
+    "id": "it_gen_930",
+    "word": "speciali",
+    "translation": "translation not found",
+    "context": "Mi sento fortunato ad avere amici così speciali."
+  },
+  {
+    "id": "it_gen_931",
+    "word": "indimenticabile",
+    "translation": "an unforgettable tasting experience",
+    "context": "Grazie a tutti per questa festa indimenticabile."
   }
 ]
