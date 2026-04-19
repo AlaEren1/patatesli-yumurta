@@ -15,6 +15,7 @@ interface Props {
 
 export default function WordDictionaryPopup({ word, context, onClose, style }: Props) {
   const [translation, setTranslation] = useState<string | null>(null);
+  const [contextTranslation, setContextTranslation] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [saved, setSaved] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
@@ -35,28 +36,35 @@ export default function WordDictionaryPopup({ word, context, onClose, style }: P
         };
         const langCode = langMap[targetLanguage] || 'es';
         const destCode = uiLanguage === 'Turkish' ? 'tr' : 'en';
-        
         // Free Translation API (MyMemory)
-        const res = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${langCode}|${destCode}`);
-        const data = await res.json();
+        const [wordRes, contextRes] = await Promise.all([
+          fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(word)}&langpair=${langCode}|${destCode}`),
+          fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(context)}&langpair=${langCode}|${destCode}`)
+        ]);
         
-        if (data && data.responseData && data.responseData.translatedText) {
-          // Sometimes it returns the exact same word if it fails, handle loosely
-          let result = data.responseData.translatedText;
-          setTranslation(result);
+        const wordData = await wordRes.json();
+        const contextData = await contextRes.json();
+        
+        if (wordData && wordData.responseData && wordData.responseData.translatedText) {
+          setTranslation(wordData.responseData.translatedText);
         } else {
           setTranslation("Translation not found.");
+        }
+
+        if (contextData && contextData.responseData && contextData.responseData.translatedText) {
+          setContextTranslation(contextData.responseData.translatedText);
         }
       } catch (err) {
         console.error("Failed to translate:", err);
         setTranslation("Error fetching translation.");
+        setContextTranslation(null);
       } finally {
         setLoading(false);
       }
     }
     
     fetchTranslation();
-  }, [word, targetLanguage]);
+  }, [word, context, targetLanguage, uiLanguage]);
 
   const handleSave = async (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -81,7 +89,7 @@ export default function WordDictionaryPopup({ word, context, onClose, style }: P
       <div className="fixed inset-0 z-40" onClick={onClose} />
       <div 
         style={style} 
-        className="fixed z-50 w-72 p-5 rounded-2xl bg-[#141A29] border border-white/10 shadow-[0_10px_40px_-10px_rgba(0,0,0,0.8)] animate-in zoom-in-95 duration-200"
+        className="fixed z-50 w-80 p-5 rounded-2xl bg-[#141A29] border border-white/10 shadow-[0_10px_40px_-10px_rgba(0,0,0,0.8)] animate-in zoom-in-95 duration-200"
       >
         <button onClick={onClose} className="absolute top-3 right-3 text-slate-500 hover:text-slate-300 transition-colors">
           <X className="w-5 h-5" />
@@ -93,16 +101,30 @@ export default function WordDictionaryPopup({ word, context, onClose, style }: P
             <h4 className="font-bold text-xl tracking-tight text-white">{word}</h4>
           </div>
 
-          <div className="min-h-[3rem] py-2">
+          <div className="min-h-[3rem] py-2 space-y-4 mt-2">
             {loading ? (
               <div className="flex items-center space-x-2 text-slate-400 text-sm">
                 <Loader2 className="w-4 h-4 animate-spin" />
                 <span>{t('translating_to', uiLanguage)}</span>
               </div>
             ) : (
-              <div className="text-slate-200 text-lg font-medium leading-relaxed">
-                {translation}
-              </div>
+              <>
+                <div className="space-y-1">
+                  <span className="text-[10px] uppercase font-bold tracking-widest text-indigo-500/70">Word</span>
+                  <div className="text-slate-200 text-lg font-bold leading-relaxed">
+                    {translation}
+                  </div>
+                </div>
+
+                {contextTranslation && context && context !== word && (
+                  <div className="space-y-2 p-3 bg-white/5 rounded-xl border border-white/5 relative overflow-hidden">
+                    <div className="absolute top-0 left-0 w-1 h-full bg-indigo-500/50" />
+                    <span className="text-[10px] uppercase font-bold tracking-widest text-slate-500 block">Context Sentence</span>
+                    <p className="text-slate-400 text-sm italic mb-1 line-clamp-2">"{context}"</p>
+                    <p className="text-emerald-400/90 text-sm font-medium leading-relaxed">{contextTranslation}</p>
+                  </div>
+                )}
+              </>
             )}
           </div>
 

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "it-1",
+    "word": "essere",
+    "translation": "to be",
+    "context": "Lui vuole essere un dottore.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-2",
+    "word": "avere",
+    "translation": "to have",
+    "context": "Io voglio avere un gatto.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-3",
+    "word": "fare",
+    "translation": "to do, to make",
+    "context": "Cosa vuoi fare oggi?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-4",
+    "word": "dire",
+    "translation": "to say, to tell",
+    "context": "Non mi dire bugie.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-5",
+    "word": "potere",
+    "translation": "can, to be able to",
+    "context": "Non posso venire stasera.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-6",
+    "word": "volere",
+    "translation": "to want",
+    "context": "Voglio mangiare una pizza.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-7",
+    "word": "sapere",
+    "translation": "to know",
+    "context": "Non so nulla di questa storia.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-8",
+    "word": "stare",
+    "translation": "to stay, to feel",
+    "context": "Come stai oggi?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-9",
+    "word": "dovere",
+    "translation": "must, to have to",
+    "context": "Devo studiare per l'esame.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-10",
+    "word": "vedere",
+    "translation": "to see",
+    "context": "Voglio vedere quel film.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-11",
+    "word": "andare",
+    "translation": "to go",
+    "context": "Dove vuoi andare in vacanza?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-12",
+    "word": "venire",
+    "translation": "to come",
+    "context": "Vieni con noi alla festa?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-13",
+    "word": "dare",
+    "translation": "to give",
+    "context": "Pensa a dare il massimo.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-14",
+    "word": "parlare",
+    "translation": "to speak, to talk",
+    "context": "Mia mamma ama parlare molto.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-15",
+    "word": "trovare",
+    "translation": "to find",
+    "context": "Non riesco a trovare le chiavi.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-16",
+    "word": "sentire",
+    "translation": "to hear, to feel",
+    "context": "Riesci a sentire la musica?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-17",
+    "word": "lasciare",
+    "translation": "to leave, to let",
+    "context": "Devi lasciare la porta aperta.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-18",
+    "word": "prendere",
+    "translation": "to take, to get",
+    "context": "Ho dimenticato di prendere l'ombrello.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-19",
+    "word": "guardare",
+    "translation": "to look, to watch",
+    "context": "Mi piace guardare il mare.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-20",
+    "word": "mettere",
+    "translation": "to put, to place",
+    "context": "Dove posso mettere questo libro?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-21",
+    "word": "sembrare",
+    "translation": "to seem, to appear",
+    "context": "Questo posto sembra molto tranquillo.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-22",
+    "word": "pensare",
+    "translation": "to think",
+    "context": "Cosa ne pensi di questa idea?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-23",
+    "word": "passare",
+    "translation": "to pass, to spend time",
+    "context": "Voglio passare più tempo con te.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-24",
+    "word": "credere",
+    "translation": "to believe",
+    "context": "Non posso credere ai miei occhi.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-25",
+    "word": "portare",
+    "translation": "to bring, to wear",
+    "context": "Ricorda di portare il vino.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-26",
+    "word": "tornare",
+    "translation": "to return, to come back",
+    "context": "Quando pensi di tornare a casa?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-27",
+    "word": "chiamare",
+    "translation": "to call",
+    "context": "Devo chiamare mio fratello stasera.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-28",
+    "word": "conoscere",
+    "translation": "to know (somebody)",
+    "context": "Piacere di conoscere la tua famiglia.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-29",
+    "word": "vivere",
+    "translation": "to live",
+    "context": "Ama vivere in una grande città.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-30",
+    "word": "capire",
+    "translation": "to understand",
+    "context": "Non riesco a capire questa regola.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-31",
+    "word": "mangiare",
+    "translation": "to eat",
+    "context": "Dobbiamo mangiare più verdure.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-32",
+    "word": "bere",
+    "translation": "to drink",
+    "context": "Ricorda di bere molta acqua.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-33",
+    "word": "dormire",
+    "translation": "to sleep",
+    "context": "Ho bisogno di dormire otto ore.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-34",
+    "word": "lavorare",
+    "translation": "to work",
+    "context": "Lui deve lavorare tutto il weekend.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-35",
+    "word": "scrivere",
+    "translation": "to write",
+    "context": "Voglio scrivere un libro un giorno.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-36",
+    "word": "leggere",
+    "translation": "to read",
+    "context": "Amo leggere prima di dormire.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-37",
+    "word": "giocare",
+    "translation": "to play",
+    "context": "I bambini adorano giocare nel parco.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-38",
+    "word": "arrivare",
+    "translation": "to arrive",
+    "context": "Il treno sta per arrivare.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-39",
+    "word": "chiedere",
+    "translation": "to ask",
+    "context": "Posso chiedere una cosa?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-40",
+    "word": "studiare",
+    "translation": "to study",
+    "context": "Sto cercando di studiare italiano.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-41",
+    "word": "bello",
+    "translation": "beautiful, nice",
+    "context": "Oggi è un bel giorno.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-42",
+    "word": "buono",
+    "translation": "good",
+    "context": "Il caffè qui è molto buono.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-43",
+    "word": "grande",
+    "translation": "big, great",
+    "context": "È una grande opportunità.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-44",
+    "word": "nuovo",
+    "translation": "new",
+    "context": "Ho comprato un telefono nuovo.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-45",
+    "word": "sempre",
+    "translation": "always",
+    "context": "Sei sempre in ritardo.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-46",
+    "word": "mai",
+    "translation": "never",
+    "context": "Non dico mai di no a un tiramisù.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-47",
+    "word": "ora",
+    "translation": "now",
+    "context": "Cosa facciamo ora?",
+    "language": "Italian"
+  },
+  {
+    "id": "it-48",
+    "word": "bene",
+    "translation": "well",
+    "context": "Tutto andrà bene.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-49",
+    "word": "grazie",
+    "translation": "thank you",
+    "context": "Grazie per l'aiuto.",
+    "language": "Italian"
+  },
+  {
+    "id": "it-50",
+    "word": "ciao",
+    "translation": "hello, goodbye",
+    "context": "Ciao a tutti, io vado.",
+    "language": "Italian"
+  }
+]

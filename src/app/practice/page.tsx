@@ -3,11 +3,12 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { ArrowLeft, BrainCircuit, CreditCard, LayoutGrid, Trash2, RotateCcw, Zap, Trophy, Timer, Edit, File, Check, X, BookOpen } from 'lucide-react';
+import { ArrowLeft, BrainCircuit, CreditCard, LayoutGrid, Trash2, RotateCcw, Zap, Trophy, Timer, Edit, File, Check, X, BookOpen, Puzzle, AlarmClock } from 'lucide-react';
 import { useUserStore } from '@/store/useUserStore';
 import { useVocabStore } from '@/store/useVocabStore';
 import { useAuth } from '@/components/AuthProvider';
 import { t } from '@/lib/i18n';
+import topItalianWords from '@/data/italian-top-words.json';
 
 export default function PracticeRoom() {
   const router = useRouter();
@@ -15,7 +16,7 @@ export default function PracticeRoom() {
   const { hasOnboarded, targetLanguage, uiLanguage } = useUserStore();
   const { words, removeWord, syncFromSupabase } = useVocabStore();
   const [mounted, setMounted] = useState(false);
-  const [mode, setMode] = useState<'list' | 'flashcard' | 'matching' | 'quiz' | 'writing' | 'context'>('list');
+  const [mode, setMode] = useState<'list' | 'flashcard' | 'matching' | 'quiz' | 'writing' | 'context' | 'top-words' | 'scramble' | 'falling'>('list');
 
   useEffect(() => {
     setMounted(true);
@@ -104,10 +105,35 @@ export default function PracticeRoom() {
                 <File className="w-4 h-4" />
                 <span className="text-sm">{t('practice_context', uiLanguage)}</span>
               </button>
+              <button 
+                onClick={() => setMode('scramble')}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'scramble' ? 'bg-indigo-500/20 text-indigo-400 shadow-sm border border-indigo-500/30' : 'text-slate-500 hover:text-slate-300'}`}
+              >
+                <Puzzle className="w-4 h-4" />
+                <span className="text-sm">Word Scramble</span>
+              </button>
+              <button 
+                onClick={() => setMode('falling')}
+                className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'falling' ? 'bg-rose-500/20 text-rose-400 shadow-sm border border-rose-500/30' : 'text-slate-500 hover:text-slate-300'}`}
+              >
+                <AlarmClock className="w-4 h-4" />
+                <span className="text-sm">Time Attack</span>
+              </button>
+              {targetLanguage === 'Italian' && (
+                <button 
+                  onClick={() => setMode('top-words')}
+                  className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all ${mode === 'top-words' ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30' : 'text-slate-500 hover:text-amber-300/50'}`}
+                >
+                  <BookOpen className="w-4 h-4 text-amber-500" />
+                  <span className="text-sm font-bold text-amber-400/80">Top Vocab</span>
+                </button>
+              )}
            </div>
         </header>
 
-        {mode === 'list' ? (
+        {mode === 'top-words' ? (
+          <TopWordsMode myVaultWords={myWords} />
+        ) : mode === 'list' ? (
           myWords.length === 0 ? (
             <div className="py-24 text-center text-slate-400 bg-[#141A29] rounded-3xl border border-white/5 shadow-sm">
               <BrainCircuit className="w-12 h-12 mx-auto text-amber-500/50 mb-4" />
@@ -133,9 +159,9 @@ export default function PracticeRoom() {
           )
         ) : myWords.length === 0 ? (
           <div className="py-24 text-center text-slate-400 bg-[#141A29] rounded-3xl border border-white/5 shadow-sm animate-in fade-in duration-500">
-             <div className="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center text-slate-400 mx-auto mb-6 border border-white/10">
-                {mode === 'quiz' ? <Check className="w-8 h-8"/> : mode === 'writing' ? <Edit className="w-8 h-8"/> : <File className="w-8 h-8"/>}
-             </div>
+              <div className="w-16 h-16 bg-white/5 rounded-2xl flex items-center justify-center text-slate-400 mx-auto mb-6 border border-white/10">
+                {mode === 'quiz' ? <Check className="w-8 h-8"/> : mode === 'writing' ? <Edit className="w-8 h-8"/> : mode === 'scramble' ? <Puzzle className="w-8 h-8"/> : mode === 'falling' ? <AlarmClock className="w-8 h-8"/> : <File className="w-8 h-8"/>}
+              </div>
              <p className="text-xl font-bold text-slate-200 uppercase tracking-wide">Empty {mode} Challenge</p>
              <p className="mt-2 text-slate-500 max-w-md mx-auto">You need to save some words in your <b>Vault</b> before you can start the {mode} training.</p>
              <Link href="/reading-room" className="inline-block mt-8 px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-black transition-all shadow-lg active:scale-95">Find Words to Save</Link>
@@ -148,6 +174,10 @@ export default function PracticeRoom() {
           <QuizMode words={myWords} />
         ) : mode === 'writing' ? (
           <WritingMode words={myWords} />
+        ) : mode === 'scramble' ? (
+          <ScrambleMode words={myWords} />
+        ) : mode === 'falling' ? (
+          <FallingMode words={myWords} />
         ) : (
           <ContextMode words={myWords} />
         )}
@@ -747,6 +777,343 @@ function ContextMode({ words }: { words: any[] }) {
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+function TopWordsMode({ myVaultWords }: { myVaultWords: any[] }) {
+  const { user } = useAuth();
+  const saveWord = useVocabStore(state => state.saveWord);
+  const removeWord = useVocabStore(state => state.removeWord);
+  const [playingGame, setPlayingGame] = useState(false);
+  const [savingId, setSavingId] = useState<string | null>(null);
+
+  // Exclude some items if they want randomly mapping but we just pass top 50 
+  if (playingGame) {
+    return (
+      <div className="space-y-6">
+        <button onClick={() => setPlayingGame(false)} className="px-4 py-2 bg-white/5 rounded-xl text-slate-400 text-sm font-bold hover:bg-white/10">&larr; Back to List</button>
+        <MatchingGame words={topItalianWords} />
+      </div>
+    );
+  }
+
+  const handleToggleSave = async (item: any) => {
+    setSavingId(item.id);
+    const existing = myVaultWords.find(w => w.word.toLowerCase() === item.word.toLowerCase());
+    
+    if (existing) {
+       await removeWord(existing.id, user?.id);
+    } else {
+       await saveWord(item.word, item.translation, item.context, 'Italian', user?.id);
+    }
+    
+    setTimeout(() => {
+      setSavingId(null);
+    }, 400);
+  };
+
+  return (
+    <div className="py-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4 bg-gradient-to-r from-amber-500/10 to-transparent p-6 rounded-3xl border border-amber-500/20">
+         <div>
+           <h2 className="text-2xl font-black text-amber-500 mb-2 flex items-center gap-2">
+             <Zap className="w-6 h-6" />
+             Top Italian Words
+           </h2>
+           <p className="text-slate-400 text-sm max-w-lg">
+             Mastering these common words will dramatically improve your reading comprehension.
+             Select words to memorize and add them to your vault, or practice directly via a matching game.
+           </p>
+         </div>
+         <button 
+           onClick={() => setPlayingGame(true)}
+           className="px-6 py-3 bg-amber-500 hover:bg-amber-400 text-black font-black rounded-xl shadow-[0_0_15px_rgba(245,158,11,0.4)] transition-all flex items-center space-x-2"
+         >
+           <BrainCircuit className="w-5 h-5" />
+           <span>Quick Match Challenge</span>
+         </button>
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+         {topItalianWords.map((item) => {
+           const inVault = myVaultWords.some(w => w.word.toLowerCase() === item.word.toLowerCase());
+           const isSaving = savingId === item.id;
+           
+           return (
+             <div key={item.id} className="p-5 bg-[#141A29] rounded-2xl border border-white/5 hover:border-amber-500/30 transition-colors flex justify-between items-start group">
+                <div>
+                  <h3 className="text-xl font-bold text-white mb-1 flex items-center gap-2">
+                    {item.word}
+                  </h3>
+                  <p className="text-amber-400 font-medium mb-3">{item.translation}</p>
+                  <p className="text-xs text-slate-500 italic leading-relaxed">"{item.context}"</p>
+                </div>
+                
+                <button 
+                  disabled={isSaving}
+                  onClick={() => handleToggleSave(item)} 
+                  className={`p-2 rounded-xl transition-all ${
+                    inVault 
+                      ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/30' 
+                      : 'bg-white/5 text-slate-400 hover:text-white border border-white/5 hover:border-white/20'
+                  }`}
+                  title={inVault ? 'Remove from Vault' : 'Add to Vault'}
+                >
+                  {isSaving ? <RotateCcw className="w-5 h-5 animate-spin" /> : (
+                    inVault ? <Check className="w-5 h-5" /> : <BookOpen className="w-5 h-5" />
+                  )}
+                </button>
+             </div>
+           );
+         })}
+      </div>
+    </div>
+  );
+}
+
+// --- NEW ACTIVE VOCAB GAMES ---
+
+function ScrambleMode({ words }: { words: any[] }) {
+  const [index, setIndex] = useState(0);
+  const [shuffledLetters, setShuffledLetters] = useState<{id: string, char: string, used: boolean}[]>([]);
+  const [selectedLetters, setSelectedLetters] = useState<{id: string, char: string}[]>([]);
+  const [status, setStatus] = useState<'playing' | 'correct' | 'wrong'>('playing');
+
+  const currentWord = words[index % words.length];
+
+  useEffect(() => {
+    // Setup word
+    if (!currentWord) return;
+    const chars = currentWord.word.split('');
+    const shuffled = chars
+      .map((char: string) => ({ char, sort: Math.random() }))
+      .sort((a: any, b: any) => a.sort - b.sort)
+      .map((item: any, i: number) => ({ id: `char-${i}`, char: item.char, used: false }));
+    
+    setShuffledLetters(shuffled);
+    setSelectedLetters([]);
+    setStatus('playing');
+  }, [index, currentWord]);
+
+  const handleSelectLetter = (item: {id: string, char: string, used: boolean}) => {
+    if (status !== 'playing' || item.used) return;
+    
+    const newSelected = [...selectedLetters, { id: item.id, char: item.char }];
+    setSelectedLetters(newSelected);
+    
+    setShuffledLetters(prev => prev.map(l => l.id === item.id ? { ...l, used: true } : l));
+
+    if (newSelected.length === currentWord.word.length) {
+      const spelledWord = newSelected.map(l => l.char).join('');
+      if (spelledWord.toLowerCase() === currentWord.word.toLowerCase()) {
+        setStatus('correct');
+        setTimeout(() => setIndex(prev => prev + 1), 1500);
+      } else {
+        setStatus('wrong');
+        setTimeout(() => {
+          setSelectedLetters([]);
+          setShuffledLetters(prev => prev.map(l => ({ ...l, used: false })));
+          setStatus('playing');
+        }, 1000);
+      }
+    }
+  };
+
+  const handleDeselectLetter = (item: {id: string, char: string}) => {
+    if (status !== 'playing') return;
+    setSelectedLetters(prev => prev.filter(l => l.id !== item.id));
+    setShuffledLetters(prev => prev.map(l => l.id === item.id ? { ...l, used: false } : l));
+  };
+
+  if (!currentWord) return null;
+
+  return (
+    <div className="flex flex-col items-center py-12 animate-in fade-in zoom-in-95 duration-500">
+      <div className="w-full max-w-xl bg-[#141A29] rounded-3xl border border-white/5 p-8 md:p-12 shadow-2xl relative">
+        <div className="text-center mb-10">
+          <span className="text-xs font-bold uppercase tracking-widest text-indigo-500 mb-2 block">Unscramble the word</span>
+          <h2 className="text-4xl font-black text-amber-400 mb-2">{currentWord.translation}</h2>
+          <p className="text-slate-500 italic">"{currentWord.context}"</p>
+        </div>
+
+        {/* Construction Zone */}
+        <div className={`min-h-[80px] flex flex-wrap justify-center gap-2 mb-8 p-4 rounded-2xl border-2 transition-all duration-300 ${status === 'correct' ? 'border-emerald-500/50 bg-emerald-500/10' : status === 'wrong' ? 'border-rose-500/50 bg-rose-500/10 animate-shake' : 'border-white/10 bg-black/20'}`}>
+           {selectedLetters.map((l) => (
+             <button 
+               key={l.id} 
+               onClick={() => handleDeselectLetter(l)}
+               className="w-12 h-14 bg-indigo-600 text-white font-black text-2xl rounded-lg flex items-center justify-center shadow-lg active:scale-95"
+             >
+               {l.char}
+             </button>
+           ))}
+           {selectedLetters.length === 0 && (
+             <span className="text-slate-600 font-bold self-center">Tap letters to spell</span>
+           )}
+        </div>
+
+        {/* Available Letters */}
+        <div className="flex flex-wrap justify-center gap-2">
+          {shuffledLetters.map((l) => {
+            return (
+              <button 
+                key={l.id} 
+                disabled={l.used || status !== 'playing'}
+                onClick={() => handleSelectLetter(l)}
+                className={`w-14 h-16 font-black text-3xl rounded-xl flex items-center justify-center transition-all ${
+                  l.used 
+                    ? 'bg-transparent text-transparent border border-white/5 pointer-events-none' 
+                    : 'bg-white/5 border border-white/10 text-white hover:bg-white/10 hover:-translate-y-1 active:translate-y-0 active:scale-95 shadow-md hover:shadow-xl hover:border-indigo-500/50'
+                }`}
+              >
+                {l.char}
+              </button>
+            );
+          })}
+        </div>
+
+        {status === 'correct' && (
+           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+             <div className="w-32 h-32 bg-emerald-500/20 rounded-full flex items-center justify-center backdrop-blur-sm border-4 border-emerald-500 animate-in zoom-in spin-in-12 duration-500">
+               <Check className="w-16 h-16 text-emerald-400" />
+             </div>
+           </div>
+        )}
+      </div>
+      <p className="text-slate-500 mt-8 font-medium">Word {index + 1} of {words.length}</p>
+    </div>
+  );
+}
+
+function FallingMode({ words }: { words: any[] }) {
+  const [index, setIndex] = useState(0);
+  const [fallingY, setFallingY] = useState(0);
+  const [score, setScore] = useState(0);
+  const [gameOver, setGameOver] = useState(false);
+  const [options, setOptions] = useState<string[]>([]);
+  const [isHit, setIsHit] = useState<'none' | 'correct' | 'wrong'>('none');
+
+  const currentWord = words[index % words.length];
+
+  // Game Loop
+  useEffect(() => {
+    if (gameOver || isHit !== 'none' || !currentWord) return;
+
+    let animationFrameId: number;
+    let startTimestamp: number | null = null;
+    const duration = 8000; // 8 seconds to reach bottom
+
+    const animate = (timestamp: number) => {
+      if (!startTimestamp) startTimestamp = timestamp;
+      const progress = timestamp - startTimestamp;
+      const percent = (progress / duration) * 100;
+
+      if (percent >= 100) {
+        setGameOver(true);
+      } else {
+        setFallingY(percent);
+        animationFrameId = requestAnimationFrame(animate);
+      }
+    };
+
+    animationFrameId = requestAnimationFrame(animate);
+
+    return () => cancelAnimationFrame(animationFrameId);
+  }, [index, gameOver, isHit, currentWord]);
+
+  // Setup options
+  useEffect(() => {
+    if (!currentWord) return;
+    const correct = currentWord.translation;
+    const others = words.filter(w => w.id !== currentWord.id).sort(() => Math.random() - 0.5).slice(0, 2).map(w => w.translation);
+    setOptions([correct, ...others].sort(() => Math.random() - 0.5));
+  }, [currentWord, words]);
+
+  const handleGuess = (guess: string) => {
+    if (gameOver || isHit !== 'none') return;
+    
+    if (guess === currentWord.translation) {
+      setIsHit('correct');
+      setScore(s => s + 100);
+      setTimeout(() => {
+        setIndex(prev => prev + 1);
+        setFallingY(0);
+        setIsHit('none');
+      }, 800);
+    } else {
+      setIsHit('wrong');
+      setTimeout(() => {
+        setGameOver(true);
+      }, 800);
+    }
+  };
+
+  const restartGame = () => {
+    setScore(0);
+    setIndex(0); // Optional shuffle words here
+    setFallingY(0);
+    setGameOver(false);
+    setIsHit('none');
+  };
+
+  if (!currentWord) return null;
+
+  return (
+    <div className="flex flex-col items-center py-8 animate-in fade-in duration-500">
+       <div className="w-full max-w-2xl bg-[#0B0F19] rounded-3xl border-2 border-white/10 h-[600px] shadow-2xl relative overflow-hidden flex flex-col">
+          
+          {/* Header UI */}
+          <div className="flex justify-between items-center p-6 border-b border-white/5 bg-black/40 z-10">
+             <div className="flex items-center space-x-2 text-rose-500">
+               <Timer className="w-5 h-5" />
+               <span className="font-bold tracking-widest uppercase">Time Attack</span>
+             </div>
+             <div className="bg-rose-500/20 px-4 py-1.5 rounded-full border border-rose-500/30 font-mono font-black text-xl text-rose-400">
+                {score}
+             </div>
+          </div>
+
+          {/* Fall Area */}
+          <div className="flex-1 relative bg-gradient-to-b from-[#141A29] to-[#0A0D14] overflow-hidden">
+             
+             {!gameOver ? (
+               <div 
+                 className={`absolute left-0 w-full text-center transition-opacity duration-200 ${isHit === 'correct' ? 'opacity-0 scale-150 text-emerald-400 blur-sm' : isHit === 'wrong' ? 'opacity-0 scale-50 text-rose-500' : 'opacity-100 text-white'}`}
+                 style={{ top: `${fallingY}%`, transform: 'translateY(-50%)' }}
+               >
+                  <div className="inline-block px-8 py-4 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-xl">
+                    <h2 className="text-4xl font-black tracking-tight">{currentWord.word}</h2>
+                  </div>
+               </div>
+             ) : (
+               <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 backdrop-blur-sm z-20 animate-in fade-in duration-300">
+                 <h2 className="text-6xl font-black text-rose-500 mb-4 animate-bounce">GAME OVER</h2>
+                 <p className="text-xl text-slate-300 mb-8 font-bold flex items-center gap-2">Final Score: <span className="text-3xl text-amber-400">{score}</span></p>
+                 <button onClick={restartGame} className="px-8 py-4 bg-white text-black font-black text-xl rounded-2xl hover:bg-slate-200 transition-colors shadow-[0_0_20px_rgba(255,255,255,0.3)] active:scale-95">Play Again</button>
+               </div>
+             )}
+
+             {/* Danger Zone Graphic */}
+             <div className="absolute bottom-0 left-0 w-full h-8 bg-gradient-to-t from-rose-500/30 to-transparent" />
+          </div>
+
+          {/* Controls */}
+          <div className="p-6 bg-[#141A29] border-t border-white/10 z-10">
+             <div className="grid grid-cols-3 gap-4">
+               {options.map((opt, i) => (
+                 <button
+                   key={i}
+                   disabled={gameOver || isHit !== 'none'}
+                   onClick={() => handleGuess(opt)}
+                   className="py-6 px-4 bg-slate-800 hover:bg-indigo-600 rounded-2xl border border-white/10 hover:border-indigo-400 font-bold text-lg text-white transition-all shadow-lg active:scale-95 truncate"
+                 >
+                   {opt}
+                 </button>
+               ))}
+             </div>
+          </div>
+       </div>
     </div>
   );
 }
