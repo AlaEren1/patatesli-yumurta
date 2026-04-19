@@ -722,7 +722,7 @@ function ContextMode({ words }: { words: any[] }) {
           </div>
           <span className="text-xs font-bold uppercase tracking-widest text-emerald-500 mb-4 block">Complete the context</span>
           <h2 className="text-2xl md:text-3xl font-medium text-slate-200 leading-relaxed">
-            {clozeSentence.split('__________').map((part, i, arr) => (
+            {clozeSentence.split('__________').map((part: string, i: number, arr: string[]) => (
               <React.Fragment key={i}>
                 {part}
                 {i < arr.length - 1 && (
