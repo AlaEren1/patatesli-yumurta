@@ -321,6 +321,27 @@ export default function Dashboard() {
               </div>
             </Link>
 
+            {/* Top 1000 Vocabulary Card - Italian Only */}
+            {targetLanguage === 'Italian' && (
+              <Link href="/practice?mode=top-words" className="group relative block p-1 rounded-3xl bg-gradient-to-b from-emerald-500/20 to-transparent hover:from-emerald-500/40 transition-all duration-500 cursor-pointer overflow-hidden shadow-sm border border-white/5 lg:col-span-2">
+                <div className="absolute inset-0 bg-emerald-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl"></div>
+                <div className="flex h-full bg-[#0F1423] p-8 rounded-[1.35rem] items-center space-x-6 relative z-10 border border-white/5">
+                  <div className="w-16 h-16 shrink-0 bg-emerald-500/20 rounded-2xl flex items-center justify-center text-emerald-400">
+                    <BookOpen className="w-8 h-8" />
+                  </div>
+                  <div>
+                    <div className="flex items-center space-x-2 mb-2">
+                      <h3 className="text-xl font-bold text-slate-100">Top 1000 Italian Vocabulary</h3>
+                      <span className="text-[10px] bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full border border-emerald-500/30 font-bold uppercase tracking-wider">Must Know</span>
+                    </div>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      Statistically proven: mastering the top 1000 words gives you 85% comprehension in daily conversations!
+                    </p>
+                  </div>
+                </div>
+              </Link>
+            )}
+
           </div>
         </section>
       </div>

@@ -17,9 +17,14 @@ export default function PracticeRoom() {
   const { words, removeWord, syncFromSupabase } = useVocabStore();
   const [mounted, setMounted] = useState(false);
   const [mode, setMode] = useState<'list' | 'flashcard' | 'matching' | 'quiz' | 'writing' | 'context' | 'top-words' | 'scramble' | 'falling'>('list');
+  const [customSelectedWords, setCustomSelectedWords] = useState<any[]>([]);
 
   useEffect(() => {
     setMounted(true);
+    const search = new URLSearchParams(window.location.search);
+    if (search.get('mode') === 'top-words') {
+      setMode('top-words');
+    }
   }, []);
 
   useEffect(() => {
@@ -129,10 +134,32 @@ export default function PracticeRoom() {
                 </button>
               )}
            </div>
+
+           {/* Floating Action Bar for Selected Words */}
+           {customSelectedWords.length > 0 && (mode === 'list' || mode === 'top-words') && (
+             <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 bg-indigo-600 px-6 py-4 rounded-full shadow-2xl flex items-center space-x-6 border border-indigo-400 animate-in slide-in-from-bottom-10 fade-in duration-300">
+                <span className="text-white font-bold">{customSelectedWords.length} Words Selected</span>
+                <div className="flex space-x-2">
+                   <button onClick={() => setMode('flashcard')} className="px-4 py-2 bg-indigo-800 hover:bg-indigo-900 text-indigo-100 rounded-xl font-bold transition-all text-sm">Flashcards</button>
+                   <button onClick={() => setMode('scramble')} className="px-4 py-2 bg-indigo-800 hover:bg-indigo-900 text-indigo-100 rounded-xl font-bold transition-all text-sm">Scramble</button>
+                   <button onClick={() => setMode('matching')} className="px-4 py-2 bg-indigo-800 hover:bg-indigo-900 text-indigo-100 rounded-xl font-bold transition-all text-sm">Matching</button>
+                </div>
+                <button onClick={() => setCustomSelectedWords([])} className="text-indigo-300 hover:text-white p-2 bg-indigo-800/50 rounded-full"><X className="w-4 h-4" /></button>
+             </div>
+           )}
         </header>
 
         {mode === 'top-words' ? (
-          <TopWordsMode myVaultWords={myWords} />
+          <TopWordsMode 
+            myVaultWords={myWords} 
+            customSelectedWords={customSelectedWords}
+            onToggleWord={(w: any) => {
+              if (customSelectedWords.some(s => s.id === w.id)) setCustomSelectedWords(prev => prev.filter(s => s.id !== w.id));
+              else setCustomSelectedWords(prev => [...prev, w]);
+            }}
+            onClearSelection={() => setCustomSelectedWords([])}
+            onStartPractice={(newMode: any) => setMode(newMode)}
+          />
         ) : mode === 'list' ? (
           myWords.length === 0 ? (
             <div className="py-24 text-center text-slate-400 bg-[#141A29] rounded-3xl border border-white/5 shadow-sm">
@@ -143,18 +170,36 @@ export default function PracticeRoom() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {myWords.map(w => (
-                <div key={w.id} className="p-5 bg-[#141A29] rounded-2xl border border-white/5 hover:border-white/10 transition-colors flex justify-between items-start group">
-                  <div>
-                    <h3 className="text-xl font-bold text-white mb-1">{w.word}</h3>
-                    <p className="text-indigo-400 font-medium mb-3">{w.translation}</p>
-                    <p className="text-sm text-slate-500 italic">"{w.context}"</p>
+              {myWords.map(w => {
+                 const isSelected = customSelectedWords.some(s => s.id === w.id);
+                 return (
+                  <div 
+                    key={w.id} 
+                    onClick={() => {
+                      if (isSelected) setCustomSelectedWords(prev => prev.filter(s => s.id !== w.id));
+                      else setCustomSelectedWords(prev => [...prev, w]);
+                    }}
+                    className={`p-5 rounded-2xl border transition-all cursor-pointer flex justify-between items-start group ${isSelected ? 'bg-indigo-500/20 border-indigo-500/50 shadow-[0_0_15px_rgba(99,102,241,0.2)]' : 'bg-[#141A29] border-white/5 hover:border-indigo-500/30'}`}
+                  >
+                    <div className="flex space-x-4">
+                      <div className={`mt-1 w-6 h-6 rounded-lg border flex items-center justify-center shrink-0 transition-colors ${isSelected ? 'bg-indigo-500 border-indigo-400' : 'bg-transparent border-white/20 group-hover:border-indigo-400/50'}`}>
+                         {isSelected && <Check className="w-4 h-4 text-white" />}
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold text-white mb-1">{w.word}</h3>
+                        <p className="text-indigo-400 font-medium mb-3">{w.translation}</p>
+                        <p className="text-sm text-slate-500 italic">"{w.context}"</p>
+                      </div>
+                    </div>
+                    <button 
+                      onClick={(e) => { e.stopPropagation(); removeWord(w.id, user.id); }} 
+                      className="text-slate-600 hover:text-rose-400 transition-colors p-2 opacity-0 group-hover:opacity-100"
+                    >
+                      <Trash2 className="w-5 h-5" />
+                    </button>
                   </div>
-                  <button onClick={() => removeWord(w.id, user.id)} className="text-slate-600 hover:text-rose-400 transition-colors p-2 opacity-0 group-hover:opacity-100">
-                    <Trash2 className="w-5 h-5" />
-                  </button>
-                </div>
-              ))}
+                 );
+              })}
             </div>
           )
         ) : myWords.length === 0 ? (
@@ -167,19 +212,19 @@ export default function PracticeRoom() {
              <Link href="/reading-room" className="inline-block mt-8 px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-black transition-all shadow-lg active:scale-95">Find Words to Save</Link>
           </div>
         ) : mode === 'flashcard' ? (
-          <FlashcardMode words={myWords} />
+          <FlashcardMode words={customSelectedWords.length > 0 ? customSelectedWords : myWords} />
         ) : mode === 'matching' ? (
-          <MatchingGame words={myWords} />
+          <MatchingGame words={customSelectedWords.length > 0 ? customSelectedWords : myWords} />
         ) : mode === 'quiz' ? (
-          <QuizMode words={myWords} />
+          <QuizMode words={customSelectedWords.length > 0 ? customSelectedWords : myWords} />
         ) : mode === 'writing' ? (
-          <WritingMode words={myWords} />
+          <WritingMode words={customSelectedWords.length > 0 ? customSelectedWords : myWords} />
         ) : mode === 'scramble' ? (
-          <ScrambleMode words={myWords} />
+          <ScrambleMode words={customSelectedWords.length > 0 ? customSelectedWords : myWords} />
         ) : mode === 'falling' ? (
-          <FallingMode words={myWords} />
+          <FallingMode words={customSelectedWords.length > 0 ? customSelectedWords : myWords} />
         ) : (
-          <ContextMode words={myWords} />
+          <ContextMode words={customSelectedWords.length > 0 ? customSelectedWords : myWords} />
         )}
       </div>
     </div>
@@ -781,7 +826,7 @@ function ContextMode({ words }: { words: any[] }) {
   );
 }
 
-function TopWordsMode({ myVaultWords }: { myVaultWords: any[] }) {
+function TopWordsMode({ myVaultWords, customSelectedWords, onToggleWord, onClearSelection, onStartPractice }: { myVaultWords: any[], customSelectedWords: any[], onToggleWord: any, onClearSelection: any, onStartPractice: any }) {
   const { user } = useAuth();
   const saveWord = useVocabStore(state => state.saveWord);
   const removeWord = useVocabStore(state => state.removeWord);
@@ -793,7 +838,7 @@ function TopWordsMode({ myVaultWords }: { myVaultWords: any[] }) {
     return (
       <div className="space-y-6">
         <button onClick={() => setPlayingGame(false)} className="px-4 py-2 bg-white/5 rounded-xl text-slate-400 text-sm font-bold hover:bg-white/10">&larr; Back to List</button>
-        <MatchingGame words={topItalianWords} />
+        <MatchingGame words={customSelectedWords && customSelectedWords.length > 0 ? customSelectedWords : topItalianWords} />
       </div>
     );
   }
@@ -838,21 +883,31 @@ function TopWordsMode({ myVaultWords }: { myVaultWords: any[] }) {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
          {topItalianWords.map((item) => {
            const inVault = myVaultWords.some(w => w.word.toLowerCase() === item.word.toLowerCase());
+           const isSelected = customSelectedWords && customSelectedWords.some((s: any) => s.id === item.id);
            const isSaving = savingId === item.id;
            
            return (
-             <div key={item.id} className="p-5 bg-[#141A29] rounded-2xl border border-white/5 hover:border-amber-500/30 transition-colors flex justify-between items-start group">
-                <div>
-                  <h3 className="text-xl font-bold text-white mb-1 flex items-center gap-2">
-                    {item.word}
-                  </h3>
-                  <p className="text-amber-400 font-medium mb-3">{item.translation}</p>
-                  <p className="text-xs text-slate-500 italic leading-relaxed">"{item.context}"</p>
+             <div 
+               key={item.id} 
+               onClick={() => onToggleWord(item)}
+               className={`p-5 rounded-2xl border transition-all cursor-pointer flex justify-between items-start group ${isSelected ? 'bg-amber-500/20 border-amber-500/50 shadow-[0_0_15px_rgba(245,158,11,0.2)]' : 'bg-[#141A29] border-white/5 hover:border-amber-500/30'}`}
+             >
+                <div className="flex space-x-4">
+                  <div className={`mt-1 w-6 h-6 rounded-lg border flex items-center justify-center shrink-0 transition-colors ${isSelected ? 'bg-amber-500 border-amber-400' : 'bg-transparent border-white/20 group-hover:border-amber-400/50'}`}>
+                     {isSelected && <Check className="w-4 h-4 text-black" />}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-white mb-1 flex items-center gap-2">
+                      {item.word}
+                    </h3>
+                    <p className="text-amber-400 font-medium mb-3">{item.translation}</p>
+                    <p className="text-xs text-slate-500 italic leading-relaxed">"{item.context}"</p>
+                  </div>
                 </div>
                 
                 <button 
                   disabled={isSaving}
-                  onClick={() => handleToggleSave(item)} 
+                  onClick={(e) => { e.stopPropagation(); handleToggleSave(item); }} 
                   className={`p-2 rounded-xl transition-all ${
                     inVault 
                       ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/30' 
