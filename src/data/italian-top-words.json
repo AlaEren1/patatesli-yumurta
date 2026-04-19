@@ -1,352 +1,902 @@
 [
   {
-    "id": "it-1",
-    "word": "essere",
-    "translation": "to be",
-    "context": "Lui vuole essere un dottore.",
-    "language": "Italian"
+    "id": "it_gen_0",
+    "word": "mia",
+    "translation": "recording",
+    "context": "Scendo dopo venti minuti davanti alla mia scuola."
   },
   {
-    "id": "it-2",
-    "word": "avere",
-    "translation": "to have",
-    "context": "Io voglio avere un gatto.",
-    "language": "Italian"
+    "id": "it_gen_1",
+    "word": "sono",
+    "translation": "were",
+    "context": "Sull'autobus ci sono molte persone."
   },
   {
-    "id": "it-3",
-    "word": "fare",
-    "translation": "to do, to make",
-    "context": "Cosa vuoi fare oggi?",
-    "language": "Italian"
+    "id": "it_gen_2",
+    "word": "molto",
+    "translation": "high",
+    "context": "Roma è una città molto bella e grande."
   },
   {
-    "id": "it-4",
-    "word": "dire",
-    "translation": "to say, to tell",
-    "context": "Non mi dire bugie.",
-    "language": "Italian"
+    "id": "it_gen_3",
+    "word": "casa",
+    "translation": "home",
+    "context": "Prendo la borsa e esco di casa."
   },
   {
-    "id": "it-5",
-    "word": "potere",
-    "translation": "can, to be able to",
-    "context": "Non posso venire stasera.",
-    "language": "Italian"
+    "id": "it_gen_4",
+    "word": "mio",
+    "translation": "mine is enough.",
+    "context": "Il mio professore preferito si chiama Marco."
   },
   {
-    "id": "it-6",
-    "word": "volere",
-    "translation": "to want",
-    "context": "Voglio mangiare una pizza.",
-    "language": "Italian"
+    "id": "it_gen_5",
+    "word": "alla",
+    "translation": "at",
+    "context": "Scendo dopo venti minuti davanti alla mia scuola."
   },
   {
-    "id": "it-7",
-    "word": "sapere",
-    "translation": "to know",
-    "context": "Non so nulla di questa storia.",
-    "language": "Italian"
+    "id": "it_gen_6",
+    "word": "vado",
+    "translation": "",
+    "context": "Vado in bagno e mi lavo la faccia con l'acqua fredda."
   },
   {
-    "id": "it-8",
-    "word": "stare",
-    "translation": "to stay, to feel",
-    "context": "Come stai oggi?",
-    "language": "Italian"
-  },
-  {
-    "id": "it-9",
-    "word": "dovere",
-    "translation": "must, to have to",
-    "context": "Devo studiare per l'esame.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-10",
-    "word": "vedere",
-    "translation": "to see",
-    "context": "Voglio vedere quel film.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-11",
-    "word": "andare",
-    "translation": "to go",
-    "context": "Dove vuoi andare in vacanza?",
-    "language": "Italian"
-  },
-  {
-    "id": "it-12",
-    "word": "venire",
-    "translation": "to come",
-    "context": "Vieni con noi alla festa?",
-    "language": "Italian"
-  },
-  {
-    "id": "it-13",
-    "word": "dare",
-    "translation": "to give",
-    "context": "Pensa a dare il massimo.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-14",
-    "word": "parlare",
-    "translation": "to speak, to talk",
-    "context": "Mia mamma ama parlare molto.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-15",
-    "word": "trovare",
-    "translation": "to find",
-    "context": "Non riesco a trovare le chiavi.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-16",
-    "word": "sentire",
-    "translation": "to hear, to feel",
-    "context": "Riesci a sentire la musica?",
-    "language": "Italian"
-  },
-  {
-    "id": "it-17",
-    "word": "lasciare",
-    "translation": "to leave, to let",
-    "context": "Devi lasciare la porta aperta.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-18",
-    "word": "prendere",
-    "translation": "to take, to get",
-    "context": "Ho dimenticato di prendere l'ombrello.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-19",
-    "word": "guardare",
-    "translation": "to look, to watch",
-    "context": "Mi piace guardare il mare.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-20",
-    "word": "mettere",
-    "translation": "to put, to place",
-    "context": "Dove posso mettere questo libro?",
-    "language": "Italian"
-  },
-  {
-    "id": "it-21",
-    "word": "sembrare",
-    "translation": "to seem, to appear",
-    "context": "Questo posto sembra molto tranquillo.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-22",
-    "word": "pensare",
-    "translation": "to think",
-    "context": "Cosa ne pensi di questa idea?",
-    "language": "Italian"
-  },
-  {
-    "id": "it-23",
-    "word": "passare",
-    "translation": "to pass, to spend time",
-    "context": "Voglio passare più tempo con te.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-24",
-    "word": "credere",
-    "translation": "to believe",
-    "context": "Non posso credere ai miei occhi.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-25",
-    "word": "portare",
-    "translation": "to bring, to wear",
-    "context": "Ricorda di portare il vino.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-26",
-    "word": "tornare",
-    "translation": "to return, to come back",
-    "context": "Quando pensi di tornare a casa?",
-    "language": "Italian"
-  },
-  {
-    "id": "it-27",
-    "word": "chiamare",
-    "translation": "to call",
-    "context": "Devo chiamare mio fratello stasera.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-28",
-    "word": "conoscere",
-    "translation": "to know (somebody)",
-    "context": "Piacere di conoscere la tua famiglia.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-29",
-    "word": "vivere",
-    "translation": "to live",
-    "context": "Ama vivere in una grande città.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-30",
-    "word": "capire",
-    "translation": "to understand",
-    "context": "Non riesco a capire questa regola.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-31",
-    "word": "mangiare",
-    "translation": "to eat",
-    "context": "Dobbiamo mangiare più verdure.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-32",
-    "word": "bere",
-    "translation": "to drink",
-    "context": "Ricorda di bere molta acqua.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-33",
-    "word": "dormire",
-    "translation": "to sleep",
-    "context": "Ho bisogno di dormire otto ore.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-34",
-    "word": "lavorare",
-    "translation": "to work",
-    "context": "Lui deve lavorare tutto il weekend.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-35",
-    "word": "scrivere",
-    "translation": "to write",
-    "context": "Voglio scrivere un libro un giorno.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-36",
-    "word": "leggere",
-    "translation": "to read",
-    "context": "Amo leggere prima di dormire.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-37",
-    "word": "giocare",
-    "translation": "to play",
-    "context": "I bambini adorano giocare nel parco.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-38",
-    "word": "arrivare",
-    "translation": "to arrive",
-    "context": "Il treno sta per arrivare.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-39",
-    "word": "chiedere",
-    "translation": "to ask",
-    "context": "Posso chiedere una cosa?",
-    "language": "Italian"
-  },
-  {
-    "id": "it-40",
-    "word": "studiare",
-    "translation": "to study",
-    "context": "Sto cercando di studiare italiano.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-41",
-    "word": "bello",
-    "translation": "beautiful, nice",
-    "context": "Oggi è un bel giorno.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-42",
-    "word": "buono",
-    "translation": "good",
-    "context": "Il caffè qui è molto buono.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-43",
-    "word": "grande",
-    "translation": "big, great",
-    "context": "È una grande opportunità.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-44",
-    "word": "nuovo",
-    "translation": "new",
-    "context": "Ho comprato un telefono nuovo.",
-    "language": "Italian"
-  },
-  {
-    "id": "it-45",
+    "id": "it_gen_7",
     "word": "sempre",
-    "translation": "always",
-    "context": "Sei sempre in ritardo.",
-    "language": "Italian"
+    "translation": "always.",
+    "context": "A colazione mangio sempre un cornetto e bevo un cappuccino caldo."
   },
   {
-    "id": "it-46",
+    "id": "it_gen_8",
+    "word": "dopo",
+    "translation": "after",
+    "context": "Dopo la colazione, mi vesto."
+  },
+  {
+    "id": "it_gen_9",
+    "word": "nel",
+    "translation": "in the",
+    "context": "Nel pomeriggio faccio i compiti a casa."
+  },
+  {
+    "id": "it_gen_10",
+    "word": "grande",
+    "translation": "large",
+    "context": "Roma è una città molto bella e grande."
+  },
+  {
+    "id": "it_gen_11",
+    "word": "ogni",
+    "translation": "every",
+    "context": "Ogni mattina mi sveglio alle sette."
+  },
+  {
+    "id": "it_gen_12",
+    "word": "sera",
+    "translation": "evening",
+    "context": "La sera guardo un po' di televisione con i miei genitori."
+  },
+  {
+    "id": "it_gen_13",
+    "word": "alle",
+    "translation": " to ",
+    "context": "Ogni mattina mi sveglio alle sette."
+  },
+  {
+    "id": "it_gen_14",
+    "word": "poi",
+    "translation": "then",
+    "context": "Poi vado in cucina e preparo la colazione."
+  },
+  {
+    "id": "it_gen_15",
+    "word": "miei",
+    "translation": "&#13;",
+    "context": "I miei compagni di classe sono simpatici e amichevoli."
+  },
+  {
+    "id": "it_gen_16",
+    "word": "tutto",
+    "translation": "everything",
+    "context": "I compiti di matematica sono difficili oggi, ma alla fine capisco tutto."
+  },
+  {
+    "id": "it_gen_17",
+    "word": "prima",
+    "translation": "before",
+    "context": "Prima di andare a letto, leggo un libro per trenta minuti."
+  },
+  {
+    "id": "it_gen_18",
+    "word": "arancio",
+    "translation": "orange",
+    "context": "Si chiama Arancio perché ha il pelo arancione e soffice."
+  },
+  {
+    "id": "it_gen_19",
+    "word": "quando",
+    "translation": "when",
+    "context": "Ogni mattina, quando mi sveglio, Arancio è già sul mio letto."
+  },
+  {
+    "id": "it_gen_20",
+    "word": "prendo",
+    "translation": "rediscovered.",
+    "context": "Prendo la borsa e esco di casa."
+  },
+  {
+    "id": "it_gen_21",
+    "word": "vicino",
+    "translation": "point",
+    "context": "Nel pomeriggio, Arancio dorme sul divano vicino alla finestra."
+  },
+  {
+    "id": "it_gen_22",
+    "word": "città",
+    "translation": "cities",
+    "context": "Roma è una città molto bella e grande."
+  },
+  {
+    "id": "it_gen_23",
+    "word": "scuola",
+    "translation": "school",
+    "context": "Scendo dopo venti minuti davanti alla mia scuola."
+  },
+  {
+    "id": "it_gen_24",
+    "word": "oggi",
+    "translation": "present",
+    "context": "Oggi prepara la pasta al pomodoro, il mio piatto preferito."
+  },
+  {
+    "id": "it_gen_25",
+    "word": "piccolo",
+    "translation": "small",
+    "context": "Vincenzo ci fa sempre un piccolo sconto perché siamo clienti affezionate."
+  },
+  {
+    "id": "it_gen_26",
+    "word": "mattina",
+    "translation": "morning",
+    "context": "Ogni mattina mi sveglio alle sette."
+  },
+  {
+    "id": "it_gen_27",
+    "word": "nonna",
+    "translation": "grandmother",
+    "context": "Ogni domenica mattina vado al mercato con mia nonna."
+  },
+  {
+    "id": "it_gen_28",
+    "word": "due",
+    "translation": "translation not found",
+    "context": "Mia nonna prende sempre due borse di tela grandi e resistenti."
+  },
+  {
+    "id": "it_gen_29",
+    "word": "siamo",
+    "translation": "hello, this dolores",
+    "context": "Vincenzo ci fa sempre un piccolo sconto perché siamo clienti affezionate."
+  },
+  {
+    "id": "it_gen_30",
+    "word": "dei",
+    "translation": "of",
+    "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
+  },
+  {
+    "id": "it_gen_31",
+    "word": "tutti",
+    "translation": "translation not found",
+    "context": "Tutti hanno una valigia, uno zaino o una borsa voluminosa."
+  },
+  {
+    "id": "it_gen_32",
+    "word": "acqua",
+    "translation": "water",
+    "context": "Vado in bagno e mi lavo la faccia con l'acqua fredda."
+  },
+  {
+    "id": "it_gen_33",
+    "word": "lui",
+    "translation": "he",
+    "context": "Lui insegna italiano e storia."
+  },
+  {
+    "id": "it_gen_34",
+    "word": "famiglia",
+    "translation": "family",
+    "context": "Dopo la scuola, torno a casa e mangio il pranzo con la mia famiglia."
+  },
+  {
+    "id": "it_gen_35",
+    "word": "giorno",
+    "translation": "day",
+    "context": "Domani è un altro giorno bello."
+  },
+  {
+    "id": "it_gen_36",
+    "word": "quasi",
+    "translation": "virtually",
+    "context": "Ogni giorno è quasi uguale agli altri, ma è sempre piacevole."
+  },
+  {
+    "id": "it_gen_37",
+    "word": "piano",
+    "translation": "translation not found",
+    "context": "Io mi siedo accanto a lui e lo accarezzo piano piano."
+  },
+  {
+    "id": "it_gen_38",
+    "word": "sulle",
+    "translation": "about ",
+    "context": "Appena entro in casa, mi viene incontro e mi sfrega la testa sulle gambe."
+  },
+  {
+    "id": "it_gen_39",
+    "word": "settimana",
+    "translation": "week",
+    "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
+  },
+  {
+    "id": "it_gen_40",
+    "word": "anni",
+    "translation": "years",
+    "context": "Ho ventitré anni e abito a Roma."
+  },
+  {
+    "id": "it_gen_41",
+    "word": "cucina",
+    "translation": "kitchen",
+    "context": "Poi vado in cucina e preparo la colazione."
+  },
+  {
+    "id": "it_gen_42",
+    "word": "borsa",
+    "translation": "pouch",
+    "context": "Prendo la borsa e esco di casa."
+  },
+  {
+    "id": "it_gen_43",
+    "word": "sole",
+    "translation": "movement",
+    "context": "Il sole splende e il cielo è blu."
+  },
+  {
+    "id": "it_gen_44",
+    "word": "molte",
+    "translation": "(many",
+    "context": "Sull'autobus ci sono molte persone."
+  },
+  {
+    "id": "it_gen_45",
+    "word": "chiama",
+    "translation": "call",
+    "context": "Il mio professore preferito si chiama Marco."
+  },
+  {
+    "id": "it_gen_46",
+    "word": "storia",
+    "translation": "story",
+    "context": "Lui insegna italiano e storia."
+  },
+  {
+    "id": "it_gen_47",
+    "word": "pomeriggio",
+    "translation": "afternoon",
+    "context": "Nel pomeriggio faccio i compiti a casa."
+  },
+  {
+    "id": "it_gen_48",
+    "word": "faccio",
+    "translation": "i have my",
+    "context": "Nel pomeriggio faccio i compiti a casa."
+  },
+  {
+    "id": "it_gen_49",
+    "word": "fine",
+    "translation": "end",
+    "context": "I compiti di matematica sono difficili oggi, ma alla fine capisco tutto."
+  },
+  {
+    "id": "it_gen_50",
+    "word": "piace",
+    "translation": "like this",
+    "context": "Mi piace leggere storie di avventura."
+  },
+  {
+    "id": "it_gen_51",
+    "word": "mondo",
+    "translation": "translation not found",
+    "context": "È il mio animale preferito di tutto il mondo."
+  },
+  {
+    "id": "it_gen_52",
+    "word": "già",
+    "translation": "use your",
+    "context": "Ogni mattina, quando mi sveglio, Arancio è già sul mio letto."
+  },
+  {
+    "id": "it_gen_53",
+    "word": "sul",
+    "translation": "on the",
+    "context": "Ogni mattina, quando mi sveglio, Arancio è già sul mio letto."
+  },
+  {
+    "id": "it_gen_54",
+    "word": "mercato",
+    "translation": "market",
+    "context": "Ogni domenica mattina vado al mercato con mia nonna."
+  },
+  {
+    "id": "it_gen_55",
+    "word": "posto",
+    "translation": "whereas",
+    "context": "È un posto animato e colorato che mi piace molto."
+  },
+  {
+    "id": "it_gen_56",
+    "word": "banchi",
+    "translation": "bench ",
+    "context": "Il mercato apre di buonissima ora e già alle nove ci sono molte persone che camminano tra i banchi."
+  },
+  {
+    "id": "it_gen_57",
+    "word": "pane",
+    "translation": "bread",
+    "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
+  },
+  {
+    "id": "it_gen_58",
+    "word": "molti",
+    "translation": "many",
+    "context": "Lui conosce mia nonna da molti anni e la saluta sempre con un grande sorriso."
+  },
+  {
+    "id": "it_gen_59",
+    "word": "abbiamo",
+    "translation": "we",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_60",
+    "word": "amici",
+    "translation": "friends",
+    "context": "Io e i miei migliori amici abbiamo subito cercato una gelateria."
+  },
+  {
+    "id": "it_gen_61",
+    "word": "appartamento",
+    "translation": "apartment",
+    "context": "Lo scorso settembre ho affittato il mio primo appartamento da sola."
+  },
+  {
+    "id": "it_gen_62",
+    "word": "colazione",
+    "translation": "breakfast",
+    "context": "Poi vado in cucina e preparo la colazione."
+  },
+  {
+    "id": "it_gen_63",
+    "word": "fuori",
+    "translation": "translation not found",
+    "context": "Fuori fa bel tempo."
+  },
+  {
+    "id": "it_gen_64",
+    "word": "tempo",
+    "translation": "time",
+    "context": "Fuori fa bel tempo."
+  },
+  {
+    "id": "it_gen_65",
+    "word": "ancora",
+    "translation": "be able to:",
+    "context": "Alcune leggono il telefono, altre dormono ancora."
+  },
+  {
+    "id": "it_gen_66",
+    "word": "minuti",
+    "translation": "mins",
+    "context": "Scendo dopo venti minuti davanti alla mia scuola."
+  },
+  {
+    "id": "it_gen_67",
+    "word": "preferito",
+    "translation": "preferred",
+    "context": "Il mio professore preferito si chiama Marco."
+  },
+  {
+    "id": "it_gen_68",
+    "word": "italiano",
+    "translation": "translation not found",
+    "context": "Lui insegna italiano e storia."
+  },
+  {
+    "id": "it_gen_69",
+    "word": "guardo",
+    "translation": "i look. ",
+    "context": "La sera guardo un po' di televisione con i miei genitori."
+  },
+  {
+    "id": "it_gen_70",
+    "word": "libro",
+    "translation": "book",
+    "context": "Prima di andare a letto, leggo un libro per trenta minuti."
+  },
+  {
+    "id": "it_gen_71",
+    "word": "felice",
+    "translation": "happy. ",
+    "context": "Sono felice della mia vita semplice e tranquilla a Roma."
+  },
+  {
+    "id": "it_gen_72",
+    "word": "cibo",
+    "translation": "sales",
+    "context": "Prendo la boccia del cibo per gatti e metto il cibo nella ciotola di Arancio."
+  },
+  {
+    "id": "it_gen_73",
+    "word": "nella",
+    "translation": "in the",
+    "context": "Prendo la boccia del cibo per gatti e metto il cibo nella ciotola di Arancio."
+  },
+  {
+    "id": "it_gen_74",
+    "word": "tutta",
+    "translation": "whole",
+    "context": "Lo porta in bocca e corre per tutta la casa."
+  },
+  {
+    "id": "it_gen_75",
+    "word": "bene",
+    "translation": "good",
+    "context": "Arancio mi vuole bene, ne sono sicurissima."
+  },
+  {
+    "id": "it_gen_76",
+    "word": "modo",
+    "translation": "an extremely ",
+    "context": "È il suo modo per dirmi che tutto va bene."
+  },
+  {
+    "id": "it_gen_77",
+    "word": "piazza",
+    "translation": "translation not found",
+    "context": "Il mercato è in piazza, vicino alla chiesa del paese."
+  },
+  {
+    "id": "it_gen_78",
+    "word": "paese",
+    "translation": "country/region",
+    "context": "Il mercato è in piazza, vicino alla chiesa del paese."
+  },
+  {
+    "id": "it_gen_79",
+    "word": "piccola",
+    "translation": "small",
+    "context": "Io porto una borsa più piccola."
+  },
+  {
+    "id": "it_gen_80",
+    "word": "ora",
+    "translation": "hour",
+    "context": "Il mercato apre di buonissima ora e già alle nove ci sono molte persone che camminano tra i banchi."
+  },
+  {
+    "id": "it_gen_81",
+    "word": "frutta",
+    "translation": "fruit",
+    "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
+  },
+  {
+    "id": "it_gen_82",
+    "word": "fare",
+    "translation": "do",
+    "context": "Mia nonna usa la ricotta per fare i dolci della domenica."
+  },
+  {
+    "id": "it_gen_83",
+    "word": "mangiamo",
+    "translation": "do we eat ?",
+    "context": "Mangiamo le nostre brioches e guardiamo la gente che passa."
+  },
+  {
+    "id": "it_gen_84",
+    "word": "parliamo",
+    "translation": "let's talk",
+    "context": "Parliamo di tante cose: della famiglia, del vicinato, dei ricordi del passato."
+  },
+  {
+    "id": "it_gen_85",
+    "word": "era",
+    "translation": "\"was\",",
+    "context": "Mia nonna mi racconta sempre storie bellissime di quando era giovane in questo stesso mercato."
+  },
+  {
+    "id": "it_gen_86",
+    "word": "questo",
+    "translation": "this",
+    "context": "Mia nonna mi racconta sempre storie bellissime di quando era giovane in questo stesso mercato."
+  },
+  {
+    "id": "it_gen_87",
+    "word": "treno",
+    "translation": "train",
+    "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
+  },
+  {
+    "id": "it_gen_88",
+    "word": "tornare",
+    "translation": "come back. ",
+    "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
+  },
+  {
+    "id": "it_gen_89",
+    "word": "durante",
+    "translation": "translation not found",
+    "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
+  },
+  {
+    "id": "it_gen_90",
+    "word": "milano",
+    "translation": "translation not found",
+    "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
+  },
+  {
+    "id": "it_gen_91",
+    "word": "tre",
+    "translation": "three",
+    "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
+  },
+  {
+    "id": "it_gen_92",
+    "word": "ore",
+    "translation": "hours",
+    "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
+  },
+  {
+    "id": "it_gen_93",
+    "word": "madre",
+    "translation": "mother",
+    "context": "Quando arrivo alla piccola stazione del mio paese, mia madre mi aspetta sempre sulla banchina."
+  },
+  {
+    "id": "it_gen_94",
+    "word": "sei",
+    "translation": "six",
+    "context": "Siamo partiti in pullman alle sei di mattina."
+  },
+  {
+    "id": "it_gen_95",
+    "word": "centro",
+    "translation": "translation not found",
+    "context": "Dopo circa due ore, siamo arrivati a Mestre e da lì abbiamo preso un vaporetto per attraversare la laguna e raggiungere il centro storico della città."
+  },
+  {
+    "id": "it_gen_96",
+    "word": "sola",
+    "translation": "single",
+    "context": "Lo scorso settembre ho affittato il mio primo appartamento da sola."
+  },
+  {
+    "id": "it_gen_97",
+    "word": "anche",
+    "translation": "also",
+    "context": "Alla fine, grazie anche all'aiuto di un'agente immobiliare, ho trovato un piccolo ma carino bilocale in un quartiere tranquillo vicino a un grande parco."
+  },
+  {
+    "id": "it_gen_98",
+    "word": "firenze",
+    "translation": "florence",
+    "context": "Mi chiamo Anna e oggi visito Firenze."
+  },
+  {
+    "id": "it_gen_99",
+    "word": "facciamo",
+    "translation": "we do",
+    "context": "Facciamo una pausa alle undici."
+  },
+  {
+    "id": "it_gen_100",
+    "word": "beviamo",
+    "translation": "we smoke",
+    "context": "Beviamo un caffè insieme al bar vicino alla scuola."
+  },
+  {
+    "id": "it_gen_101",
+    "word": "roma",
+    "translation": "translation not found",
+    "context": "Ho ventitré anni e abito a Roma."
+  },
+  {
+    "id": "it_gen_102",
+    "word": "mangio",
+    "translation": "horse riding",
+    "context": "A colazione mangio sempre un cornetto e bevo un cappuccino caldo."
+  },
+  {
+    "id": "it_gen_103",
+    "word": "caldo",
+    "translation": "hot",
+    "context": "A colazione mangio sempre un cornetto e bevo un cappuccino caldo."
+  },
+  {
+    "id": "it_gen_104",
+    "word": "bianca",
+    "translation": "white",
+    "context": "Porto una gonna rossa, una camicia bianca e scarpe nere."
+  },
+  {
+    "id": "it_gen_105",
+    "word": "bel",
+    "translation": "good morning and good day",
+    "context": "Fuori fa bel tempo."
+  },
+  {
+    "id": "it_gen_106",
+    "word": "autobus",
+    "translation": "buses",
+    "context": "Cammino veloce verso la fermata dell'autobus."
+  },
+  {
+    "id": "it_gen_107",
+    "word": "persone",
+    "translation": "people",
+    "context": "Sull'autobus ci sono molte persone."
+  },
+  {
+    "id": "it_gen_108",
+    "word": "davanti",
+    "translation": "front ",
+    "context": "Scendo dopo venti minuti davanti alla mia scuola."
+  },
+  {
+    "id": "it_gen_109",
+    "word": "verde",
+    "translation": " green",
+    "context": "La scuola è un edificio grande e verde."
+  },
+  {
+    "id": "it_gen_110",
+    "word": "studenti",
+    "translation": "%d students",
+    "context": "Dentro ci sono molte classi e tanti studenti."
+  },
+  {
+    "id": "it_gen_111",
+    "word": "compagni",
+    "translation": "schoolmates.",
+    "context": "I miei compagni di classe sono simpatici e amichevoli."
+  },
+  {
+    "id": "it_gen_112",
+    "word": "classe",
+    "translation": "class",
+    "context": "I miei compagni di classe sono simpatici e amichevoli."
+  },
+  {
+    "id": "it_gen_113",
+    "word": "pranzo",
+    "translation": "lunch",
+    "context": "Dopo la scuola, torno a casa e mangio il pranzo con la mia famiglia."
+  },
+  {
+    "id": "it_gen_114",
+    "word": "pasta",
+    "translation": "translation not found",
+    "context": "Oggi prepara la pasta al pomodoro, il mio piatto preferito."
+  },
+  {
+    "id": "it_gen_115",
+    "word": "piatto",
+    "translation": "plate",
+    "context": "Oggi prepara la pasta al pomodoro, il mio piatto preferito."
+  },
+  {
+    "id": "it_gen_116",
+    "word": "compiti",
+    "translation": "tasks",
+    "context": "Nel pomeriggio faccio i compiti a casa."
+  },
+  {
+    "id": "it_gen_117",
+    "word": "genitori",
+    "translation": "translation not found",
+    "context": "La sera guardo un po' di televisione con i miei genitori."
+  },
+  {
+    "id": "it_gen_118",
+    "word": "letto",
+    "translation": "bed",
+    "context": "Prima di andare a letto, leggo un libro per trenta minuti."
+  },
+  {
+    "id": "it_gen_119",
+    "word": "perché",
+    "translation": "because",
+    "context": "Si chiama Arancio perché ha il pelo arancione e soffice."
+  },
+  {
+    "id": "it_gen_120",
+    "word": "grandi",
+    "translation": "large",
+    "context": "Mi guarda con i suoi grandi occhi verdi e fa le fusa."
+  },
+  {
+    "id": "it_gen_121",
+    "word": "fusa",
+    "translation": "purring",
+    "context": "Mi guarda con i suoi grandi occhi verdi e fa le fusa."
+  },
+  {
+    "id": "it_gen_122",
+    "word": "fresca",
+    "translation": "fresh",
+    "context": "Lui mangia velocemente e poi beve l'acqua fresca."
+  },
+  {
+    "id": "it_gen_123",
+    "word": "mangiato",
+    "translation": "eaten",
+    "context": "Dopo mangiato, Arancio è molto contento e gioca un po' in cucina."
+  },
+  {
+    "id": "it_gen_124",
+    "word": "porta",
+    "translation": "closes",
+    "context": "Lo porta in bocca e corre per tutta la casa."
+  },
+  {
+    "id": "it_gen_125",
+    "word": "finestra",
+    "translation": "window",
+    "context": "Nel pomeriggio, Arancio dorme sul divano vicino alla finestra."
+  },
+  {
+    "id": "it_gen_126",
+    "word": "dalla",
+    "translation": "translation not found",
+    "context": "Il sole entra dalla finestra e lo scalda."
+  },
+  {
+    "id": "it_gen_127",
+    "word": "come",
+    "translation": "how",
+    "context": "A volte, nel sonno, muove le zampe come se stesse correndo in un sogno."
+  },
+  {
+    "id": "it_gen_128",
+    "word": "sotto",
+    "translation": "translation not found",
+    "context": "Il suo pelo è morbidissimo sotto le mie dita."
+  },
+  {
+    "id": "it_gen_129",
+    "word": "solo",
+    "translation": "one",
+    "context": "Lui non è solo un animale domestico, è un vero membro della mia famiglia e il mio migliore amico silenzioso."
+  },
+  {
+    "id": "it_gen_130",
+    "word": "domenica",
+    "translation": "sunday",
+    "context": "Ogni domenica mattina vado al mercato con mia nonna."
+  },
+  {
+    "id": "it_gen_131",
+    "word": "nove",
+    "translation": "nine",
+    "context": "Partiamo da casa alle nove."
+  },
+  {
+    "id": "it_gen_132",
+    "word": "borse",
+    "translation": "bags",
+    "context": "Mia nonna prende sempre due borse di tela grandi e resistenti."
+  },
+  {
+    "id": "it_gen_133",
+    "word": "dolci",
+    "translation": "sweets",
+    "context": "Ci sono banchi di frutta e verdura, banchi di formaggi e salumi, banchi di pane e dolci, e banchi di vestiti."
+  },
+  {
+    "id": "it_gen_134",
+    "word": "freschi",
+    "translation": "fresh cheeses",
+    "context": "L'odore nell'aria è meraviglioso: profuma di frutta matura, di pane caldo appena sfornato e di fiori freschi."
+  },
+  {
+    "id": "it_gen_135",
+    "word": "andiamo",
+    "translation": "let's go",
+    "context": "Prima di tutto, andiamo al banco della frutta."
+  },
+  {
+    "id": "it_gen_136",
+    "word": "banco",
+    "translation": "work",
+    "context": "Prima di tutto, andiamo al banco della frutta."
+  },
+  {
+    "id": "it_gen_137",
+    "word": "compriamo",
+    "translation": "buy",
+    "context": "Oggi compriamo pomodori rossi e maturi, pesche dolci e profumate, e un bel melone grande."
+  },
+  {
+    "id": "it_gen_138",
+    "word": "formaggio",
+    "translation": "cheese",
+    "context": "Poi andiamo al banco del formaggio."
+  },
+  {
+    "id": "it_gen_139",
+    "word": "venerdì",
+    "translation": "friday",
+    "context": "Ogni venerdì sera prendo il treno delle diciotto e quaranta per tornare a casa dai miei genitori."
+  },
+  {
+    "id": "it_gen_140",
+    "word": "lavoro",
+    "translation": "work",
+    "context": "Durante la settimana vivo e lavoro a Milano, ma nel fine settimana preferisco sempre tornare nel mio piccolo paese in Toscana."
+  },
+  {
+    "id": "it_gen_141",
+    "word": "viaggio",
+    "translation": "travel",
+    "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
+  },
+  {
+    "id": "it_gen_142",
     "word": "mai",
     "translation": "never",
-    "context": "Non dico mai di no a un tiramisù.",
-    "language": "Italian"
+    "context": "Il viaggio dura quasi tre ore, ma non mi annoia mai."
   },
   {
-    "id": "it-47",
-    "word": "ora",
-    "translation": "now",
-    "context": "Cosa facciamo ora?",
-    "language": "Italian"
+    "id": "it_gen_143",
+    "word": "stazione",
+    "translation": "station",
+    "context": "La stazione Centrale di Milano il venerdì sera è sempre caotica e piena di gente."
   },
   {
-    "id": "it-48",
-    "word": "bene",
-    "translation": "well",
-    "context": "Tutto andrà bene.",
-    "language": "Italian"
+    "id": "it_gen_144",
+    "word": "uno",
+    "translation": "a",
+    "context": "Tutti hanno una valigia, uno zaino o una borsa voluminosa."
   },
   {
-    "id": "it-49",
-    "word": "grazie",
-    "translation": "thank you",
-    "context": "Grazie per l'aiuto.",
-    "language": "Italian"
+    "id": "it_gen_145",
+    "word": "piccoli",
+    "translation": "translation not found",
+    "context": "Ci sono famiglie con bambini piccoli, giovani con le cuffie nelle orecchie e anziani signori che leggono il giornale seduti sulle panchine."
   },
   {
-    "id": "it-50",
-    "word": "ciao",
-    "translation": "hello, goodbye",
-    "context": "Ciao a tutti, io vado.",
-    "language": "Italian"
+    "id": "it_gen_146",
+    "word": "arrivo",
+    "translation": "arrival",
+    "context": "Io arrivo sempre con qualche minuto di anticipo per trovare un buon posto vicino al finestrino."
+  },
+  {
+    "id": "it_gen_147",
+    "word": "calda",
+    "translation": "water",
+    "context": "Il sole scende lentamente e colora tutta la campagna di una luce calda e dorata."
+  },
+  {
+    "id": "it_gen_148",
+    "word": "sulla",
+    "translation": "on",
+    "context": "Quando arrivo alla piccola stazione del mio paese, mia madre mi aspetta sempre sulla banchina."
+  },
+  {
+    "id": "it_gen_149",
+    "word": "venezia",
+    "translation": "venice",
+    "context": "L'anno scorso, a maggio, la mia classe ha fatto una bellissima gita scolastica a Venezia."
   }
 ]
